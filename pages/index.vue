@@ -3,7 +3,7 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        nuxt-demo NetAcademia
+        NetAcadmeia eljovendo magassagai
       </h1>
       <h2 class="subtitle">
         Nuxt.js project
