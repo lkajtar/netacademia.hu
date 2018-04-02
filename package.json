@@ -10,7 +10,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "deploy": "push-dir --dir=dist --branch=master --remote=gh-pages",
+    "deploy":
+      "push-dir --dir=dist --branch=master --remote=gh-pages --cleanup --local-branch-name=master --force --verbose",
     "precommit": "npm run lint"
   },
   "dependencies": {
