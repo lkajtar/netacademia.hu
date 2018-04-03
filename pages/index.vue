@@ -3,7 +3,7 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        NetAcadmeia TravisCI git test
+        NetAcadmeia TravisCI git test Gabinak2
       </h1>
       <h2 class="subtitle">
         Nuxt.js project
