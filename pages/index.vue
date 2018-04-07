@@ -14,7 +14,7 @@
     <div id="headerbox">
       <ol>
         <li><a href="/tanfolyamkeresov2">Tanfolyamkereső</a></li>
-        <li><a href="/certificate" class="hideonmobile">Certificate</a></li>
+        <li><nuxt-link to="/certificate" class="hideonmobile">Certificate</nuxt-link></li>
         <li><a href="/lenyugozo-tanfolyamok" class="hideonmobile">
           Lenyűgöző Tanfolyamok
         </a></li>
@@ -33,9 +33,7 @@
         <a href="/ultimateakcio">
           <div class="akciogomb">Ultimate Akció!</div>
         </a>
-        <a href="/oktato">
-          <div class="gomb">Jelentkezz oktatónak!</div>
-        </a>
+        <nuxt-link to="/oktato"><div class="gomb">Jelentkezz oktatónak!</div></nuxt-link>
         <a href="/webfejleszto-vuejs">
           <div class="gomb">Webfejlesztő Vue.js</div>
         </a>
@@ -71,7 +69,7 @@
   };
 </script>
 
-<style>
+<style scoped>
   @import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
 
   html, body {
