@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-demo",
+  "name": "netacademia.hu",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "Teremtsd meg a jövőd!",
   "author": "puffy <nagy.gergo@3pixel.hu>",
   "private": true,
   "scripts": {
