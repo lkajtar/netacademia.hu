@@ -40,7 +40,7 @@
       </div>
       <br/>
       <div class="hirlev">
-        <a href="https://netacademia.hu/www.netacademia.hu_NewsLetter">
+        <a href="https://app.netacademia.hu/www.netacademia.hu_NewsLetter">
           Hírlevél-feliratkozás
         </a>
       </div>
