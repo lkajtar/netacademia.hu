@@ -2,6 +2,7 @@
   <main class="fullscreen-bg">
 
     <video loop muted autoplay
+           poster="/background.jpg"
            class="fullscreen-bg__video">
       <source
         src="https://player.vimeo.com/external/214413686.hd.mp4?s=20bc6888428db4eff09a3dff53d6ac73d75dd2ab&profile_id=174">
@@ -64,6 +65,14 @@
       currentYear: function () {
         return new Date().getFullYear();
       }
+    },
+    head: {
+      htmlAttrs: {
+        class: 'fullscreen',
+      },
+      bodyAttrs: {
+        class: 'fullscreen-bg'
+      }
     }
   };
 </script>
@@ -71,14 +80,36 @@
 <style>
   @import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
 
-  html,
-  body {
+  .fullscreen {
     height: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
     font-family: "Work sans", Arial;
     color: white;
+  }
+
+  .fullscreen-bg {
+    z-index: -100;
+    background: url('/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
   }
 
   ol {
@@ -240,29 +271,6 @@
   #conference a:hover {
     color: rgb(203, 203, 203);
     transition-duration: 0.5s;
-  }
-
-  .fullscreen-bg {
-    z-index: -100;
-    background: url('/background.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .fullscreen-bg__video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    pointer-events: none;
   }
 
   #year {
