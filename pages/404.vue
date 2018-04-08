@@ -9,6 +9,9 @@
         { innerHTML: 'window.location.href = "https://app.netacademia.hu" + window.location.pathname', type: 'application/ld+json' }
       ],
       __dangerouslyDisableSanitizers: ['script']
+    },
+    mounted: function () {
+      window.location.href = "https://app.netacademia.hu" + window.location.pathname;
     }
   }
 </script>
