@@ -2,7 +2,6 @@
   <main class="fullscreen-bg">
 
     <video loop muted autoplay
-           poster="/background.jpg"
            class="fullscreen-bg__video">
       <source
         src="https://player.vimeo.com/external/214413686.hd.mp4?s=20bc6888428db4eff09a3dff53d6ac73d75dd2ab&profile_id=174">
@@ -13,13 +12,13 @@
          alt="NetAcademia Oktatóközpont Kft.">
     <div id="headerbox">
       <ol>
-        <li><a href="/tanfolyamkeresov2">Tanfolyamkereső</a></li>
-        <li><nuxt-link to="/certificate" class="hideonmobile">Certificate</nuxt-link></li>
-        <li><a href="/lenyugozo-tanfolyamok" class="hideonmobile">
+        <li><a href="http://netacademia.pedellus.com/tanfolyamkeresov2">Tanfolyamkereső</a></li>
+        <li><a href="http://netacademia.pedellus.com/certificate" class="hideonmobile">Certificate</a></li>
+        <li><a href="http://netacademia.pedellus.com/lenyugozo-tanfolyamok" class="hideonmobile">
           Lenyűgöző Tanfolyamok
         </a></li>
-        <li><a href="/kapcsolat" class="hideonmobile">Kapcsolat</a></li>
-        <li><a href="/Adataim">Adataim</a></li>
+        <li><a href="http://netacademia.pedellus.com/kapcsolat" class="hideonmobile">Kapcsolat</a></li>
+        <li><a href="http://netacademia.pedellus.com/Adataim">Adataim</a></li>
       </ol>
     </div>
 
@@ -27,14 +26,14 @@
     <div class="vfkozepre">
       <div class="cim">Élő, online oktatás bárhol, bármikor</div>
       <div class="gombdoboz">
-        <a href="/indulotanfolyamok">
+        <a href="http://netacademia.pedellus.com/indulotanfolyamok">
           <div class="gomb">Induló tanfolyamok</div>
         </a>
-        <a href="/ultimateakcio">
+        <a href="http://netacademia.pedellus.com/ultimateakcio">
           <div class="akciogomb">Ultimate Akció!</div>
         </a>
-        <nuxt-link to="/oktato"><div class="gomb">Jelentkezz oktatónak!</div></nuxt-link>
-        <a href="/webfejleszto-vuejs">
+        <a href="http://netacademia.pedellus.com/oktato"><div class="gomb">Jelentkezz oktatónak!</div></a>
+        <a href="http://netacademia.pedellus.com/webfejleszto-vuejs">
           <div class="gomb">Webfejlesztő Vue.js</div>
         </a>
       </div>
@@ -71,11 +70,6 @@
 
 <style scoped>
   @import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
-
-  html, body {
-    margin: 0;
-    overflow: hidden;
-  }
 
   main {
     height: 100vh;
