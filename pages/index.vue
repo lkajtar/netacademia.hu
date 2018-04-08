@@ -72,7 +72,11 @@
       },
       bodyAttrs: {
         class: 'fullscreen-bg'
-      }
+      },
+      script: [
+        { innerHTML: 'dataLayer = [{ "UnsignedUser": "True", "SignedUser": "False", "pageCategory": "Főoldal" }];', type: 'application/ld+json' }
+      ],
+      __dangerouslyDisableSanitizers: ['script']
     }
   };
 </script>

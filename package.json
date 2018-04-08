@@ -9,12 +9,13 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "prod": "npm run build && npm run start",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "deploy":
-      "push-dir --dir=dist --branch=master --remote=https://github.com/NetAcademia/netacademia.github.io.git --cleanup",
+    "deploy": "push-dir --dir=dist --branch=master --remote=https://github.com/NetAcademia/netacademia.github.io.git --cleanup",
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/google-tag-manager": "^1.1.0",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {
