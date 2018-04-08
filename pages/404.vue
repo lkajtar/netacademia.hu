@@ -1,17 +1,17 @@
 <template>
-  <h1 class="red">Baj van baj!</h1>
+  <h1>Baj van baj!</h1>
 </template>
 
 <script>
   export default {
-    mounted: function () {
-      window.location.href = "http://" + "app.netacademia.hu" + window.location.pathname
+    head: {
+      script: [
+        { innerHTML: 'window.location.href = "https://app.netacademia.hu" + window.location.pathname', type: 'application/ld+json' }
+      ],
+      __dangerouslyDisableSanitizers: ['script']
     }
   }
 </script>
 
 <style>
-  .red {
-    color: red;
-  }
 </style>
