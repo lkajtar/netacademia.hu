@@ -68,12 +68,15 @@
   };
 </script>
 
-<style scoped>
+<style>
   @import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
 
-  main {
-    height: 100vh;
+  html,
+  body {
+    height: 100%;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
     font-family: "Work sans", Arial;
     color: white;
   }
