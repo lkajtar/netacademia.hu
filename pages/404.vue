@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    created () {
+    mounted: function () {
       window.location.href = "http://" + "app.netacademia.hu" + window.location.pathname
     }
   }
