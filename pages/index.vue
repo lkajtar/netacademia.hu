@@ -12,13 +12,13 @@
          alt="NetAcademia Oktatóközpont Kft.">
     <div id="headerbox">
       <ol>
-        <li><a href="http://app.netacademia.hu/tanfolyamkeresov2">Tanfolyamkereső</a></li>
-        <li><a href="http://app.netacademia.hu/certificate" class="hideonmobile">Certificate</a></li>
-        <li><a href="http://app.netacademia.hu/lenyugozo-tanfolyamok" class="hideonmobile">
+        <li><a href="http://auth.netacademia.hu/tanfolyamkeresov2">Tanfolyamkereső</a></li>
+        <li><a href="http://auth.netacademia.hu/certificate" class="hideonmobile">Certificate</a></li>
+        <li><a href="http://auth.netacademia.hu/lenyugozo-tanfolyamok" class="hideonmobile">
           Lenyűgöző Tanfolyamok
         </a></li>
-        <li><a href="http://app.netacademia.hu/kapcsolat" class="hideonmobile">Kapcsolat</a></li>
-        <li><a href="http://app.netacademia.hu/Adataim">Adataim</a></li>
+        <li><a href="http://auth.netacademia.hu/kapcsolat" class="hideonmobile">Kapcsolat</a></li>
+        <li><a href="http://auth.netacademia.hu/Adataim">Adataim</a></li>
       </ol>
     </div>
 
@@ -26,14 +26,14 @@
     <div class="vfkozepre">
       <div class="cim">Élő, online oktatás bárhol, bármikor</div>
       <div class="gombdoboz">
-        <a href="http://app.netacademia.hu/indulotanfolyamok">
+        <a href="http://auth.netacademia.hu/indulotanfolyamok">
           <div class="gomb">Induló tanfolyamok</div>
         </a>
-        <a href="http://app.netacademia.hu/ultimateakcio">
+        <a href="http://auth.netacademia.hu/ultimateakcio">
           <div class="akciogomb">Ultimate Akció!</div>
         </a>
-        <a href="http://app.netacademia.hu/oktato"><div class="gomb">Jelentkezz oktatónak!</div></a>
-        <a href="http://app.netacademia.hu/webfejleszto-vuejs">
+        <a href="http://auth.netacademia.hu/oktato"><div class="gomb">Jelentkezz oktatónak!</div></a>
+        <a href="http://auth.netacademia.hu/webfejleszto-vuejs">
           <div class="gomb">Webfejlesztő Vue.js</div>
         </a>
       </div>
@@ -49,10 +49,10 @@
     <div class="lablec vkozepre">
       © NetAcademia 1998-{{ currentYear }}
       <span>
-        <a href="http://app.netacademia.hu/GeneralTermsAndConditions/Subscription">ÁSZF</a>
+        <a href="http://auth.netacademia.hu/GeneralTermsAndConditions/Subscription">ÁSZF</a>
       </span>
       <span>
-        <a href="http://app.netacademia.hu/GeneralTermsAndConditions/PrivacyStatement">Adatvédelem</a>
+        <a href="http://auth.netacademia.hu/GeneralTermsAndConditions/PrivacyStatement">Adatvédelem</a>
       </span>
     </div>
   </main>
