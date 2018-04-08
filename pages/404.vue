@@ -4,6 +4,9 @@
 
 <script>
   export default {
+    created () {
+      window.location.href = "http://" + "app.netacademia.hu" + window.location.pathname
+    }
   }
 </script>
 
