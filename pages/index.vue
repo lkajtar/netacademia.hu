@@ -34,8 +34,8 @@
           <div class="akciogomb">Ultimate Akció!</div>
         </a>
         <a href="http://app.netacademia.hu/oktato"><div class="gomb">Jelentkezz oktatónak!</div></a>
-        <a href="http://app.netacademia.hu/webfejleszto-vuejs">
-          <div class="gomb">Webfejlesztő Vue.js</div>
+        <a href="https://app.netacademia.hu/unity-developer">
+          <div class="gomb">Unity Developer</div>
         </a>
       </div>
       <br/>
