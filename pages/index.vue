@@ -28,7 +28,7 @@
       <div class="cim">Élő, online oktatás bárhol, bármikor</div>
       <div class="gombdoboz">
         <a href="http://app.netacademia.hu/indulotanfolyamok">
-          <div class="gomb">Induló tanfolyamok</div>
+          <div class="gomb">Induló</div>
         </a>
         <a href="http://app.netacademia.hu/elofizetes">
           <div class="akciogomb">Előfizetéseink</div>
