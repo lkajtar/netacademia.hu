@@ -31,7 +31,7 @@
           <div class="gomb">Induló tanfolyamok</div>
         </a>
         <a href="http://app.netacademia.hu/elofizetes">
-          <div class="akciogomb">Előfizetéseink</div>
+          <div class="akciogomb">Előfizetéseink!</div>
         </a>
         <a href="http://app.netacademia.hu/oktato"><div class="gomb">Jelentkezz oktatónak!</div></a>
         <a href="https://app.netacademia.hu/unity-developer">
