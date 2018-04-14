@@ -5,7 +5,7 @@
            poster="/background.jpg"
            class="fullscreen-bg__video">
       <source
-        src="https://player.vimeo.com/external/214413686.hd.mp4?s=20bc6888428db4eff09a3dff53d6ac73d75dd2ab&profile_id=174">
+        src="https://player.vimeo.com/external/264778690.hd.mp4?s=8b80ecb93aeb209e06951980b8d335424dc83c37&profile_id=174">
     </video>
 
 
