@@ -187,7 +187,6 @@
     margin-right: -50%;
     transform: translate(-50%, 0);
     font-family: Arial;
-    text-transform: uppercase;
     font-size: 14px;
     margin-top: 1px;
   }
