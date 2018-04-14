@@ -13,30 +13,39 @@
          alt="NetAcademia Oktatóközpont Kft.">
     <div id="headerbox">
       <ol>
-        <li><a href="http://app.netacademia.hu/tanfolyamkeresov2">Tanfolyamkereső</a></li>
-        <li><a href="http://app.netacademia.hu/certificate" class="hideonmobile">Certificate</a></li>
-        <li><a href="http://app.netacademia.hu/lenyugozo-tanfolyamok" class="hideonmobile">
-          Lenyűgöző Tanfolyamok
-        </a></li>
-        <li><a href="http://app.netacademia.hu/kapcsolat" class="hideonmobile">Kapcsolat</a></li>
-        <li><a href="http://app.netacademia.hu/Adataim">Adataim</a></li>
+                        <li>
+                            <a href="http://app.netacademia.hu/tanfolyamkeresov2">Tanfolyamkereső</a>
+                        </li>
+                        <li>
+                            <a href="http://app.netacademia.hu/indulotanfolyamok">Induló tanfolyamok</a>
+                        </li>
+                        <li>
+                            <a href="http://app.netacademia.hu/certificate" class="hideonmobile">NetAcademia Certificate</a>
+                        </li>
+                         <li>
+                            <a href="http://app.netacademia.hu/lenyugozo-tanfolyamok" class="hideonmobile">
+                                Lenyűgöző tanfolyamok</a>
+                        </li>
+                        <li>
+                            <a href="http://app.netacademia.hu/Adataim">Adataim</a>
+                        </li>
       </ol>
     </div>
 
 
     <div class="vfkozepre">
-      <div class="cim">Élő, online oktatás bárhol, bármikor</div>
+      <div class="cim">Teremtsd meg a jövőd!</div>
       <div class="gombdoboz">
-        <a href="http://app.netacademia.hu/indulotanfolyamok">
-          <div class="gomb">Induló tanfolyamok</div>
-        </a>
-        <a href="http://app.netacademia.hu/elofizetes">
-          <div class="akciogomb">Előfizetéseink</div>
-        </a>
-        <a href="http://app.netacademia.hu/oktato"><div class="gomb">Jelentkezz oktatónak!</div></a>
-        <a href="https://app.netacademia.hu/unity-developer">
-          <div class="gomb">Unity Developer</div>
-        </a>
+                        <a href="https://app.netacademia.hu/elofizetes#kepzes">
+                            <div class="gomb">Képzéseink</div>
+                        </a>
+                        <a href="https://app.netacademia.hu/elofizetes#elofizetes">
+                            <div class="gomb">Előfizetés</div>
+                        </a>
+
+                        <a href="http://app.netacademia.hu/webfejleszto-vuejs">
+                            <div class="akciogomb">Webfejlesztői akció</div>
+                        </a>
       </div>
       <br/>
       <div class="hirlev">
@@ -55,6 +64,12 @@
       <span>
         <a href="http://app.netacademia.hu/GeneralTermsAndConditions/PrivacyStatement">Adatvédelem</a>
       </span>
+                    <span>
+                        <a href="http://app.netacademia.hu/kapcsolat" class="hideonmobile">Kapcsolat</a>
+                    </span>
+                    <span>
+                        <a href="http://app.netacademia.hu/oktato" class="hideonmobile">Jelentkezz oktatónak!</a>
+                    </span>
     </div>
   </main>
 </template>
