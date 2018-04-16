@@ -1,4 +1,18 @@
+const ghPagesConf = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/netacademia.hu/'
+  },
+  generate: {
+    dir: 'dist-ghpages'
+  }
+} : {}
+
 module.exports = {
+  /*
+  ** Custom router base to serve from project repo on github pages from the gh-pages branch
+  ** Custom generation dir
+  */
+  ...ghPagesConf,
   /*
   ** Headers of the page
   */
