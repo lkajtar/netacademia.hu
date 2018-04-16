@@ -68,7 +68,7 @@
                         <a href="http://app.netacademia.hu/kapcsolat" class="hideonmobile">Kapcsolat</a>
                     </span>
                     <span>
-                        <a href="http://app.netacademia.hu/oktato" class="hideonmobile">Jelentkezz oktatónak</a>
+                        <a href="http://app.netacademia.hu/oktato" class="hideonmobile">Jelentkezz oktatónak!</a>
                     </span>
     </div>
   </main>
