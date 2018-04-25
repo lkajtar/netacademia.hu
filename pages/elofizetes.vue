@@ -78,12 +78,11 @@
       </div>
     </div>
   </div>
-
   <div class="container">
     <div class="row pt-5 justify-content-center dotted-bg">
 
       <!-- product: unity -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5 vue-gtm-app" data-block-id="unity" v-observe-visibility="VisibilityChanged">
+      <div class="col-10 col-sm-8 col-md-6 mb-5">
         <div class="row justify-content-center">
           <div class="col-12 text-center mx-auto mb-4">
             <img src="~/assets/elofizetes/unity-logo.svg" alt="unity-logo" width="130" class="mx-auto img-border">
@@ -102,13 +101,18 @@
               <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">55 óra</p>
           </div>
           <div class="col-12 text-center">
-            <a class="btn btn-primary" href="https://app.netacademia.hu/unity-developer" role="button" @click="Clicked" @mouseDown.middle="Clicked">Megnézem</a>
+            <gtm-button :gtm-data="GTMProductCollection.unity"
+                        href="https://app.netacademia.hu/unity-developer"
+                        role="button" target="_blank"
+                        class="btn btn-primary">
+              Megnézem
+            </gtm-button>
           </div>
         </div>
       </div>
 
       <!-- product: csharp -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5 vue-gtm-app" data-block-id="csharp" v-observe-visibility="VisibilityChanged">
+      <div class="col-10 col-sm-8 col-md-6 mb-5">
         <div class="row justify-content-center">
           <div class="col-12 text-center mx-auto mb-4">
             <img src="~/assets/elofizetes/c-sharp-logo.svg" alt="c-sharp-logo" width="130" class="mx-auto img-border">
@@ -129,16 +133,20 @@
               <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">144 óra</p>
           </div>
           <div class="col-12 text-center">
-            <a class="btn btn-primary" href="https://app.netacademia.hu/junior-csharp-developer" role="button" @click="Clicked" @mouseDown.middle="Clicked">Megnézem</a>
+            <gtm-button :gtm-data="GTMProductCollection.csharp"
+                        class="btn btn-primary"
+                        href="https://app.netacademia.hu/junior-csharp-developer"
+                        role="button">
+              Megnézem
+            </gtm-button>
           </div>
         </div>
       </div>
-    </div>
 
     <div class="row pt-5 justify-content-center dotted-bg">
 
       <!-- product: vue -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5 vue-gtm-app" data-block-id="vue" v-observe-visibility="VisibilityChanged">
+      <div class="col-10 col-sm-8 col-md-6 mb-5">
         <div class="row justify-content-center">
           <div class="col-12 text-center mx-auto mb-4">
             <img src="~/assets/elofizetes/vue-logo.svg" alt="vue-logo" width="130" class="mx-auto img-border">
@@ -160,13 +168,18 @@
               <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">80 óra</p>
           </div>
           <div class="col-12 text-center">
-            <a class="btn btn-primary" href="https://app.netacademia.hu/webfejleszto-vuejs" role="button" @click="Clicked" @mouseDown.middle="Clicked">Megnézem</a>
+            <gtm-button :gtm-data="GTMProductCollection.vue"
+                        class="btn btn-primary"
+                        href="https://app.netacademia.hu/webfejleszto-vuejs"
+                        role="button">
+              Megnézem
+            </gtm-button>
           </div>
         </div>
       </div>
 
       <!-- product: angular -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5 vue-gtm-app" data-block-id="angular" v-observe-visibility="VisibilityChanged">
+      <div class="col-10 col-sm-8 col-md-6 mb-5">
         <div class="row justify-content-center">
           <div class="col-12 text-center mx-auto mb-4">
             <img src="~/assets/elofizetes/angular-logo.svg" alt="angular-logo" width="130" class="mx-auto img-border">
@@ -189,7 +202,12 @@
               <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">160 óra</p>
           </div>
           <div class="col-12 text-center">
-            <a class="btn btn-primary" href="https://app.netacademia.hu/webfejleszto-angular" role="button" @click="Clicked" @mouseDown.middle="Clicked">Megnézem</a>
+            <gtm-button :gtm-data="GTMProductCollection.angular"
+                        class="btn btn-primary"
+                        href="https://app.netacademia.hu/webfejleszto-angular"
+                        role="button">
+              Megnézem
+            </gtm-button>
           </div>
         </div>
       </div>
@@ -197,7 +215,7 @@
 
 
            <!-- product: ecommerce -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5 vue-gtm-app" data-block-id="ecommerce" v-observe-visibility="VisibilityChanged">
+      <div class="col-10 col-sm-8 col-md-6 mb-5">
         <div class="row justify-content-center">
           <div class="col-12 text-center mx-auto mb-4">
             <img src="~/assets/elofizetes/e-commerce-logo.png" alt="e-commerce-logo" width="130" class="mx-auto img-border">
@@ -216,16 +234,18 @@
               <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">52 óra</p>
           </div>
           <div class="col-12 text-center">
-            <a class="btn btn-primary" href="https://app.netacademia.hu/ecommerce" role="button" @click="Clicked" @mouseDown.middle="Clicked">Megnézem</a>
+            <gtm-button :gtm-data="GTMProductCollection.ecommerce"
+                        class="btn btn-primary"
+                        href="https://app.netacademia.hu/ecommerce"
+                        role="button">
+              Megnézem
+            </gtm-button>
           </div>
         </div>
       </div>
 
-
-
-
  			<!--
-      <div class="col-10 col-sm-8 col-md-6 mb-5 vue-gtm-app" data-block-id="android" v-observe-visibility="VisibilityChanged">
+      <div class="col-10 col-sm-8 col-md-6 mb-5">
         <div class="row justify-content-center">
           <div class="col-12 text-center mx-auto mb-4">
             <img src="~/assets/elofizetes/android-logo2.png" alt="android-logo" width="130" class="mx-auto img-border">
@@ -244,18 +264,19 @@
               <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">128 óra</p>
           </div>
           <div class="col-12 text-center">
-            <a class="btn btn-primary" href="https://app.netacademia.hu/androidfejleszto" role="button" @click="Clicked" @mouseDown.middle="Clicked">Megnézem</a>
+            <gtm-button :gtm-data="GTMProductCollection.ASDFSADFDSADSADFSDA"
+                        class="btn btn-primary"
+                        href="https://app.netacademia.hu/androidfejleszto"
+                        role="button">
+              Megnézem
+            </gtm-button>
           </div>
         </div>
       </div>
       -->
 
-
-
-
-
         <!-- product: windowsserver -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5 vue-gtm-app" data-block-id="windowsserver" v-observe-visibility="VisibilityChanged">
+      <div class="col-10 col-sm-8 col-md-6 mb-5">
         <div class="row justify-content-center">
           <div class="col-12 text-center mx-auto mb-4">
             <img src="~/assets/elofizetes/server-logo.png" alt="server-logo" width="130" class="mx-auto img-border">
@@ -274,7 +295,12 @@
               <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">48 óra</p>
           </div>
           <div class="col-12 text-center">
-            <a class="btn btn-primary" href="https://app.netacademia.hu/windowsserver" role="button" @click="Clicked" @mouseDown.middle="Clicked">Megnézem</a>
+            <gtm-button :gtm-data="GTMProductCollection.windowsserver"
+                        class="btn btn-primary"
+                        href="https://app.netacademia.hu/windowsserver"
+                        role="button">
+              Megnézem
+            </gtm-button>
           </div>
         </div>
       </div>
@@ -301,7 +327,7 @@
       <div class="row justify-content-center dotted-bg">
 
         <!-- product: ultimate -->
-        <div class="col-11 col-md-6 mb-lg-5 vue-gtm-app" data-block-id="ultimate" v-observe-visibility="VisibilityChanged">
+        <div class="col-11 col-md-6 mb-lg-5">
           <div class="row justify-content-center">
             <div class="col-11 col-lg-9 mb-5 second-title">
               <h4 class="display-4" id="ultimate">INFORMATIKUS VAGY? SZERETNÉL AZ LENNI?</h4>
@@ -325,12 +351,17 @@
             </div>
           </div>
           <div class="col-12 text-center mb-5">
-            <a class="btn btn-primary" href="https://app.netacademia.hu/ultimateakcio" role="button" @click="Clicked" @mouseDown.middle="Clicked">Megnézem</a>
+            <gtm-button :gtm-data="GTMProductCollection.ultimate"
+                        class="btn btn-primary"
+                        href="https://app.netacademia.hu/ultimateakcio"
+                        role="button">
+              Megnézem
+            </gtm-button>
           </div>
         </div>
 
         <!-- product: office -->
-        <div class="col-11 col-md-6 mb-lg-5 vue-gtm-app" data-block-id="office" v-observe-visibility="VisibilityChanged">
+        <div class="col-11 col-md-6 mb-lg-5">
           <div class="row justify-content-center">
             <div class="col-11 col-lg-9 mb-5 second-title">
               <h4 class="display-4">SZÁMÍTÓGÉPPEL DOLGOZOL? (KI NEM?)</h4>
@@ -354,7 +385,12 @@
             </div>
           </div>
           <div class="col-12 text-center mb-5">
-            <a class="btn btn-primary" href="https://app.netacademia.hu/officecsomag2017" role="button" @click="Clicked" @mouseDown.middle="Clicked">Megnézem</a>
+            <gtm-button :gtm-data="GTMProductCollection.office"
+                        class="btn btn-primary"
+                        href="https://app.netacademia.hu/officecsomag2017"
+                        role="button">
+              Megnézem
+            </gtm-button>
           </div>
         </div>
 
@@ -398,6 +434,7 @@
       </div>
     </div>
 
+    </div>
   </div>
 
   <footer style="height:200px;"></footer>
@@ -406,7 +443,10 @@
 </template>
 
 <script>
+import GtmButton from "~/components/GtmButton.vue";
+
 export default {
+  components: { GtmButton },
   head: {
     script: [
       { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" },
@@ -436,6 +476,95 @@ export default {
     bodyAttrs: {
       class: "base background"
     }
+  },
+  data: function() {
+    return {
+      GTMProductCollection: {
+        unity: {
+          name: "Certified Unity Developer 12 hónapos tanfolyamcsomag",
+          id: "17b62be2-c693-4fa3-a79a-382e789f838a",
+          price: "69900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
+          position: 1
+        },
+        csharp: {
+          name: "Certified Junior C# Developer 12 hónapos tanfolyamcsomag",
+          id: "d5e46a95-4f92-46df-bfe9-4e70eb3c38d0",
+          price: "69900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
+          position: 2
+        },
+        vue: {
+          name: "Webfejlesztő leszek! VueJS Edition 12 hónapos tanfolyamcsomag",
+          id: "0ceafbab-4b10-4835-9a25-f4a4876690b6",
+          price: "29900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
+          position: 3
+        },
+        angular: {
+          name:
+            "Webfejlesztő leszek! Angular Edition 12 hónapos tanfolyamcsomag",
+          id: "2d7fea29-44b4-4497-8114-872a0a43d6b7",
+          price: "29900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
+          position: 4
+        },
+        ecommerce: {
+          name: "Certified E-commerce Specialist 12 hónapos tanfolyamcsomag",
+          id: "2d7fea29-44b4-4497-8114-872a0a43d6b7",
+          price: "49900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
+          position: 5
+        },
+
+        windowsserver: {
+          name: "Certified Windows Administrator 12 hónapos tanfolyamcsomag",
+          id: "0",
+          price: "89900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
+          position: 6
+        },
+
+        ultimate: {
+          name: "NetAcademia Ultimate 12 hónapos tanfolyamcsomag",
+          id: "0",
+          price: "126873",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
+          position: 7
+        },
+        office: {
+          name: "Office és irodai alkalmazások 12 hónapos tanfolyamcsomag",
+          id: "68cad24a-c08b-4724-910a-c25dc743e9d3",
+          price: "62230",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
+          position: 8
+        }
+      }
+    };
   }
 };
 </script>
@@ -444,6 +573,7 @@ export default {
 base {
   height: 100%;
   color: #ffffff;
+  font-size: 18px;
 }
 
 background {
@@ -454,10 +584,6 @@ background {
   z-index: 1;
   background-position: top center;
   padding-top: 20px;
-}
-
-html {
-  font-size: 18px;
 }
 
 .top-hero h1 {
@@ -647,7 +773,7 @@ html {
 }
 
 @media (min-width: 1150px) {
-  html {
+  base {
     font-size: 18px;
   }
   .section-szakma {
@@ -657,7 +783,7 @@ html {
 }
 
 @media (min-width: 1300px) {
-  html {
+  base {
     font-size: 18px;
   }
   .section-szakma {

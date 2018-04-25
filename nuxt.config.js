@@ -1,11 +1,14 @@
-const ghPagesConf = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/netacademia.hu/'
-  },
-  generate: {
-    dir: 'dist-ghpages'
-  }
-} : {}
+const ghPagesConf =
+  process.env.DEPLOY_ENV === "GH_PAGES"
+    ? {
+        router: {
+          base: "/netacademia.hu/"
+        },
+        generate: {
+          dir: "dist-ghpages"
+        }
+      }
+    : {};
 
 module.exports = {
   /*
@@ -17,39 +20,42 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'NetAcademia',
+    title: "NetAcademia",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Teremtsd meg a jövőd!' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: "Teremtsd meg a jövőd!"
+      }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
-  modules: [
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-T3WLP7' }]
-  ],
+  loading: { color: "#3B8070" },
+  plugins: [{ src: "~/plugins/vue-observe-visibility", ssr: false }],
+  modules: [["@nuxtjs/google-tag-manager", { id: "GTM-T3WLP7" }]],
   /*
   ** Build configuration
   */
   build: {
+    vendor: ["intersection-observer", "vue-observe-visibility"],
+    analyze: true,
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
-          enforce: 'pre',
+          enforce: "pre",
           test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
+          loader: "eslint-loader",
           exclude: /(node_modules)/
-        })
+        });
       }
     }
   }
-}
+};
