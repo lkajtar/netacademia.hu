@@ -1,25 +1,5 @@
 <template>
 <main>
-  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="/">
-      <img width="40px" src="/logo.png" alt="NetAcademia Oktatóközpont Kft." />
-    </a>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav mx-auto">
-        <a class="nav-item nav-link active" href="/elofizetes">Előfizetés
-          <span class="sr-only">(current)</span>
-        </a>
-        <a class="nav-item nav-link" href="/indulotanfolyamok">Induló tanfolyamok</a>
-        <a class="nav-item nav-link" href="/tanfolyamkeresov2">Tanfolyamkereső</a>
-        <a class="nav-item nav-link" href="/ultimateakcio">Akció</a>
-        <a class="nav-item nav-link" href="/certificate">NetAcademia vizsga</a>
-      </div>
-    </div>
-  </nav>
   <header id="home" class="top-hero jumbotron-fluid pb-5 bg-faded">
     <div class="container">
       <h1 class="display-2 mb-1">
@@ -81,231 +61,73 @@
   <div class="container">
     <div class="row pt-5 justify-content-center dotted-bg">
 
-      <!-- product: unity -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center mx-auto mb-4">
-            <img src="~/assets/elofizetes/unity-logo.svg" alt="unity-logo" width="130" class="mx-auto img-border">
-          </div>
-          <div class="col-12 text-center">
-            <h4 class="my-4">Certified Unity Expert Developer</h4>
-          </div>
-          <div class="col-9">
-            <p class="text-center title pb-4 pb-lg-0 lead text-danger font-weight-bold">A játékmester</p>
-          </div>
-          <div class="col-12 col-lg-6">
-            <p class="text-size text-center mb-4 mb-md-0">Legyél az ország első Certified Unity Developere, és merülj el a többplatformos játékfejlesztés világában!</p>
-          </div>
-          <div class="col-12 mb-2 text-center">
-            <p class="">
-              <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">55 óra</p>
-          </div>
-          <div class="col-12 text-center">
-            <gtm-button :gtm-data="GTMProductCollection.unity"
-                        href="https://app.netacademia.hu/unity-developer"
-                        role="button" target="_blank"
-                        class="btn btn-primary">
-              Megnézem
-            </gtm-button>
-          </div>
-        </div>
-      </div>
+      <elofizetes-product-card  title="Certified Unity Expert Developer"
+                                who="A játékmester"
+                                description="Legyél az ország első Certified Unity Developere, és merülj el a többplatformos játékfejlesztés világában!"
+                                length="55 óra"
+                                link="https://app.netacademia.hu/unity-developer"
+                                :gtm-data="GTMProductCollection.unity">
+        <img src="~/assets/elofizetes/unity-logo.svg" alt="unity-logo" width="130" class="mx-auto img-border">
+      </elofizetes-product-card>
 
-      <!-- product: csharp -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center mx-auto mb-4">
-            <img src="~/assets/elofizetes/c-sharp-logo.svg" alt="c-sharp-logo" width="130" class="mx-auto img-border">
-          </div>
-          <div class="col-12 text-center">
-            <h4 class="my-4">Certified Junior C# Developer</h4>
-          </div>
-          <div class="col-9">
-            <p class="text-center lead text-danger font-weight-bold">A nagyvállalati programozó</p>
-          </div>
-          <div class="col-11 col-lg-6">
-            <p class="text-size text-center mb-4 mb-md-0">Certified Developer útvonalunkkal az alapoktól kezdve sajátíthatod el a C# programozási nyelvet! Legyen ez a
-              szakmád!
-            </p>
-          </div>
-          <div class="col-12 mb-2 text-center">
-            <p class="">
-              <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">144 óra</p>
-          </div>
-          <div class="col-12 text-center">
-            <gtm-button :gtm-data="GTMProductCollection.csharp"
-                        class="btn btn-primary"
-                        href="https://app.netacademia.hu/junior-csharp-developer"
-                        role="button">
-              Megnézem
-            </gtm-button>
-          </div>
-        </div>
-      </div>
+      <elofizetes-product-card  title="Certified Junior C# Developer"
+                                who="A nagyvállalati programozó"
+                                description="Certified Developer útvonalunkkal az alapoktól kezdve sajátíthatod el a C# programozási nyelvet! Legyen ez a szakmád!"
+                                length="144 óra"
+                                link="https://app.netacademia.hu/junior-csharp-developer"
+                                :gtm-data="GTMProductCollection.csharp">
+        <img src="~/assets/elofizetes/c-sharp-logo.svg" alt="c-sharp-logo" width="130" class="mx-auto img-border">
+      </elofizetes-product-card>
     </div>
 
     <div class="row pt-5 justify-content-center dotted-bg">
 
-      <!-- product: vue -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center mx-auto mb-4">
-            <img src="~/assets/elofizetes/vue-logo.svg" alt="vue-logo" width="130" class="mx-auto img-border">
-          </div>
-          <div class="col-12 text-center">
-            <h4 class="my-4">Certified Front-End Developer
-              <br>
-              <small>VueJS edition</small>
-            </h4>
-          </div>
-          <div class="col-9">
-            <p class="text-center lead text-danger font-weight-bold">A kezdő Front-End fejlesztő</p>
-          </div>
-          <div class="col-11 col-lg-6">
-            <p class="text-size text-center mb-4 mb-md-0">Legyél Certified Front-End Developer, és készíts lenyűgöző weboldalakat, akár mobilapp formában is, Vue.js-sel!</p>
-          </div>
-          <div class="col-12 mb-2 text-center">
-            <p class="">
-              <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">80 óra</p>
-          </div>
-          <div class="col-12 text-center">
-            <gtm-button :gtm-data="GTMProductCollection.vue"
-                        class="btn btn-primary"
-                        href="https://app.netacademia.hu/webfejleszto-vuejs"
-                        role="button">
-              Megnézem
-            </gtm-button>
-          </div>
-        </div>
-      </div>
+      <elofizetes-product-card  title="Certified Front-End Developer"
+                                subtitle="VueJS edition"
+                                who="A kezdő Front-End fejlesztő"
+                                description="Legyél Certified Front-End Developer, és készíts lenyűgöző weboldalakat, akár mobilapp formában is, Vue.js-sel!"
+                                length="80 óra"
+                                link="https://app.netacademia.hu/webfejleszto-vuejs"
+                                :gtm-data="GTMProductCollection.vue">
+        <img src="~/assets/elofizetes/vue-logo.svg" alt="vue-logo" width="130" class="mx-auto img-border">
+      </elofizetes-product-card>
 
-      <!-- product: angular -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center mx-auto mb-4">
-            <img src="~/assets/elofizetes/angular-logo.svg" alt="angular-logo" width="130" class="mx-auto img-border">
-          </div>
-          <div class="col-12 text-center">
-            <h4 class="my-4">Certified Front-End Developer
-              <br>
-              <small>Angular edition</small>
-            </h4>
-          </div>
-          <div class="col-9">
-            <p class="text-center lead text-danger font-weight-bold">A haladó Front-End fejlesztő</p>
-          </div>
-          <div class="col-11 col-lg-6">
-            <p class="text-size text-center mb-4 mb-md-0">Legyél Certified Front-End Developer, merülj el a modern webfejlesztés világában! Készíts alkalmazást bármilyen
-              platformra, Angularral!</p>
-          </div>
-          <div class="col-12 mb-2 text-center">
-            <p class="">
-              <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">160 óra</p>
-          </div>
-          <div class="col-12 text-center">
-            <gtm-button :gtm-data="GTMProductCollection.angular"
-                        class="btn btn-primary"
-                        href="https://app.netacademia.hu/webfejleszto-angular"
-                        role="button">
-              Megnézem
-            </gtm-button>
-          </div>
-        </div>
-      </div>
+      <elofizetes-product-card  title="Certified Front-End Developer"
+                                subtitle="Angular edition"
+                                who="A haladó Front-End fejlesztő"
+                                description="Legyél Certified Front-End Developer, merülj el a modern webfejlesztés világában! Készíts alkalmazást bármilyen platformra, Angularral!"
+                                length="160 óra"
+                                link="https://app.netacademia.hu/webfejleszto-angular"
+                                :gtm-data="GTMProductCollection.angular">
+        <img src="~/assets/elofizetes/angular-logo.svg" alt="angular-logo" width="130" class="mx-auto img-border">
+      </elofizetes-product-card>
 
+      <elofizetes-product-card  title="Certified E-commerce Specialist"
+                                who="Az üzletember"
+                                description="Legyél Certified E-commerce Specialist, lendítsd fel eladásaidat, vagy készíts egy teljesen új webshopot!"
+                                length="52 óra"
+                                link="https://app.netacademia.hu/ecommerce"
+                                :gtm-data="GTMProductCollection.ecommerce">
+        <img src="~/assets/elofizetes/e-commerce-logo.png" alt="e-commerce-logo" width="130" class="mx-auto img-border">
+      </elofizetes-product-card>
 
+      <!-- <elofizetes-product-card  title="Certified Android Developer"
+                                who="Az App-guru"
+                                description="Legyél Certified Android Developer, és legyél te a mobilAppok nagymestere!"
+                                link="https://app.netacademia.hu/androidfejleszto"
+                                length="128 óra"
+                                :gtm-data="GTMProductCollection.ASDFSADFDSADSADFSDA">
+        <img src="~/assets/elofizetes/android-logo2.png" alt="android-logo" width="130" class="mx-auto img-border">
+      </elofizetes-product-card>      -->
 
-           <!-- product: ecommerce -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center mx-auto mb-4">
-            <img src="~/assets/elofizetes/e-commerce-logo.png" alt="e-commerce-logo" width="130" class="mx-auto img-border">
-          </div>
-          <div class="col-12 text-center">
-            <h4 class="my-4">Certified E-commerce Specialist</h4>
-          </div>
-          <div class="col-9">
-            <p class="text-center lead text-danger font-weight-bold">Az üzletember</p>
-          </div>
-          <div class="col-11 col-lg-6">
-            <p class="text-size text-center mb-4 mb-md-0">Legyél Certified E-commerce Specialist, lendítsd fel eladásaidat, vagy készíts egy teljesen új webshopot!</p>
-          </div>
-          <div class="col-12 mb-2 text-center">
-            <p class="">
-              <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">52 óra</p>
-          </div>
-          <div class="col-12 text-center">
-            <gtm-button :gtm-data="GTMProductCollection.ecommerce"
-                        class="btn btn-primary"
-                        href="https://app.netacademia.hu/ecommerce"
-                        role="button">
-              Megnézem
-            </gtm-button>
-          </div>
-        </div>
-      </div>
-
- 			<!--
-      <div class="col-10 col-sm-8 col-md-6 mb-5">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center mx-auto mb-4">
-            <img src="~/assets/elofizetes/android-logo2.png" alt="android-logo" width="130" class="mx-auto img-border">
-          </div>
-          <div class="col-12 text-center">
-            <h4 class="my-4">Certified Android Developer</h4>
-          </div>
-          <div class="col-9">
-            <p class="text-center lead text-danger font-weight-bold">Az App-guru</p>
-          </div>
-          <div class="col-11 col-lg-6">
-            <p class="text-size text-center mb-4 mb-md-0">Legyél Certified Android Developer, és legyél te a mobilAppok nagymestere!</p>
-          </div>
-          <div class="col-12 mb-2 text-center">
-            <p class="">
-              <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">128 óra</p>
-          </div>
-          <div class="col-12 text-center">
-            <gtm-button :gtm-data="GTMProductCollection.ASDFSADFDSADSADFSDA"
-                        class="btn btn-primary"
-                        href="https://app.netacademia.hu/androidfejleszto"
-                        role="button">
-              Megnézem
-            </gtm-button>
-          </div>
-        </div>
-      </div>
-      -->
-
-        <!-- product: windowsserver -->
-      <div class="col-10 col-sm-8 col-md-6 mb-5">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center mx-auto mb-4">
-            <img src="~/assets/elofizetes/server-logo.png" alt="server-logo" width="130" class="mx-auto img-border">
-          </div>
-          <div class="col-12 text-center">
-            <h4 class="my-4">Certified Windows Administrator</h4>
-          </div>
-          <div class="col-9">
-            <p class="text-center lead text-danger font-weight-bold">A rendszergazda</p>
-          </div>
-          <div class="col-11 col-lg-6">
-            <p class="text-size text-center mb-4 mb-md-0">Legyél Certified Windows Administrator, és üzemeltess Windows Server alapú rendszereket!</p>
-          </div>
-          <div class="col-12 mb-2 text-center">
-            <p class="">
-              <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">48 óra</p>
-          </div>
-          <div class="col-12 text-center">
-            <gtm-button :gtm-data="GTMProductCollection.windowsserver"
-                        class="btn btn-primary"
-                        href="https://app.netacademia.hu/windowsserver"
-                        role="button">
-              Megnézem
-            </gtm-button>
-          </div>
-        </div>
-      </div>
-
+      <elofizetes-product-card  title="Certified Windows Administrator"
+                                who="A rendszergazda"
+                                description="Legyél Certified Windows Administrator, és üzemeltess Windows Server alapú rendszereket!"
+                                length="48 óra"
+                                link="https://app.netacademia.hu/windowsserver"
+                                :gtm-data="GTMProductCollection.windowsserver">
+        <img src="~/assets/elofizetes/server-logo.png" alt="server-logo" width="130" class="mx-auto img-border">
+      </elofizetes-product-card>
     </div>
   </div>
 
@@ -352,12 +174,12 @@
             </div>
           </div>
           <div class="col-12 text-center mb-5">
-            <gtm-button :gtm-data="GTMProductCollection.ultimate"
+            <gtm-link :gtm-data="GTMProductCollection.ultimate"
                         class="btn btn-primary"
                         href="https://app.netacademia.hu/ultimateakcio"
                         role="button">
               Megnézem
-            </gtm-button>
+            </gtm-link>
           </div>
         </div>
 
@@ -386,12 +208,12 @@
             </div>
           </div>
           <div class="col-12 text-center mb-5">
-            <gtm-button :gtm-data="GTMProductCollection.office"
+            <gtm-link :gtm-data="GTMProductCollection.office"
                         class="btn btn-primary"
                         href="https://app.netacademia.hu/officecsomag2017"
                         role="button">
               Megnézem
-            </gtm-button>
+            </gtm-link>
           </div>
         </div>
 
@@ -436,124 +258,101 @@
     </div>
   </div>
 
-  <footer style="height:200px;"></footer>
 </main>
 
 </template>
 
 <script>
-import GtmButton from "~/components/GtmButton.vue";
+import GtmLink from '~/components/GtmLink.vue';
+import ElofizetesProductCard from '~/components/ElofizetesProductCard.vue';
 
 export default {
-  components: { GtmButton },
-  head: {
-    script: [
-      { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" },
-      {
-        src:
-          "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-      },
-      {
-        src:
-          "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-      }
-    ],
-    link: [
-      {
-        rel: "stylesheet",
-        href:
-          "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-      }
-      // {
-      //   rel: "stylesheet",
-      //   href: "https://fonts.googleapis.com/css?family=Montserrat"
-      // }
-    ]
-  },
+  components: { GtmLink, ElofizetesProductCard },
+  layout: 'bs-nav-footer-dark',
   data: function() {
     return {
       GTMProductCollection: {
         unity: {
-          name: "Certified Unity Developer 12 hónapos tanfolyamcsomag",
-          id: "17b62be2-c693-4fa3-a79a-382e789f838a",
-          price: "69900",
-          brand: "NetAcademia",
-          category: "Elofizetes",
-          variant: "",
-          list: "Előfizetés",
+          name: 'Certified Unity Developer 12 hónapos tanfolyamcsomag',
+          id: '17b62be2-c693-4fa3-a79a-382e789f838a',
+          price: '69900',
+          brand: 'NetAcademia',
+          category: 'Elofizetes',
+          variant: '',
+          list: 'Előfizetés',
           position: 1
         },
         csharp: {
-          name: "Certified Junior C# Developer 12 hónapos tanfolyamcsomag",
-          id: "d5e46a95-4f92-46df-bfe9-4e70eb3c38d0",
-          price: "69900",
-          brand: "NetAcademia",
-          category: "Elofizetes",
-          variant: "",
-          list: "Előfizetés",
+          name: 'Certified Junior C# Developer 12 hónapos tanfolyamcsomag',
+          id: 'd5e46a95-4f92-46df-bfe9-4e70eb3c38d0',
+          price: '69900',
+          brand: 'NetAcademia',
+          category: 'Elofizetes',
+          variant: '',
+          list: 'Előfizetés',
           position: 2
         },
         vue: {
-          name: "Webfejlesztő leszek! VueJS Edition 12 hónapos tanfolyamcsomag",
-          id: "0ceafbab-4b10-4835-9a25-f4a4876690b6",
-          price: "29900",
-          brand: "NetAcademia",
-          category: "Elofizetes",
-          variant: "",
-          list: "Előfizetés",
+          name: 'Webfejlesztő leszek! VueJS Edition 12 hónapos tanfolyamcsomag',
+          id: '0ceafbab-4b10-4835-9a25-f4a4876690b6',
+          price: '29900',
+          brand: 'NetAcademia',
+          category: 'Elofizetes',
+          variant: '',
+          list: 'Előfizetés',
           position: 3
         },
         angular: {
           name:
-            "Webfejlesztő leszek! Angular Edition 12 hónapos tanfolyamcsomag",
-          id: "2d7fea29-44b4-4497-8114-872a0a43d6b7",
-          price: "29900",
-          brand: "NetAcademia",
-          category: "Elofizetes",
-          variant: "",
-          list: "Előfizetés",
+            'Webfejlesztő leszek! Angular Edition 12 hónapos tanfolyamcsomag',
+          id: '2d7fea29-44b4-4497-8114-872a0a43d6b7',
+          price: '29900',
+          brand: 'NetAcademia',
+          category: 'Elofizetes',
+          variant: '',
+          list: 'Előfizetés',
           position: 4
         },
         ecommerce: {
-          name: "Certified E-commerce Specialist 12 hónapos tanfolyamcsomag",
-          id: "2d7fea29-44b4-4497-8114-872a0a43d6b7",
-          price: "49900",
-          brand: "NetAcademia",
-          category: "Elofizetes",
-          variant: "",
-          list: "Előfizetés",
+          name: 'Certified E-commerce Specialist 12 hónapos tanfolyamcsomag',
+          id: '2d7fea29-44b4-4497-8114-872a0a43d6b7',
+          price: '49900',
+          brand: 'NetAcademia',
+          category: 'Elofizetes',
+          variant: '',
+          list: 'Előfizetés',
           position: 5
         },
 
         windowsserver: {
-          name: "Certified Windows Administrator 12 hónapos tanfolyamcsomag",
-          id: "0",
-          price: "89900",
-          brand: "NetAcademia",
-          category: "Elofizetes",
-          variant: "",
-          list: "Előfizetés",
+          name: 'Certified Windows Administrator 12 hónapos tanfolyamcsomag',
+          id: '0',
+          price: '89900',
+          brand: 'NetAcademia',
+          category: 'Elofizetes',
+          variant: '',
+          list: 'Előfizetés',
           position: 6
         },
 
         ultimate: {
-          name: "NetAcademia Ultimate 12 hónapos tanfolyamcsomag",
-          id: "0",
-          price: "126873",
-          brand: "NetAcademia",
-          category: "Elofizetes",
-          variant: "",
-          list: "Előfizetés",
+          name: 'NetAcademia Ultimate 12 hónapos tanfolyamcsomag',
+          id: '0',
+          price: '126873',
+          brand: 'NetAcademia',
+          category: 'Elofizetes',
+          variant: '',
+          list: 'Előfizetés',
           position: 7
         },
         office: {
-          name: "Office és irodai alkalmazások 12 hónapos tanfolyamcsomag",
-          id: "68cad24a-c08b-4724-910a-c25dc743e9d3",
-          price: "62230",
-          brand: "NetAcademia",
-          category: "Elofizetes",
-          variant: "",
-          list: "Előfizetés",
+          name: 'Office és irodai alkalmazások 12 hónapos tanfolyamcsomag',
+          id: '68cad24a-c08b-4724-910a-c25dc743e9d3',
+          price: '62230',
+          brand: 'NetAcademia',
+          category: 'Elofizetes',
+          variant: '',
+          list: 'Előfizetés',
           position: 8
         }
       }
@@ -567,7 +366,7 @@ main {
   height: 100%;
   color: #ffffff;
   font-size: 18px;
-  background-image: url("~/assets/elofizetes/background.jpg");
+  background-image: url('~/assets/elofizetes/background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -690,14 +489,9 @@ main {
   }
 
   .dotted-bg {
-    background: url("~/assets/elofizetes/dotted-img.svg");
+    background: url('~/assets/elofizetes/dotted-img.svg');
     background-repeat: no-repeat;
     background-position: center;
-  }
-
-  .text-size {
-    height: 160px;
-    /*width: 250px;*/
   }
 
   .list-height {
@@ -724,11 +518,6 @@ main {
 
   .second-hero h4 {
     font-size: 35px;
-  }
-
-  .text-size {
-    height: 200px;
-    /*width: 250px;*/
   }
 
   .list-height {
