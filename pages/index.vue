@@ -100,7 +100,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext");
 
 .fullscreen {

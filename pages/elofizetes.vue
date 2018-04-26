@@ -6,7 +6,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="/">
-      <img width="40px" src="img/mainpage/logo.png" alt="NetAcademia Oktatóközpont Kft." />
+      <img width="40px" src="/logo.png" alt="NetAcademia Oktatóközpont Kft." />
     </a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav mx-auto">
@@ -31,7 +31,7 @@
       <p class="lead mt-1 mb-5">A NetAcademia Certificate programunkban olyan szakmákat tanulhatsz, melyekkel akár távmunkában is dolgozhatsz, ezzel
         jelentősen növelve a munkakeresésed esélyeit! Mindegy, hogy Piripócson élsz, vagy a Bahamákon, velünk eljuthasz a
         következő szintre. Távmunkához távtanulás dukál!</p>
-<p class="lead">Több tanfolyamsorozatot is elvégeznél? Válaszd <a href="#ultimate" class="text-danger font-weight-bold">Ultimate előfizetésünket</a>, mellyel mindegyik elérhető!</p>
+      <p class="lead">Több tanfolyamsorozatot is elvégeznél? Válaszd <a href="#ultimate" class="text-danger font-weight-bold">Ultimate előfizetésünket</a>, mellyel mindegyik elérhető!</p>
       <div class="row pt-2">
         <div class="col-3 col-lg-1 my-auto">
           <a href="https://app.netacademia.hu/unity-developer"><img src="~/assets/elofizetes/unity-logo.svg" alt="unity-logo" width="60"></a>
@@ -142,6 +142,7 @@
           </div>
         </div>
       </div>
+    </div>
 
     <div class="row pt-5 justify-content-center dotted-bg">
 
@@ -433,8 +434,6 @@
         <a class="btn btn-lg btn-danger" href="https://app.netacademia.hu/certificate" role="button">Részletek</a>
       </div>
     </div>
-
-    </div>
   </div>
 
   <footer style="height:200px;"></footer>
@@ -469,13 +468,7 @@ export default {
       //   rel: "stylesheet",
       //   href: "https://fonts.googleapis.com/css?family=Montserrat"
       // }
-    ],
-    htmlAttrs: {
-      class: "base"
-    },
-    bodyAttrs: {
-      class: "base background"
-    }
+    ]
   },
   data: function() {
     return {
@@ -569,14 +562,11 @@ export default {
 };
 </script>
 
-<style>
-base {
+<style scoped>
+main {
   height: 100%;
   color: #ffffff;
   font-size: 18px;
-}
-
-background {
   background-image: url("~/assets/elofizetes/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -773,7 +763,7 @@ background {
 }
 
 @media (min-width: 1150px) {
-  base {
+  main {
     font-size: 18px;
   }
   .section-szakma {
@@ -783,7 +773,7 @@ background {
 }
 
 @media (min-width: 1300px) {
-  base {
+  main {
     font-size: 18px;
   }
   .section-szakma {
