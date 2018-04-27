@@ -101,7 +101,9 @@
                                 :gtm-data="GTMProductCollection.angular">
         <img src="~/assets/elofizetes/angular-logo.svg" alt="angular-logo" width="130" class="mx-auto img-border">
       </elofizetes-product-card>
+    </div>
 
+    <div class="row pt-5 justify-content-center dotted-bg">
       <elofizetes-product-card  title="Certified E-commerce Specialist"
                                 who="Az üzletember"
                                 description="Legyél Certified E-commerce Specialist, lendítsd fel eladásaidat, vagy készíts egy teljesen új webshopot!"
