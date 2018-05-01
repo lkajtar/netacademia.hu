@@ -18,12 +18,15 @@
       </div>
     </nav>
     <nuxt/>
-    <!-- <footer style="height:200px;"></footer> -->
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Footer from '~/components/Footer.vue';
+
 export default {
+  components: { Footer },
   head: {
     script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js' },
