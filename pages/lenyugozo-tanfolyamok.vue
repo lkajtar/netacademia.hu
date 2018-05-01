@@ -27,7 +27,7 @@
           </div>
 
           <div class="col-12 col-md-4 blockk">
-            <a href="#c#">
+            <a href="#csharp">
               <bounce class="single-special text-center" direction="bounceIn">
                 <img src="~/assets/lenyugozo-tanfolyamok/icon-cloud-c.svg" alt="" width="75" class="img-fluid mb-4">
                 <h4>C#</h4>
@@ -114,7 +114,7 @@
       <!-- product: csharp -->
       <div class="py-5 bg-light">
         <div class="container py-lg-5">
-          <div class="row" id="c#">
+          <div class="row" id="csharp">
             <div class="col-7 col-lg-6 my-auto mb-5 mb-lg-0 mx-auto p-lg-5">
               <bounce direction="bounceInLeft">
                 <img src="~/assets/lenyugozo-tanfolyamok/chat-robot.png" alt="" class="img-fluid">

@@ -1,6 +1,5 @@
 <template>
-  <main class="fullscreen-bg">
-
+  <main>
     <video loop muted autoplay poster="/background.jpg" class="fullscreen-bg__video">
       <source src="https://player.vimeo.com/external/264778690.hd.mp4?s=8b80ecb93aeb209e06951980b8d335424dc83c37&profile_id=174">
     </video>
@@ -33,12 +32,12 @@
     <div class="vfkozepre">
       <div class="cim">Teremtsd meg a jövőd!</div>
       <div class="gombdoboz">
-        <nuxt-link to="/elofizetes#kepzes">
+        <a href="/elofizetes#kepzes">
           <div class="gomb">Képzéseink</div>
-        </nuxt-link>
-        <nuxt-link to="/elofizetes#elofizetes">
+        </a>
+        <a href="/elofizetes#elofizetes">
           <div class="gomb">Előfizetés</div>
-        </nuxt-link>
+        </a>
 
         <a href="http://app.netacademia.hu/webfejleszto-vuejs">
           <div class="akciogomb">Webfejlesztői akció</div>
@@ -96,9 +95,7 @@ export default {
 };
 </script>
 
-<style scoped>
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
-
+<style>
 .fullscreen {
   height: 100%;
   margin: 0;
@@ -115,6 +112,10 @@ export default {
   background-position: center;
   background-size: cover;
 }
+</style>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
 
 .fullscreen-bg__video {
   position: absolute;
