@@ -5,7 +5,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img width="40px" src="/logo.png" alt="NetAcademia Oktatóközpont Kft." />
+        <img width="40px" src="~/assets/logo-ikon.svg" alt="NetAcademia Oktatóközpont Kft." />
       </a>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav mx-auto">

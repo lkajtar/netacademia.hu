@@ -5,7 +5,7 @@
       <div class="row py-3 mx-auto justify-content-center text-uppercase font-weight-bold">
 
         <div class="col-12 col-sm-6 col-lg-3 my-auto ">
-          <nuxt-link to="/"><img src="~/assets/lenyugozo-tanfolyamok/logo.svg" alt="logo" width="220" class="lg-px-3"></nuxt-link>
+          <nuxt-link to="/"><img src="~/assets/logo.svg" alt="logo" width="220" class="lg-px-3"></nuxt-link>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-3">

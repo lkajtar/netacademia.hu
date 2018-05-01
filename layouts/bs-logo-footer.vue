@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="navbar fixed-top">
-      <a class="navbar-brand" href="/"><img src="~/assets/lenyugozo-tanfolyamok/logo-ikon.svg" height="50" alt="logo" style="background-color: transparent;"></a>
+      <a class="navbar-brand" href="/"><img src="~/assets/logo-ikon.svg" height="50" alt="logo" style="background-color: transparent;"></a>
     </nav>
     <nuxt/>
     <Footer></Footer>

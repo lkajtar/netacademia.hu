@@ -4,7 +4,7 @@
       <source src="https://player.vimeo.com/external/264778690.hd.mp4?s=8b80ecb93aeb209e06951980b8d335424dc83c37&profile_id=174">
     </video>
 
-    <img class="logocska" src="/logo.png" alt="NetAcademia Oktatóközpont Kft.">
+    <img class="logocska" src="~/assets/logo-ikon.svg" alt="NetAcademia Oktatóközpont Kft.">
     <div id="headerbox">
       <ol>
         <li>
