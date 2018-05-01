@@ -9,7 +9,13 @@ export default {
   props: {
     direction: {
       type: String,
-      default: 'bounceIn'
+      default: 'bounceIn',
+      validator: function(value) {
+        // The value must match one of these strings
+        return (
+          ['bounceIn', 'bounceInLeft', 'bounceInRight'].indexOf(value) !== -1
+        );
+      }
     }
   },
   data: function() {
