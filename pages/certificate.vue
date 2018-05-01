@@ -345,7 +345,7 @@ main {
     margin-top: 90px;
   }
 
-  html {
+  main {
     font-size: 18px;
   }
 }
@@ -357,7 +357,7 @@ main {
 }
 
 @media (min-width: 1200px) {
-  html {
+  main {
     font-size: 16px;
   }
 
@@ -482,7 +482,7 @@ main {
 }
 
 @media (min-width: 1400px) {
-  html {
+  main {
     font-size: 17px;
   }
 

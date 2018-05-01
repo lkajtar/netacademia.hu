@@ -3,7 +3,7 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <nuxt-link class="navbar-brand" href="/">
+    <nuxt-link class="navbar-brand" to="/">
       <img width="40px" src="~/assets/logo-ikon.svg" alt="NetAcademia Oktatóközpont Kft." />
     </nuxt-link>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
