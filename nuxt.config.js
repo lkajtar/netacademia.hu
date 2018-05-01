@@ -2,28 +2,28 @@ const ghPagesConf =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/netacademia.hu/',
-          linkActiveClass: 'active',
-          scrollBehavior: function(to, from, savedPosition) {
-            return { x: 0, y: 0 };
-          }
+          base: '/netacademia.hu/'
         },
         generate: {
           dir: 'dist-ghpages'
         }
       }
-    : {};
+    : {
+        router: {},
+        generate: {}
+      };
 
 module.exports = {
   /*
   ** Custom router base to serve from project repo on github pages from the gh-pages branch
   ** Custom generation dir
   */
-  ...ghPagesConf,
+  ...ghPagesConf.generate,
   /*
   * scroll to top on route change
   */
   router: {
+    ...ghPagesConf.router,
     linkActiveClass: 'active',
     scrollBehavior: function(to, from, savedPosition) {
       return { x: 0, y: 0 };
