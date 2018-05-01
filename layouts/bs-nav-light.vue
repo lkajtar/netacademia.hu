@@ -1,28 +1,15 @@
 <template>
   <div>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="/">
-        <img width="40px" src="~/assets/logo-ikon.svg" alt="NetAcademia Oktatóközpont Kft." />
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mx-auto">
-          <a class="nav-item nav-link active" href="/elofizetes">Előfizetés</a>
-          <a class="nav-item nav-link" href="/indulotanfolyamok">Induló tanfolyamok</a>
-          <a class="nav-item nav-link" href="/tanfolyamkeresov2">Tanfolyamkereső</a>
-          <a class="nav-item nav-link" href="/ultimateakcio">Akció</a>
-          <a class="nav-item nav-link" href="/certificate">NetAcademia vizsga</a>
-        </div>
-      </div>
-    </nav>
+    <Navigation theme="light"></Navigation>
     <nuxt />
   </div>
 </template>
 
 <script>
+import Navigation from '~/components/Navigation.vue';
+
 export default {
+  components: { Navigation },
   head: {
     script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js' },
