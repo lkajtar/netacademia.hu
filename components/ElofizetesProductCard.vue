@@ -6,8 +6,8 @@
       </div>
       <div class="col-12 text-center">
         <h4 class="my-4">{{ title }}
-              <br>
-              <small>{{ subtitle }}</small>
+          <br>
+          <small>{{ subtitle }}</small>
         </h4>
       </div>
       <div class="col-9">
@@ -21,10 +21,7 @@
           <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">{{ length }}</p>
       </div>
       <div class="col-12 text-center">
-        <gtm-link :gtm-data="gtmData"
-                  class="btn btn-primary"
-                  :href="link"
-                  role="button">
+        <gtm-link :gtm-data="gtmData" class="btn btn-primary" :href="link" role="button">
           Megnézem
         </gtm-link>
       </div>

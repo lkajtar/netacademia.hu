@@ -1,51 +1,48 @@
 <template>
   <main class="fullscreen-bg">
 
-    <video loop muted autoplay
-           poster="/background.jpg"
-           class="fullscreen-bg__video">
-      <source
-        src="https://player.vimeo.com/external/264778690.hd.mp4?s=8b80ecb93aeb209e06951980b8d335424dc83c37&profile_id=174">
+    <video loop muted autoplay poster="/background.jpg" class="fullscreen-bg__video">
+      <source src="https://player.vimeo.com/external/264778690.hd.mp4?s=8b80ecb93aeb209e06951980b8d335424dc83c37&profile_id=174">
     </video>
 
-
-    <img class="logocska" src="/logo.png"
-         alt="NetAcademia Oktatóközpont Kft.">
+    <img class="logocska" src="/logo.png" alt="NetAcademia Oktatóközpont Kft.">
     <div id="headerbox">
       <ol>
-                        <li>
-                            <a href="http://app.netacademia.hu/tanfolyamkeresov2">Tanfolyamkereső</a>
-                        </li>
-                        <li>
-                            <a href="http://app.netacademia.hu/indulotanfolyamok">Induló tanfolyamok</a>
-                        </li>
-                        <li>
-                            <a href="http://app.netacademia.hu/certificate" class="hideonmobile">NetAcademia Certificate</a>
-                        </li>
-                         <li>
-                            <a href="http://app.netacademia.hu/lenyugozo-tanfolyamok" class="hideonmobile">
-                                Lenyűgöző tanfolyamok</a>
-                        </li>
-                        <li>
-                            <a href="http://app.netacademia.hu/Adataim">Adataim</a>
-                        </li>
+        <li>
+          <a href="http://app.netacademia.hu/tanfolyamkeresov2">Tanfolyamkereső</a>
+        </li>
+        <li>
+          <a href="http://app.netacademia.hu/indulotanfolyamok">Induló tanfolyamok</a>
+        </li>
+        <li>
+          <a href="http://app.netacademia.hu/certificate" class="hideonmobile">NetAcademia Certificate</a>
+        </li>
+        <li>
+          <nuxt-link to="/lenyugozo-tanfolyamok" class="hideonmobile">
+            Lenyűgöző tanfolyamok
+          </nuxt-link>
+          <!-- <a href="http://app.netacademia.hu/lenyugozo-tanfolyamok" class="hideonmobile">
+                                Lenyűgöző tanfolyamok</a> -->
+        </li>
+        <li>
+          <a href="http://app.netacademia.hu/Adataim">Adataim</a>
+        </li>
       </ol>
     </div>
-
 
     <div class="vfkozepre">
       <div class="cim">Teremtsd meg a jövőd!</div>
       <div class="gombdoboz">
-                        <nuxt-link to="/elofizetes#kepzes">
-                            <div class="gomb">Képzéseink</div>
-                        </nuxt-link>
-                        <nuxt-link to="/elofizetes#elofizetes">
-                            <div class="gomb">Előfizetés</div>
-                        </nuxt-link>
+        <nuxt-link to="/elofizetes#kepzes">
+          <div class="gomb">Képzéseink</div>
+        </nuxt-link>
+        <nuxt-link to="/elofizetes#elofizetes">
+          <div class="gomb">Előfizetés</div>
+        </nuxt-link>
 
-                        <a href="http://app.netacademia.hu/webfejleszto-vuejs">
-                            <div class="akciogomb">Webfejlesztői akció</div>
-                        </a>
+        <a href="http://app.netacademia.hu/webfejleszto-vuejs">
+          <div class="akciogomb">Webfejlesztői akció</div>
+        </a>
       </div>
       <br/>
       <div class="hirlev">
@@ -55,7 +52,6 @@
       </div>
     </div>
 
-
     <div class="lablec vkozepre">
       © NetAcademia 1998-{{ currentYear }}
       <span>
@@ -64,12 +60,12 @@
       <span>
         <a href="http://app.netacademia.hu/GeneralTermsAndConditions/PrivacyStatement">Adatvédelem</a>
       </span>
-                    <span>
-                        <a href="http://app.netacademia.hu/kapcsolat" class="hideonmobile">Kapcsolat</a>
-                    </span>
-                    <span>
-                        <a href="http://app.netacademia.hu/oktato" class="hideonmobile">Jelentkezz oktatónak!</a>
-                    </span>
+      <span>
+        <a href="http://app.netacademia.hu/kapcsolat" class="hideonmobile">Kapcsolat</a>
+      </span>
+      <span>
+        <a href="http://app.netacademia.hu/oktato" class="hideonmobile">Jelentkezz oktatónak!</a>
+      </span>
     </div>
   </main>
 </template>
@@ -83,38 +79,38 @@ export default {
   },
   head: {
     htmlAttrs: {
-      class: "fullscreen"
+      class: 'fullscreen'
     },
     bodyAttrs: {
-      class: "fullscreen-bg"
+      class: 'fullscreen-bg'
     },
     script: [
       {
         innerHTML:
           'dataLayer = [{ "UnsignedUser": "True", "SignedUser": "False", "pageCategory": "Főoldal" }];',
-        type: "application/ld+json"
+        type: 'application/ld+json'
       }
     ],
-    __dangerouslyDisableSanitizers: ["script"]
+    __dangerouslyDisableSanitizers: ['script']
   }
 };
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
 
 .fullscreen {
   height: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: "Work sans", Arial;
+  font-family: 'Work sans', Arial;
   color: white;
 }
 
 .fullscreen-bg {
   z-index: -100;
-  background: url("/background.jpg");
+  background: url('/background.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
