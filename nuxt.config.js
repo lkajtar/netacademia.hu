@@ -17,6 +17,14 @@ module.exports = {
   */
   ...ghPagesConf,
   /*
+  * scroll to top on route change
+  */
+  router: {
+    scrollBehavior: function(to, from, savedPosition) {
+      return { x: 0, y: 0 };
+    }
+  },
+  /*
   ** Headers of the page
   */
   head: {
