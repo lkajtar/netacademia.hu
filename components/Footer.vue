@@ -36,7 +36,7 @@
               <nuxt-link to="/elofizetes">Előfizetés</nuxt-link>
             </li>
             <li class="py-1">
-              <a href="https://app.netacademia.hu/certificate">NetAcademia Certificate</a>
+              <nuxt-link to="/certificate">NetAcademia Certificate</nuxt-link>
             </li>
             <li class="py-1">
               <nuxt-link to="/lenyugozo-tanfolyamok">Lenyűgöző tanfolyamok</nuxt-link>
