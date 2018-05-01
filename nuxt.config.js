@@ -2,7 +2,11 @@ const ghPagesConf =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/netacademia.hu/'
+          base: '/netacademia.hu/',
+          linkActiveClass: 'active',
+          scrollBehavior: function(to, from, savedPosition) {
+            return { x: 0, y: 0 };
+          }
         },
         generate: {
           dir: 'dist-ghpages'
