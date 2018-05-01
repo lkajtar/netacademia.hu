@@ -14,7 +14,7 @@
           <a href="http://app.netacademia.hu/indulotanfolyamok">Induló tanfolyamok</a>
         </li>
         <li>
-          <a href="http://app.netacademia.hu/certificate" class="hideonmobile">NetAcademia Certificate</a>
+          <nuxt-link to="/certificate" class="hideonmobile">NetAcademia Certificate</nuxt-link>
         </li>
         <li>
           <nuxt-link to="/lenyugozo-tanfolyamok" class="hideonmobile">

@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="mt-5">
     <div class="jumbotron jumbotron-fluid">
       <div class="container px-md-5">
         <div class="row">
@@ -22,7 +22,7 @@
       <div class="row justify-content-center">
 
         <div class="col-lg-5 my-auto p-5">
-          <img src="/certificate/certi.svg" alt="" class="img-fluid mb-5 border">
+          <img src="~/assets/certificate/certi.svg" alt="" class="img-fluid mb-5 border">
         </div>
 
         <div class="col-lg-7 p-md-3 p-lg-5 my-auto">
@@ -32,7 +32,7 @@
 
           <!-- feature -->
           <div class="feature my-4">
-            <img src="/certificate/pipa.svg" class="feature-icon-pipa">
+            <img src="~/assets/certificate/pipa.svg" class="feature-icon-pipa">
             <div class="feature-content">
               <h4>Garancia a versenyképes szakmai tudásra</h4>
               <p>A sikeres vizsga bizonyíték arra, hogy képes vagy statikus és dinamikus reszponzív weboldalak készítésére, elboldogulsz a webprogramozás és az alkalmazásfejlesztés világában is.</p>
@@ -42,7 +42,7 @@
 
           <!-- feature -->
           <div class="feature my-4">
-            <img src="/certificate/pipa.svg" class="feature-icon-pipa">
+            <img src="~/assets/certificate/pipa.svg" class="feature-icon-pipa">
             <div class="feature-content">
               <h4>Ellenőrzött referenciamunka</h4>
               <p>A pályakezdők többsége nem rendelkezik megfelelő minőségű referenciamunkával, de vizsgamunkáddal ezt a hiányosságot is pótolhatod. A tanfolyam és a vizsga során elkészített projektfeladatodat is nyugodt szívvel megmutathatod egy-egy állásinterjú alkalmával.
@@ -51,7 +51,7 @@
           </div>
 
           <div class="feature my-4">
-            <img src="/certificate/pipa.svg" class="feature-icon-pipa">
+            <img src="~/assets/certificate/pipa.svg" class="feature-icon-pipa">
             <div class="feature-content">
               <h4>„Papírral” könnyebb</h4>
               <p>A megszerzett certificate előnyt jelent a munkaerőpiacon, gyorsabban találhatsz munkát általa. Tanúsítványunkat magyar és angol nyelven, papír- és elektronikus formában is megkapod. Az elektronikus certificate-hez QR-kóddal bármikor könnyedén hozzáférhetsz.
@@ -88,7 +88,7 @@
         <!-- feature -->
         <div class="col-11 col-md-9">
           <div class="feature my-2">
-            <img src="/certificate/egy.svg" class="feature-icon">
+            <img src="~/assets/certificate/egy.svg" class="feature-icon">
             <div class="feature-content">
               <h4>Vizsgára jelentkezés</h4>
               <p class="mb-2">A vizsgára való jelentkezéshez kattints a „Vizsgára jelentkezem” gombra, majd add meg adataidat. Az emailben megkapott linken egy előzetes, 50 kérdésből álló tesztet kell kitöltened. Ha ez sikeres, megkapod a projektfeladatot, és kiválaszthatod a számodra megfelelő szóbeli vizsga időpontját. A vizsgaidőpont előtt legalább egy héttel le kell adnod a projektfeladatot, aminek módjáról a feladatkiadás során kapsz tájékoztatást.</p>
@@ -105,7 +105,7 @@
 
           <!-- feature -->
           <div class="feature my-5">
-            <img src="/certificate/ketto.svg" class="feature-icon">
+            <img src="~/assets/certificate/ketto.svg" class="feature-icon">
             <div class="feature-content">
               <h4>Teszt</h4>
               <p>Akár elvégezted tanfolyamainkat, akár nem, egy 50 kérdésből álló teszt sikeres kitöltése előfeltétele a vizsgának. Sikertelen teszt esetén újból jelentkezned kell, mely a vizsgadíj ismételt befizetését is jelenti. A teszt előfeltétele a projektfeladat kiadásának is, tehát a vizsgázó nem kezdhet el dolgozni a projekten a teszt sikeres kitöltése előtt.</p>
@@ -113,7 +113,7 @@
           </div>
 
           <div class="feature my-5">
-            <img src="/certificate/harom.svg" class="feature-icon">
+            <img src="~/assets/certificate/harom.svg" class="feature-icon">
             <div class="feature-content">
               <h4>Projektfeladat</h4>
               <p>A vizsgafeladat kiadása email-ben fog történni és hasonló lesz a kurzus során elkészített munkához. A feladat elkészítésére maximum 4 hét áll rendelkezésedre, és a kész munkát legalább egy héttel az általad választott szóbeli vizsga előtt kell eljuttatnod hozzánk. Ha később jelentkezel vizsgára, akkor saját felelősségedre 4 hétnél kevesebb idő alatt is megpróbálhatod elkészíteni a projektfeladatot. Ha lemaradtál a jelentkezésről, ne aggódj, újabb vizsgaidőpontokat is megadunk majd a későbbiek során.</p>
@@ -121,7 +121,7 @@
           </div>
 
           <div class="feature my-5">
-            <img src="/certificate/negy.svg" class="feature-icon">
+            <img src="~/assets/certificate/negy.svg" class="feature-icon">
             <div class="feature-content">
               <h4>A Projektfeladat értékelése</h4>
               <p>A tanár a projektfeladatot előzetesen ismertetett szempontok alapján értékeli. Amennyiben úgy értékeli a leadott projekt alapján, hogy a vizsgázó nem elégséges teljesítményt nyújt, akkor az a szóbeli védést megelőzően is bukáshoz vezethet. Ebben az esetben a tanár egy rövid indoklást küldd a projektfeladattal kapcsolatban, azonban részletesebb vitára, megbeszélésre nem lesz elérhető.
@@ -130,7 +130,7 @@
           </div>
 
           <div class="feature my-5">
-            <img src="/certificate/ot.svg" class="feature-icon">
+            <img src="~/assets/certificate/ot.svg" class="feature-icon">
             <div class="feature-content">
               <h4>A vizsgafeladat védése</h4>
               <p>A szóbeli vizsga is online, Skype-os megbeszélés során, zajlik. A „védés” során a vizsgáztató tanár kérdéseket tesz fel, illetve a projektfeladat egyes részeit illetően kiegészítéseket kérhet. Ezek a kérdések vonatkozhatnak pl. a vizsgamunkában lévő félreérthető vagy kidolgozatlan elemekre, a tanár által nem ismert részletekre, a vizsgázó véleményére, vagy válaszaira.</p>
@@ -146,7 +146,7 @@
         <div class="row justify-content-center">
           <div class="col-12 col-lg-4 col-xl-3 text-center">
             <figure class="figure">
-              <img src="/certificate/nagy-david.png" class="figure-img img-fluid rounded" alt="Nagy Dávid">
+              <img src="~/assets/certificate/nagy-david.png" class="figure-img img-fluid rounded" alt="Nagy Dávid">
               <figcaption class="figure-caption">
                 <p class="mb-0">Nagy Dávid</p>
                 <p class="mb-0">Toborzási és kiválasztási szakértő</p>
@@ -172,19 +172,19 @@
         </div>
 
         <div class="col-2 text-center">
-          <img src="/certificate/bootstrap.png" alt="" class="img-fluid" width="80">
+          <img src="~/assets/certificate/bootstrap.png" alt="" class="img-fluid" width="80">
         </div>
         <div class="col-2 text-center">
-          <img src="/certificate/jquery.png" alt="" class="img-fluid" width="80">
+          <img src="~/assets/certificate/jquery.png" alt="" class="img-fluid" width="80">
         </div>
         <div class="col-2 text-center">
-          <img src="/certificate/angular.png" alt="" class="img-fluid" width="80">
+          <img src="~/assets/certificate/angular.png" alt="" class="img-fluid" width="80">
         </div>
         <div class="col-2 text-center">
-          <img src="/certificate/ionic.png" alt="" class="img-fluid" width="80">
+          <img src="~/assets/certificate/ionic.png" alt="" class="img-fluid" width="80">
         </div>
         <div class="col-2 text-center">
-          <img src="/certificate/electron.png" alt="" class="img-fluid" width="80">
+          <img src="~/assets/certificate/electron.png" alt="" class="img-fluid" width="80">
         </div>
       </div>
 
@@ -197,30 +197,7 @@
 
 <script>
 export default {
-  head: {
-    script: [
-      { src: 'https://code.jquery.com/jquery-3.2.1.slim.min.js' },
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'
-      },
-      {
-        src:
-          'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'
-      }
-    ],
-    link: [
-      {
-        rel: 'stylesheet',
-        href:
-          'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Montserrat'
-      }
-    ]
-  }
+  layout: 'bs-nav-light'
 };
 </script>
 
@@ -231,28 +208,28 @@ main {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 
-  background: url('/certificate/header-xs.svg');
+  background: url('~/assets/certificate/header-xs.svg');
   background-size: 200%;
   background-repeat: no-repeat;
 }
 
 .bg_bottom {
   height: 160px;
-  background: url('/certificate/footer-xs.svg');
+  background: url('~/assets/certificate/footer-xs.svg');
   background-size: 200%;
   background-repeat: no-repeat;
 }
 
 @media (min-width: 470px) {
   main {
-    background: url('/certificate/header-sm.svg');
+    background: url('~/assets/certificate/header-sm.svg');
     background-size: 150%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 160px;
-    background: url('/certificate/footer-sm.svg');
+    background: url('~/assets/certificate/footer-sm.svg');
     background-size: 150%;
     background-repeat: no-repeat;
   }
@@ -260,14 +237,14 @@ main {
 
 @media (min-width: 600px) {
   main {
-    background: url('/certificate/header-md.svg');
+    background: url('~/assets/certificate/header-md.svg');
     background-size: 150%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 150px;
-    background: url('/certificate/footer-svg.png');
+    background: url('~/assets/certificate/footer-md.svg');
     background-size: 150%;
     background-repeat: no-repeat;
   }
@@ -275,14 +252,14 @@ main {
 
 @media (min-width: 800px) {
   main {
-    background: url('/certificate/header-lg.svg');
+    background: url('~/assets/certificate/header-lg.svg');
     background-size: 100%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 200px;
-    background: url('/certificate/footer-lg.svg');
+    background: url('~/assets/certificate/footer-lg.svg');
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -290,14 +267,14 @@ main {
 
 @media (min-width: 992px) {
   main {
-    background: url('/certificate/header-xl.svg');
+    background: url('~/assets/certificate/header-xl.svg');
     background-size: 100%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 250px;
-    background: url('/certificate/footer-xl.svg');
+    background: url('~/assets/certificate/footer-xl.svg');
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -305,14 +282,14 @@ main {
 
 @media (min-width: 1200px) {
   main {
-    background: url('/certificate/header-xxl.svg');
+    background: url('~/assets/certificate/header-xxl.svg');
     background-size: 100%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 250px;
-    background: url('/certificate/footer-xxl.svg');
+    background: url('~/assets/certificate/footer-xxl.svg');
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -321,7 +298,7 @@ main {
 @media (min-width: 1600px) {
   .bg_bottom {
     height: 400px;
-    background: url('/certificate/footer-xxl.svg');
+    background: url('~/assets/certificate/footer-xxl.svg');
     background-size: 100%;
     background-repeat: no-repeat;
   }
