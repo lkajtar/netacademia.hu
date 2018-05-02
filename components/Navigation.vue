@@ -12,7 +12,7 @@
         <a class="nav-item nav-link" href="/indulotanfolyamok">Induló tanfolyamok</a>
         <nuxt-link class="nav-item nav-link" to="/certificate">NetAcademia Certificate</nuxt-link>
         <nuxt-link class="nav-item nav-link" to="/lenyugozo-tanfolyamok">Lenyűgöző tanfolyamok</nuxt-link>
-        <a class="nav-item nav-link" href="/ultimateakcio">Akció</a>
+        <nuxt-link class="nav-item nav-link" to="/ultimateakcio">Akció</nuxt-link>
         <nuxt-link class="nav-item nav-link" to="/elofizetes">Előfizetés</nuxt-link>
       </div>
     </div>
