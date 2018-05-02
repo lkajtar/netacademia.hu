@@ -39,9 +39,9 @@
           <div class="gomb">Előfizetés</div>
         </a>
 
-        <a href="http://app.netacademia.hu/webfejleszto-vuejs">
+        <nuxt-link to="/webfejleszto-vuejs">
           <div class="akciogomb">Webfejlesztői akció</div>
-        </a>
+        </nuxt-link>
       </div>
       <br/>
       <div class="hirlev">
