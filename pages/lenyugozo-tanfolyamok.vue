@@ -28,19 +28,19 @@
 
           <div class="col-12 col-md-4 blockk">
             <a href="#csharp">
-              <bounce class="single-special text-center" direction="in">
+              <Bounce class="single-special text-center" direction="in">
                 <img src="~/assets/lenyugozo-tanfolyamok/icon-cloud-c.svg" alt="" width="75" class="img-fluid mb-4">
                 <h4>C#</h4>
-              </bounce>
+              </Bounce>
             </a>
           </div>
 
           <div class="col-12 col-md-4 blockk">
             <a href="#unity">
-              <bounce class="single-special text-center" direction="in">
+              <Bounce class="single-special text-center" direction="in">
                 <img src="~/assets/lenyugozo-tanfolyamok/unity-3d-vector-icon-logo.svg" alt="" width="75" class="img-fluid mb-4">
                 <h4>UNITY</h4>
-              </bounce>
+              </Bounce>
             </a>
           </div>
         </div>
@@ -54,9 +54,9 @@
         <div class="container py-lg-5">
           <div class="row" id="htmlcss">
             <div class="col-7 col-lg-6 my-auto mx-auto p-lg-5">
-              <bounce class="mb-5 mb-lg-0" direction="left">
+              <Bounce class="mb-5 mb-lg-0" direction="left">
                 <img src="~/assets/lenyugozo-tanfolyamok/weblap.png" alt="" class="img-fluid">
-              </bounce>
+              </Bounce>
             </div>
             <div class="col-lg-6 col-xl-5 ml-xl-auto my-auto">
               <div class="special_description_content">
@@ -99,13 +99,13 @@
               </div>
             </div>
             <div class="col-11 pb-5 col-lg-6 order-1 order-lg-2 mx-auto p-lg-2 my-auto">
-              <bounce direction="right">
+              <Bounce direction="right">
                 <div class="embed-responsive embed-responsive-16by9">
                   <no-ssr>
                     <youtube class="embed-responsive-item animated" video-id="A3DuZSWu-mA"></youtube>
                   </no-ssr>
                 </div>
-              </bounce>
+              </Bounce>
             </div>
           </div>
         </div>
@@ -116,9 +116,9 @@
         <div class="container py-lg-5">
           <div class="row" id="csharp">
             <div class="col-7 col-lg-6 my-auto mb-5 mb-lg-0 mx-auto p-lg-5">
-              <bounce direction="left">
+              <Bounce direction="left">
                 <img src="~/assets/lenyugozo-tanfolyamok/chat-robot.png" alt="" class="img-fluid">
-              </bounce>
+              </Bounce>
             </div>
             <div class="col-lg-6 col-xl-5 ml-xl-auto my-auto">
               <div class="special_description_content">
@@ -159,9 +159,9 @@
               </div>
             </div>
             <div class="col-7 col-lg-6 my-auto mb-5 mb-lg-0 mx-auto p-lg-5 order-1 order-lg-2">
-              <bounce direction="right">
+              <Bounce direction="right">
                 <img src="~/assets/lenyugozo-tanfolyamok/server.png" alt="" class="img-fluid">
-              </bounce>
+              </Bounce>
             </div>
           </div>
         </div>

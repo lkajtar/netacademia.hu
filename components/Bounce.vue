@@ -12,14 +12,6 @@ export default {
       validator: function(value) {
         // The value must match one of these strings
         return ["in", "left", "right"].indexOf(value) !== -1;
-      },
-      computed: {
-        bounceDirectionClass() {
-          if (this.direction === "in") {
-            return "bounceIn";
-          }
-          return this.direction === "left" ? "bounceInLeft" : "bounceInRight";
-        }
       }
     }
   },
@@ -27,6 +19,15 @@ export default {
     return {
       visible: false
     };
+  },
+  computed: {
+    bounceDirectionClass: function() {
+      console.log(this.direction);
+      if (this.direction === "in") {
+        return "bounceIn";
+      }
+      return this.direction === "left" ? "bounceInLeft" : "bounceInRight";
+    }
   },
   methods: {
     VisibilityChanged: function(isVisible) {
