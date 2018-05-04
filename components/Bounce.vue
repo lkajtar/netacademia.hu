@@ -22,7 +22,6 @@ export default {
   },
   computed: {
     bounceDirectionClass: function() {
-      console.log(this.direction);
       if (this.direction === "in") {
         return "bounceIn";
       }

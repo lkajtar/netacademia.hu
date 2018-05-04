@@ -13,9 +13,7 @@
           <a href="https://www.netacademia.hu/subscription/create" class="btn-orange btn-lg ml-3">Megveszem</a>
         </div>
         <div class="text-center mt-5 d-none d-sm-block">
-          <a href="#akcio">
-            <img src="~/assets/ultimateakcio/down-arrow.png" alt="down-arrow" class="img-fluid bounce arrow" width="40">
-          </a>
+          <BouncingDownArrow href="#akcio"></BouncingDownArrow>
         </div>
       </div>
     </header>
@@ -202,7 +200,9 @@
 </template>
 
 <script>
+import BouncingDownArrow from "../components/BouncingDownArrow";
 export default {
+  components: {BouncingDownArrow},
   layout: "bs-logo-footer"
 };
 </script>
