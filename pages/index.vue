@@ -78,19 +78,19 @@ export default {
   },
   head: {
     htmlAttrs: {
-      class: 'fullscreen'
+      class: "fullscreen"
     },
     bodyAttrs: {
-      class: 'fullscreen-bg'
+      class: "fullscreen-bg"
     },
     script: [
       {
         innerHTML:
           'dataLayer = [{ "UnsignedUser": "True", "SignedUser": "False", "pageCategory": "Főoldal" }];',
-        type: 'application/ld+json'
+        type: "application/ld+json"
       }
     ],
-    __dangerouslyDisableSanitizers: ['script']
+    __dangerouslyDisableSanitizers: ["script"]
   }
 };
 </script>
@@ -101,13 +101,13 @@ export default {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: 'Work sans', Arial;
+  font-family: "Work sans", Arial;
   color: white;
 }
 
 .fullscreen-bg {
   z-index: -100;
-  background: url('/background.jpg');
+  background: url("/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -115,7 +115,7 @@ export default {
 </style>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext");
 
 .fullscreen-bg__video {
   position: absolute;

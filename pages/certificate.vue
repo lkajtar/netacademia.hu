@@ -197,7 +197,7 @@
 
 <script>
 export default {
-  layout: 'bs-nav-light'
+  layout: "bs-nav-light"
 };
 </script>
 
@@ -205,31 +205,31 @@ export default {
 /*jumbotron*/
 
 main {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
 
-  background: url('~/assets/certificate/header-xs.svg');
+  background: url("~/assets/certificate/header-xs.svg");
   background-size: 200%;
   background-repeat: no-repeat;
 }
 
 .bg_bottom {
   height: 160px;
-  background: url('~/assets/certificate/footer-xs.svg');
+  background: url("~/assets/certificate/footer-xs.svg");
   background-size: 200%;
   background-repeat: no-repeat;
 }
 
 @media (min-width: 470px) {
   main {
-    background: url('~/assets/certificate/header-sm.svg');
+    background: url("~/assets/certificate/header-sm.svg");
     background-size: 150%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 160px;
-    background: url('~/assets/certificate/footer-sm.svg');
+    background: url("~/assets/certificate/footer-sm.svg");
     background-size: 150%;
     background-repeat: no-repeat;
   }
@@ -237,14 +237,14 @@ main {
 
 @media (min-width: 600px) {
   main {
-    background: url('~/assets/certificate/header-md.svg');
+    background: url("~/assets/certificate/header-md.svg");
     background-size: 150%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 150px;
-    background: url('~/assets/certificate/footer-md.svg');
+    background: url("~/assets/certificate/footer-md.svg");
     background-size: 150%;
     background-repeat: no-repeat;
   }
@@ -252,14 +252,14 @@ main {
 
 @media (min-width: 800px) {
   main {
-    background: url('~/assets/certificate/header-lg.svg');
+    background: url("~/assets/certificate/header-lg.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 200px;
-    background: url('~/assets/certificate/footer-lg.svg');
+    background: url("~/assets/certificate/footer-lg.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -267,14 +267,14 @@ main {
 
 @media (min-width: 992px) {
   main {
-    background: url('~/assets/certificate/header-xl.svg');
+    background: url("~/assets/certificate/header-xl.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 250px;
-    background: url('~/assets/certificate/footer-xl.svg');
+    background: url("~/assets/certificate/footer-xl.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -282,14 +282,14 @@ main {
 
 @media (min-width: 1200px) {
   main {
-    background: url('~/assets/certificate/header-xxl.svg');
+    background: url("~/assets/certificate/header-xxl.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
 
   .bg_bottom {
     height: 250px;
-    background: url('~/assets/certificate/footer-xxl.svg');
+    background: url("~/assets/certificate/footer-xxl.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -298,7 +298,7 @@ main {
 @media (min-width: 1600px) {
   .bg_bottom {
     height: 400px;
-    background: url('~/assets/certificate/footer-xxl.svg');
+    background: url("~/assets/certificate/footer-xxl.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }

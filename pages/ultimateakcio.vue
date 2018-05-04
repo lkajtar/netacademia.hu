@@ -203,7 +203,7 @@
 
 <script>
 export default {
-  layout: 'bs-logo-footer'
+  layout: "bs-logo-footer"
 };
 </script>
 
@@ -218,7 +218,7 @@ main {
       rgba(43, 45, 66, 0.65),
       rgba(43, 45, 66, 0.65)
     ),
-    url('~/assets/ultimateakcio/background-image.png');
+    url("~/assets/ultimateakcio/background-image.png");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -433,4 +433,3 @@ h2 {
   }
 }
 </style>
-

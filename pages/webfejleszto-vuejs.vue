@@ -210,7 +210,7 @@
 
 <script>
 export default {
-  layout: 'bs-logo-footer'
+  layout: "bs-logo-footer"
 };
 </script>
 
@@ -329,7 +329,7 @@ p {
       rgba(43, 45, 66, 0.65),
       rgba(43, 45, 66, 0.65)
     ),
-    url('~/assets/webfejleszto-vuejs/background.jpg');
+    url("~/assets/webfejleszto-vuejs/background.jpg");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -426,7 +426,7 @@ h4 span {
 }
 
 .cd-container::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -440,7 +440,7 @@ h4 span {
 
 #cd-timeline::before {
   /* this is the vertical line */
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 33px;
@@ -467,7 +467,7 @@ h4 span {
 
 .cd-timeline-block::after {
   clear: both;
-  content: '';
+  content: "";
   display: table;
 }
 
@@ -570,7 +570,7 @@ h4 span {
 
 .cd-timeline-content::after {
   clear: both;
-  content: '';
+  content: "";
   display: table;
 }
 
@@ -592,7 +592,7 @@ h4 span {
 }
 
 .cd-timeline-content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 16px;
   right: 100%;

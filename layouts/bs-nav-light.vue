@@ -6,31 +6,31 @@
 </template>
 
 <script>
-import Navigation from '~/components/Navigation.vue';
+import Navigation from "~/components/Navigation.vue";
 
 export default {
   components: { Navigation },
   head: {
     script: [
-      { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js' },
+      { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" },
       {
         src:
-          'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js'
+          "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
       },
       {
         src:
-          'https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js'
+          "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
       }
     ],
     link: [
       {
-        rel: 'stylesheet',
+        rel: "stylesheet",
         href:
-          'https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css'
+          "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
       },
       {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Montserrat'
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Montserrat"
       }
     ]
   }
@@ -38,5 +38,4 @@ export default {
 </script>
 
 <style>
-
 </style>

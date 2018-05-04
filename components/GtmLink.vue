@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     Clicked: function() {
-      this.GTMEvent('productClick');
+      this.GTMEvent("productClick");
     },
     // AddToCartClicked: function() {
     //   this.GTMEvent("addToCart", id);
@@ -38,35 +38,35 @@ export default {
       this.visible = true;
 
       // GTM push
-      this.GTMEvent('productImpression');
+      this.GTMEvent("productImpression");
     },
     GTMEvent: function(eventType) {
       // temp
       console.log(JSON.stringify(this.GetGTMEvent(eventType)));
 
       // validate
-      if (typeof dataLayer === 'object') {
+      if (typeof dataLayer === "object") {
         // GTM push
         dataLayer.push(this.GetGTMEvent(eventType));
       }
     },
     GetGTMEvent: function(eventType, product) {
       switch (eventType) {
-        case 'productImpression':
+        case "productImpression":
           return {
-            event: 'productImpression',
+            event: "productImpression",
             ecommerce: {
               impressions: [this.gtmData]
             }
           };
 
-        case 'productClick':
+        case "productClick":
           return {
-            event: 'productClick',
+            event: "productClick",
             ecommerce: {
               click: {
                 actionField: {
-                  list: 'Előfizetés'
+                  list: "Előfizetés"
                 },
                 products: [this.gtmData]
               }

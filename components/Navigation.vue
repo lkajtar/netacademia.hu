@@ -24,22 +24,21 @@ export default {
   props: {
     theme: {
       type: String,
-      default: 'light',
+      default: "light",
       validator: function(val) {
-        return ['light', 'dark'].indexOf(val) !== -1;
+        return ["light", "dark"].indexOf(val) !== -1;
       }
     }
   },
   computed: {
     navThemeClass: function() {
-      return this.theme === 'light'
-        ? ['navbar-light', 'bg-light']
-        : ['navbar-dark', 'bg-dark'];
+      return this.theme === "light"
+        ? ["navbar-light", "bg-light"]
+        : ["navbar-dark", "bg-dark"];
     }
   }
 };
 </script>
 
 <style>
-
 </style>

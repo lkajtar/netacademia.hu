@@ -220,96 +220,96 @@
 </template>
 
 <script>
-import GtmLink from '~/components/GtmLink.vue';
-import ElofizetesProductCard from '~/components/ElofizetesProductCard.vue';
+import GtmLink from "~/components/GtmLink.vue";
+import ElofizetesProductCard from "~/components/ElofizetesProductCard.vue";
 
 export default {
   components: { GtmLink, ElofizetesProductCard },
-  layout: 'bs-nav-footer-dark',
+  layout: "bs-nav-footer-dark",
   data: function() {
     return {
       GTMProductCollection: {
         unity: {
-          name: 'Certified Unity Developer 12 hónapos tanfolyamcsomag',
-          id: '17b62be2-c693-4fa3-a79a-382e789f838a',
-          price: '69900',
-          brand: 'NetAcademia',
-          category: 'Elofizetes',
-          variant: '',
-          list: 'Előfizetés',
+          name: "Certified Unity Developer 12 hónapos tanfolyamcsomag",
+          id: "17b62be2-c693-4fa3-a79a-382e789f838a",
+          price: "69900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
           position: 1
         },
         csharp: {
-          name: 'Certified Junior C# Developer 12 hónapos tanfolyamcsomag',
-          id: 'd5e46a95-4f92-46df-bfe9-4e70eb3c38d0',
-          price: '69900',
-          brand: 'NetAcademia',
-          category: 'Elofizetes',
-          variant: '',
-          list: 'Előfizetés',
+          name: "Certified Junior C# Developer 12 hónapos tanfolyamcsomag",
+          id: "d5e46a95-4f92-46df-bfe9-4e70eb3c38d0",
+          price: "69900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
           position: 2
         },
         vue: {
-          name: 'Webfejlesztő leszek! VueJS Edition 12 hónapos tanfolyamcsomag',
-          id: '0ceafbab-4b10-4835-9a25-f4a4876690b6',
-          price: '29900',
-          brand: 'NetAcademia',
-          category: 'Elofizetes',
-          variant: '',
-          list: 'Előfizetés',
+          name: "Webfejlesztő leszek! VueJS Edition 12 hónapos tanfolyamcsomag",
+          id: "0ceafbab-4b10-4835-9a25-f4a4876690b6",
+          price: "29900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
           position: 3
         },
         angular: {
           name:
-            'Webfejlesztő leszek! Angular Edition 12 hónapos tanfolyamcsomag',
-          id: '2d7fea29-44b4-4497-8114-872a0a43d6b7',
-          price: '29900',
-          brand: 'NetAcademia',
-          category: 'Elofizetes',
-          variant: '',
-          list: 'Előfizetés',
+            "Webfejlesztő leszek! Angular Edition 12 hónapos tanfolyamcsomag",
+          id: "2d7fea29-44b4-4497-8114-872a0a43d6b7",
+          price: "29900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
           position: 4
         },
         ecommerce: {
-          name: 'Certified E-commerce Specialist 12 hónapos tanfolyamcsomag',
-          id: '2d7fea29-44b4-4497-8114-872a0a43d6b7',
-          price: '49900',
-          brand: 'NetAcademia',
-          category: 'Elofizetes',
-          variant: '',
-          list: 'Előfizetés',
+          name: "Certified E-commerce Specialist 12 hónapos tanfolyamcsomag",
+          id: "2d7fea29-44b4-4497-8114-872a0a43d6b7",
+          price: "49900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
           position: 5
         },
 
         windowsserver: {
-          name: 'Certified Windows Administrator 12 hónapos tanfolyamcsomag',
-          id: '0',
-          price: '89900',
-          brand: 'NetAcademia',
-          category: 'Elofizetes',
-          variant: '',
-          list: 'Előfizetés',
+          name: "Certified Windows Administrator 12 hónapos tanfolyamcsomag",
+          id: "0",
+          price: "89900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
           position: 6
         },
 
         ultimate: {
-          name: 'NetAcademia Ultimate 12 hónapos tanfolyamcsomag',
-          id: '0',
-          price: '126873',
-          brand: 'NetAcademia',
-          category: 'Elofizetes',
-          variant: '',
-          list: 'Előfizetés',
+          name: "NetAcademia Ultimate 12 hónapos tanfolyamcsomag",
+          id: "0",
+          price: "126873",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
           position: 7
         },
         office: {
-          name: 'Office és irodai alkalmazások 12 hónapos tanfolyamcsomag',
-          id: '68cad24a-c08b-4724-910a-c25dc743e9d3',
-          price: '62230',
-          brand: 'NetAcademia',
-          category: 'Elofizetes',
-          variant: '',
-          list: 'Előfizetés',
+          name: "Office és irodai alkalmazások 12 hónapos tanfolyamcsomag",
+          id: "68cad24a-c08b-4724-910a-c25dc743e9d3",
+          price: "62230",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Előfizetés",
           position: 8
         }
       }
@@ -323,7 +323,7 @@ main {
   height: 100%;
   color: #ffffff;
   font-size: 18px;
-  background-image: url('~/assets/elofizetes/background.jpg');
+  background-image: url("~/assets/elofizetes/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -446,7 +446,7 @@ main {
   }
 
   .dotted-bg {
-    background: url('~/assets/elofizetes/dotted-img.svg');
+    background: url("~/assets/elofizetes/dotted-img.svg");
     background-repeat: no-repeat;
     background-position: center;
   }

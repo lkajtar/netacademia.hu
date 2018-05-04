@@ -280,140 +280,140 @@
 </template>
 
 <script>
-import GtmLink from '~/components/GtmLink.vue';
-import Bounce from '~/components/Bounce.vue';
+import GtmLink from "~/components/GtmLink.vue";
+import Bounce from "~/components/Bounce.vue";
 
 export default {
   components: { GtmLink, Bounce },
-  layout: 'bs-logo-footer',
+  layout: "bs-logo-footer",
   data: function() {
     return {
       GTMProductCollection: {
         web: {
-          name: 'Lenyűgöző weblapok készítése',
-          id: '2017htmllanding-lenyugozo-weblapok-keszitese',
-          price: '0',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "Lenyűgöző weblapok készítése",
+          id: "2017htmllanding-lenyugozo-weblapok-keszitese",
+          price: "0",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 1,
-          PCategories: ['Ingyenes']
+          PCategories: ["Ingyenes"]
         },
         unity: {
-          name: 'Lenyűgöző Unity',
-          id: '2018unitylenyug-lenyugozo-unity',
-          price: '0',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "Lenyűgöző Unity",
+          id: "2018unitylenyug-lenyugozo-unity",
+          price: "0",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 2,
-          PCategories: ['Ingyenes']
+          PCategories: ["Ingyenes"]
         },
         csharp: {
-          name: 'Lenyűgöző C# programozás',
-          id: '2018csharp-lenyugozo-c-programozas',
-          price: '0',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "Lenyűgöző C# programozás",
+          id: "2018csharp-lenyugozo-c-programozas",
+          price: "0",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 3,
-          PCategories: ['Ingyenes']
+          PCategories: ["Ingyenes"]
         },
         windows: {
-          name: 'Windows server alapismeretek, telepítés',
-          id: '2018wu00-windows-server-alapismeretek-telepites',
-          price: '0',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "Windows server alapismeretek, telepítés",
+          id: "2018wu00-windows-server-alapismeretek-telepites",
+          price: "0",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 4,
-          PCategories: ['Ingyenes']
+          PCategories: ["Ingyenes"]
         },
         bootstrap: {
-          name: 'Bootstrap 4',
-          id: '2018bt4-bootstrap4',
-          price: '37973',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "Bootstrap 4",
+          id: "2018bt4-bootstrap4",
+          price: "37973",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 5,
           PCategories: [
-            'Webfejlesztő leszek! Angular + VueJS',
-            'Webfejlesztő leszek! VueJS Edition'
+            "Webfejlesztő leszek! Angular + VueJS",
+            "Webfejlesztő leszek! VueJS Edition"
           ]
         },
         webtodo: {
-          name: 'Az első webes C# projektem: TO-DO alkalmazás készítése',
+          name: "Az első webes C# projektem: TO-DO alkalmazás készítése",
           id:
-            '2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese',
-          price: '62230',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+            "2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese",
+          price: "62230",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 6,
-          PCategories: ['Certified Junior C# Developer']
+          PCategories: ["Certified Junior C# Developer"]
         },
         cissp: {
-          name: 'Certified Information Systems Security Pro - CISSP',
-          id: '2018CISSP-certified-information-systems-security-pro---cissp',
-          price: '252730',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "Certified Information Systems Security Pro - CISSP",
+          id: "2018CISSP-certified-information-systems-security-pro---cissp",
+          price: "252730",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 7,
           PCategories: []
         },
         javascript: {
-          name: 'Javascript - Szent Habakuk, hisz játszom!',
-          id: '2018javascript-javascript---szent-habakuk-hisz-jatszom',
-          price: '37973',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "Javascript - Szent Habakuk, hisz játszom!",
+          id: "2018javascript-javascript---szent-habakuk-hisz-jatszom",
+          price: "37973",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 8,
           PCategories: [
-            'Webfejlesztő leszek! VueJS Edition',
-            'Webfejlesztő leszek! Angular + VueJS'
+            "Webfejlesztő leszek! VueJS Edition",
+            "Webfejlesztő leszek! Angular + VueJS"
           ]
         },
         csharpalapok: {
-          name: 'C# alapok 2018: a multiplatform C#',
-          id: '2018csharpalapok-c-alapok-2018-a-multiplatform-c',
-          price: '74930',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "C# alapok 2018: a multiplatform C#",
+          id: "2018csharpalapok-c-alapok-2018-a-multiplatform-c",
+          price: "74930",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 9,
-          PCategories: ['Certified Junior C# Developer']
+          PCategories: ["Certified Junior C# Developer"]
         },
         prox: {
-          name: 'Videovágás alapok – Final Cut Pro X használatával',
-          id: '2018prox-videovagas-alapok--final-cut-pro-x-el',
-          price: '37973',
-          brand: 'NetAcademia',
-          category: 'Tanfolyam',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "Videovágás alapok – Final Cut Pro X használatával",
+          id: "2018prox-videovagas-alapok--final-cut-pro-x-el",
+          price: "37973",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 10,
-          PCategories: ['Office']
+          PCategories: ["Office"]
         },
         ultimate: {
-          name: 'Ultimate előfizetés',
-          id: 'ultimateakcio',
-          price: '126873',
-          brand: 'NetAcademia',
-          category: 'Elofizetes',
-          variant: '',
-          list: 'Lenyűgöző tanfolyamok',
+          name: "Ultimate előfizetés",
+          id: "ultimateakcio",
+          price: "126873",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Lenyűgöző tanfolyamok",
           position: 11
         }
       }

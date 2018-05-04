@@ -117,7 +117,7 @@ footer a:hover {
 
 .line:before,
 .line:after {
-  content: ' ';
+  content: " ";
   position: absolute;
   top: 50%;
   margin-left: -999em;
