@@ -19,7 +19,7 @@
         <div class="row justify-content-center">
           <div class="col-12 col-md-4 blockk">
             <a href="#htmlcss">
-              <bounce class="single-special text-center" direction="bounceIn">
+              <bounce class="single-special text-center" direction="in">
                 <img src="~/assets/lenyugozo-tanfolyamok/htmlcss.svg" alt="" width="150" class="img-fluid mb-4">
                 <h4>HTML, CSS</h4>
               </bounce>
@@ -28,7 +28,7 @@
 
           <div class="col-12 col-md-4 blockk">
             <a href="#csharp">
-              <bounce class="single-special text-center" direction="bounceIn">
+              <bounce class="single-special text-center" direction="in">
                 <img src="~/assets/lenyugozo-tanfolyamok/icon-cloud-c.svg" alt="" width="75" class="img-fluid mb-4">
                 <h4>C#</h4>
               </bounce>
@@ -37,7 +37,7 @@
 
           <div class="col-12 col-md-4 blockk">
             <a href="#unity">
-              <bounce class="single-special text-center" direction="bounceIn">
+              <bounce class="single-special text-center" direction="in">
                 <img src="~/assets/lenyugozo-tanfolyamok/unity-3d-vector-icon-logo.svg" alt="" width="75" class="img-fluid mb-4">
                 <h4>UNITY</h4>
               </bounce>
@@ -54,7 +54,7 @@
         <div class="container py-lg-5">
           <div class="row" id="htmlcss">
             <div class="col-7 col-lg-6 my-auto mx-auto p-lg-5">
-              <bounce class="mb-5 mb-lg-0" direction="bounceInLeft">
+              <bounce class="mb-5 mb-lg-0" direction="left">
                 <img src="~/assets/lenyugozo-tanfolyamok/weblap.png" alt="" class="img-fluid">
               </bounce>
             </div>
@@ -99,7 +99,7 @@
               </div>
             </div>
             <div class="col-11 pb-5 col-lg-6 order-1 order-lg-2 mx-auto p-lg-2 my-auto">
-              <bounce direction="bounceInRight">
+              <bounce direction="right">
                 <div class="embed-responsive embed-responsive-16by9">
                   <no-ssr>
                     <youtube class="embed-responsive-item animated" video-id="A3DuZSWu-mA"></youtube>
@@ -116,7 +116,7 @@
         <div class="container py-lg-5">
           <div class="row" id="csharp">
             <div class="col-7 col-lg-6 my-auto mb-5 mb-lg-0 mx-auto p-lg-5">
-              <bounce direction="bounceInLeft">
+              <bounce direction="left">
                 <img src="~/assets/lenyugozo-tanfolyamok/chat-robot.png" alt="" class="img-fluid">
               </bounce>
             </div>
@@ -159,7 +159,7 @@
               </div>
             </div>
             <div class="col-7 col-lg-6 my-auto mb-5 mb-lg-0 mx-auto p-lg-5 order-1 order-lg-2">
-              <bounce direction="bounceInRight">
+              <bounce direction="right">
                 <img src="~/assets/lenyugozo-tanfolyamok/server.png" alt="" class="img-fluid">
               </bounce>
             </div>
