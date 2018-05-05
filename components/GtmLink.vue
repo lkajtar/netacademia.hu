@@ -1,7 +1,14 @@
 <template>
-  <a :href="href" @click="Clicked" @mouseDown.middle="Clicked" v-observe-visibility="VisibilityChanged">
-    <slot></slot>
-  </a>
+  <!--<span v-if="!isNuxtLink">-->
+    <a :href="href" target="_blank" @click="Clicked" @mouseDown.middle="Clicked" v-observe-visibility="VisibilityChanged">
+      <slot></slot>
+    </a>
+  <!--</span>-->
+  <!--<span v-else>-->
+    <!--<nuxt-link :href="href" @click="Clicked" @mouseDown.middle="Clicked" v-observe-visibility="VisibilityChanged">-->
+      <!--<slot></slot>-->
+    <!--</nuxt-link>-->
+  <!--</span>-->
 </template>
 
 <script>
@@ -14,6 +21,14 @@ export default {
     gtmData: {
       type: Object,
       required: true
+    },
+    isAddToCart: {
+      type: Boolean,
+      default: false
+    },
+    isNuxtLink: {
+      type: Boolean,
+      default: false
     }
   },
   data: function() {
@@ -23,11 +38,12 @@ export default {
   },
   methods: {
     Clicked: function() {
-      this.GTMEvent("productClick");
+      if (this.isAddToCart) {
+        this.GTMEvent("addToCart");
+      } else {
+        this.GTMEvent("productClick");
+      }
     },
-    // AddToCartClicked: function() {
-    //   this.GTMEvent("addToCart", id);
-    // },
     VisibilityChanged: function(isVisible) {
       // was visible already || not visible now
       if (this.visible || !isVisible) {
@@ -50,7 +66,7 @@ export default {
         dataLayer.push(this.GetGTMEvent(eventType));
       }
     },
-    GetGTMEvent: function(eventType, product) {
+    GetGTMEvent: function(eventType) {
       switch (eventType) {
         case "productImpression":
           return {
@@ -59,7 +75,6 @@ export default {
               impressions: [this.gtmData]
             }
           };
-
         case "productClick":
           return {
             event: "productClick",
@@ -72,23 +87,16 @@ export default {
               }
             }
           };
-
-        // case "addToCart":
-        //   let extendedProduct = JSON.parse(
-        //     JSON.stringify(GTMProductCollection[product])
-        //   );
-        //   extendedProduct.quantity = 1;
-
-        //   return {
-        //     event: "addToCart",
-        //     ecommerce: {
-        //       currencyCode: "HUF",
-        //       add: {
-        //         products: [extendedProduct]
-        //       }
-        //     }
-        //   };
-
+        case "addToCart":
+          return {
+            event: "addToCart",
+            ecommerce: {
+              currencyCode: "HUF",
+              add: {
+                products: [this.gtmData]
+              }
+            }
+          };
         default:
           return {};
       }

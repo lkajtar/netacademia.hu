@@ -30,9 +30,9 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/bootstrap-icon.png" alt="bootstrap">
-        <a slot="link"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.bootstrap"
            href="https://netacademia.hu/Tanfolyam/2018bt4-bootstrap4"
-        >Részletek...</a>
+        >Részletek...</gtm-link>
       </TimelineCard>
 
       <TimelineCard title="jQuery - alapozás"
@@ -46,9 +46,9 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/jquery-icon.png" alt="jquery">
-        <a slot="link"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.jquery"
            href="https://netacademia.hu/Tanfolyam/2018jquery-jquery---alapozas"
-        >Részletek...</a>
+        >Részletek...</gtm-link>
       </TimelineCard>
 
       <TimelineCard title="Javascript - Szent Habakuk, hisz játszom!"
@@ -63,9 +63,9 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/javascript-icon.png" alt="javascript">
-        <a slot="link"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.javascript"
            href="ttps://www.netacademia.hu/Tanfolyam/2018javascript-javascript---szent-habakuk-hisz-jatszom"
-        >Részletek...</a>
+        >Részletek...</gtm-link>
       </TimelineCard>
 
       <TimelineCard title="GIT - fájdalommentes verziókövetés"
@@ -79,9 +79,9 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/git-icon.png" alt="git">
-        <a slot="link"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.git"
            href="https://netacademia.hu/Tanfolyam/2018GIT-git---fajdalommentes-verziokovetes"
-        >Részletek...</a>
+        >Részletek...</gtm-link>
       </TimelineCard>
 
       <TimelineCard title="VueJS - Ja, hogy ezt így is lehet"
@@ -95,9 +95,9 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/vue-icon.png" alt="vue">
-        <a slot="link"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.vue"
            href="https://www.netacademia.hu/Tanfolyam/2018vuejs2-vuejs---ja-hogy-ezt-igy-is-lehet"
-        >Részletek...</a>
+        >Részletek...</gtm-link>
       </TimelineCard>
 
       <TimelineCard title="Vue - A végtelenbe és tovább!"
@@ -111,9 +111,9 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/vue-icon.png" alt="vue">
-        <a slot="link"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.vueAdvanced"
            href="https://www.netacademia.hu/Tanfolyam/2018vuejs3-vue---a-vegtelenbe-es-tovabb"
-        >Részletek...</a>
+        >Részletek...</gtm-link>
       </TimelineCard>
 
     </TimelineContainer>
@@ -122,28 +122,36 @@
         <p class="mb-4">Vedd meg a Webfejlesztő leszek! Angular editiont és a Webfejlesztő leszek! Vue.js editiont
           most
           <br>bruttó
-          <span class="ar">39.800 </span>Ft!</p>
-        <a href="https://netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-es-vuejs"
-           class="btn-cus btn-cus-orange"
-           @click="GTMEvent('addToCart', 'combo')" @mouseDown.middle="GTMEvent('addToCart', 'combo')">Megveszem!</a>
+          <span class="ar">39.800 </span>Ft!
+        </p>
+        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVueAndAngular"
+                  href="https://netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-es-vuejs"
+                  class="btn-cus btn-cus-orange"
+        >Megveszem!
+        </gtm-link>
       </div>
       <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
         <p class="mb-4">Van már Webfejlesztő leszek! előfizetésed? Akkor neked a Webfejlesztő leszek! Vue.js edition
           most csak
           <br>bruttó
-          <span class="ar">9.900 </span>Ft!</p>
-        <a href=" https://www.netacademia.hu/Subscription/Create/0ceafbab-4b10-4835-9a25-f4a4876690b6"
-           class="btn-cus btn-cus-orange mb-4"
-           @click="GTMEvent('addToCart', 'vueAsExtension')"
-           @mouseDown.middle="GTMEvent('addToCart', 'vueAsExtension')">Megveszem!</a>
+          <span class="ar">9.900 </span>Ft!
+        </p>
+        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVueAsExtension"
+                  href=" https://www.netacademia.hu/Subscription/Create/0ceafbab-4b10-4835-9a25-f4a4876690b6"
+                  class="btn-cus btn-cus-orange mb-4"
+        >Megveszem!
+        </gtm-link>
       </div>
       <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
         <p class=" mb-4">Webfejlesztő leszek! – Vue edition – tanfolyamcsomag ára
           <br>bruttó
-          <span class="ar">29.900</span> Ft!</p>
-        <a href=" https://netacademia.hu/Subscription/Create/webfejleszto-leszek-vuejs-edition"
-           class="btn-cus btn-cus-orange mb-4"
-           @click="GTMEvent('addToCart', 'vue')" @mouseDown.middle="GTMEvent('addToCart', 'vue')">Megveszem!</a>
+          <span class="ar">29.900</span> Ft!
+        </p>
+        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVue"
+                  href=" https://netacademia.hu/Subscription/Create/webfejleszto-leszek-vuejs-edition"
+                  class="btn-cus btn-cus-orange mb-4"
+        >Megveszem!
+        </gtm-link>
       </div>
     </div>
 
@@ -156,12 +164,10 @@
               <div class="col-11 mx-auto my-4">
                 <h4 class="pb-3">Szerezz NetAcademia Certificate-et!</h4>
                 <p class="mb-3">A NetAcademia Certificate-tel egy olyan tanúsítványt hoztunk létre, mely egyaránt
-                  leképezi oktatási hozzáállásunkat
-                  és módszertanunkat: gyakorlatias és projekt-alapú. A sikeres vizsga bizonyíték arra, hogy képes vagy
-                  statikus
-                  és dinamikus reszponzív weboldalak készítésére, elboldogulsz a webprogramozás és az
-                  alkalmazásfejlesztés
-                  világában is.</p>
+                  leképezi oktatási hozzáállásunkat és módszertanunkat: gyakorlatias és projekt-alapú. A sikeres vizsga
+                  bizonyíték arra, hogy képes vagy statikus és dinamikus reszponzív weboldalak készítésére,
+                  elboldogulsz a webprogramozás és az alkalmazásfejlesztés világában is.
+                </p>
                 <a href="https://netacademia.hu/certificate">Bővebb információ</a>
               </div>
               <div class="col-11 mx-auto col-lg-11 my-4">
@@ -217,6 +223,123 @@ export default {
     TimelineContainer,
     TimelineCard,
     GtmLink
+  },
+  data: function() {
+    return {
+      GTMProductCollection: {
+        addToCartVueAndAngular: {
+          name: "Webfejlesztő leszek! Angular + VueJS 12 hónapos előfizetés",
+          id: "2b9ffe78-a73f-44e1-ad90-50ae71661efe",
+          price: "39800",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          quantity: 1
+        },
+        addToCartVueAsExtension: {
+          name: "Webfejlesztő leszek! VueJS Edition 12 hónapos előfizetés",
+          id: "0ceafbab-4b10-4835-9a25-f4a4876690b6",
+          price: "9900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          quantity: 1
+        },
+        addToCartVue: {
+          name: "Webfejlesztő leszek! VueJS Edition 12 hónapos előfizetés",
+          id: "0ceafbab-4b10-4835-9a25-f4a4876690b6",
+          price: "29900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          quantity: 1
+        },
+        bootstrap: {
+          name: "Bootstrap 4",
+          id: "2018bt4-bootstrap4",
+          price: "37973",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Webfejlesztő leszek! VueJS edition",
+          position: 1,
+          PCategories: [
+            "Webfejlesztő leszek! Angular + VueJS",
+            "Webfejlesztő leszek! VueJS Edition"
+          ]
+        },
+        jquery: {
+          name: "jQuery - alapozás",
+          id: "2018jquery-jquery---alapozas",
+          price: "25273",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Webfejlesztő leszek! VueJS edition",
+          position: 2,
+          PCategories: [
+            "Webfejlesztő leszek! Angular + VueJS",
+            "Webfejlesztő leszek! VueJS Edition"
+          ]
+        },
+        javascript: {
+          name: "Javascript - Szent Habakuk, hisz játszom!",
+          id: "2018javascript-javascript---szent-habakuk-hisz-jatszom",
+          price: "37973",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Webfejlesztő leszek! VueJS edition",
+          position: 3,
+          PCategories: [
+            "Webfejlesztő leszek! Angular + VueJS",
+            "Webfejlesztő leszek! VueJS Edition"
+          ]
+        },
+        git: {
+          name: "GIT - fájdalommentes verziókövetés",
+          id: "2018GIT-git---fajdalommentes-verziokovetes",
+          price: "12573",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Webfejlesztő leszek! VueJS edition",
+          position: 4,
+          PCategories: [
+            "Webfejlesztő leszek! Angular + VueJS",
+            "Webfejlesztő leszek! VueJS Edition"
+          ]
+        },
+        vue: {
+          name: "VueJS - Ja hogy ezt így is lehet",
+          id: "2018vuejs2-vuejs---ja-hogy-ezt-igy-is-lehet",
+          price: "25273",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Webfejlesztő leszek! VueJS edition",
+          position: 5,
+          PCategories: [
+            "Webfejlesztő leszek! Angular + VueJS",
+            "Webfejlesztő leszek! VueJS Edition"
+          ]
+        },
+        vueAdvanced: {
+          name: "Vue - A végtelenbe és tovább!",
+          id: "2018vuejs3-vue---a-vegtelenbe-es-tovabb",
+          price: "37973",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Webfejlesztő leszek! VueJS edition",
+          position: 6,
+          PCategories: [
+            "Webfejlesztő leszek! Angular + VueJS",
+            "Webfejlesztő leszek! VueJS Edition"
+          ]
+        }
+      }
+    };
   }
 };
 </script>

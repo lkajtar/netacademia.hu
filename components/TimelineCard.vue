@@ -1,5 +1,5 @@
 <template>
-  <div class="cd-timeline-block vue-gtm-app" data-block-id="bootstrap">
+  <div class="cd-timeline-block">
     <div class="cd-timeline-img" :style="{ background: logoBg}">
       <slot name="picture"></slot>
     </div>
