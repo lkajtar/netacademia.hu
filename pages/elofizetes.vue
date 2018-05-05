@@ -16,14 +16,14 @@
           elérhető!</p>
         <div class="row pt-2">
           <div class="col-3 col-lg-1 my-auto">
-            <a href="https://app.netacademia.hu/unity-developer">
+            <nuxt-link to="/unity-developer">
               <img src="~/assets/elofizetes/unity-logo.svg" alt="unity-logo" width="60">
-            </a>
+            </nuxt-link>
           </div>
           <div class="col-3 col-lg-1 my-auto">
-            <a href="https://app.netacademia.hu/junior-csharp-developer">
+            <nuxt-link to="/junior-csharp-developer">
               <img src="~/assets/elofizetes/c-sharp-logo.svg" alt="c-sharp-logo" width="60">
-            </a>
+            </nuxt-link>
           </div>
           <div class="col-3 col-lg-1 my-auto">
             <nuxt-link to="/webfejleszto-vuejs">
@@ -31,23 +31,23 @@
             </nuxt-link>
           </div>
           <div class="col-3 col-lg-1 my-auto">
-            <a href="https://app.netacademia.hu/webfejleszto-angular">
+            <nuxt-link to="/webfejleszto-angular">
               <img src="~/assets/elofizetes/angular-logo.svg" alt="angular-logo" width="60">
-            </a>
+            </nuxt-link>
           </div>
           <div class="col-3 col-lg-1 my-auto">
-            <a href="https://app.netacademia.hu/ecommerce">
+            <nuxt-link to="/ecommerce">
               <img src="~/assets/elofizetes/e-commerce-logo.svg" alt="e-commerce-logo" width="60">
-            </a>
+            </nuxt-link>
           </div>
           <!--<div class="col-3 col-lg-1 my-auto">
           <img src="~/assets/elofizetes/android-logo2.png" alt="android-logo" width="60">
         </div>
         -->
           <div class="col-3 col-lg-1 my-auto">
-            <a href="https://app.netacademia.hu/windowsserver">
+            <nuxt-link to="/windowsserver">
               <img src="~/assets/elofizetes/server-logo.png" alt="server-logo" width="60">
-            </a>
+            </nuxt-link>
           </div>
         </div>
 
@@ -74,14 +74,14 @@
 
         <elofizetes-product-card title="Certified Unity Expert Developer" who="A játékmester"
                                  description="Legyél az ország első Certified Unity Developere, és merülj el a többplatformos játékfejlesztés világában!"
-                                 length="55 óra" link="https://app.netacademia.hu/unity-developer"
+                                 length="55 óra" link="/unity-developer"
                                  :gtm-data="GTMProductCollection.unity">
           <img src="~/assets/elofizetes/unity-logo.svg" alt="unity-logo" width="130" class="mx-auto img-border">
         </elofizetes-product-card>
 
         <elofizetes-product-card title="Certified Junior C# Developer" who="A nagyvállalati programozó"
                                  description="Certified Developer útvonalunkkal az alapoktól kezdve sajátíthatod el a C# programozási nyelvet! Legyen ez a szakmád!"
-                                 length="144 óra" link="https://app.netacademia.hu/junior-csharp-developer"
+                                 length="144 óra" link="/junior-csharp-developer"
                                  :gtm-data="GTMProductCollection.csharp">
           <img src="~/assets/elofizetes/c-sharp-logo.svg" alt="c-sharp-logo" width="130" class="mx-auto img-border">
         </elofizetes-product-card>
@@ -102,7 +102,7 @@
         <elofizetes-product-card title="Certified Front-End Developer" subtitle="Angular edition"
                                  who="A haladó Front-End fejlesztő"
                                  description="Legyél Certified Front-End Developer, merülj el a modern webfejlesztés világában! Készíts alkalmazást bármilyen platformra, Angularral!"
-                                 length="160 óra" link="https://app.netacademia.hu/webfejleszto-angular"
+                                 length="160 óra" link="/webfejleszto-angular"
                                  :gtm-data="GTMProductCollection.angular">
           <img src="~/assets/elofizetes/angular-logo.svg" alt="angular-logo" width="130" class="mx-auto img-border">
         </elofizetes-product-card>
@@ -111,7 +111,7 @@
       <div class="row pt-5 justify-content-center dotted-bg">
         <elofizetes-product-card title="Certified E-commerce Specialist" who="Az üzletember"
                                  description="Legyél Certified E-commerce Specialist, lendítsd fel eladásaidat, vagy készíts egy teljesen új webshopot!"
-                                 length="52 óra" link="https://app.netacademia.hu/ecommerce"
+                                 length="52 óra" link="/ecommerce"
                                  :gtm-data="GTMProductCollection.ecommerce">
           <img src="~/assets/elofizetes/e-commerce-logo.png" alt="e-commerce-logo" width="130"
                class="mx-auto img-border">
@@ -120,7 +120,7 @@
         <!-- <elofizetes-product-card  title="Certified Android Developer"
                                 who="Az App-guru"
                                 description="Legyél Certified Android Developer, és legyél te a mobilAppok nagymestere!"
-                                link="https://app.netacademia.hu/androidfejleszto"
+                                link="/androidfejleszto"
                                 length="128 óra"
                                 :gtm-data="GTMProductCollection.ASDFSADFDSADSADFSDA">
         <img src="~/assets/elofizetes/android-logo2.png" alt="android-logo" width="130" class="mx-auto img-border">
@@ -128,7 +128,7 @@
 
         <elofizetes-product-card title="Certified Windows Administrator" who="A rendszergazda"
                                  description="Legyél Certified Windows Administrator, és üzemeltess Windows Server alapú rendszereket!"
-                                 length="48 óra" link="https://app.netacademia.hu/windowsserver"
+                                 length="48 óra" link="/windowsserver"
                                  :gtm-data="GTMProductCollection.windowsserver">
           <img src="~/assets/elofizetes/server-logo.png" alt="server-logo" width="130" class="mx-auto img-border">
         </elofizetes-product-card>
@@ -180,7 +180,7 @@
             </div>
             <div class="col-12 text-center mb-5">
               <gtm-link :gtm-data="GTMProductCollection.ultimate" class="btn btn-primary"
-                        href="https://app.netacademia.hu/ultimateakcio" role="button">
+                        href="/ultimateakcio" role="button">
                 Megnézem
               </gtm-link>
             </div>
@@ -212,8 +212,9 @@
               </div>
             </div>
             <div class="col-12 text-center mb-5">
-              <gtm-link :gtm-data="GTMProductCollection.office" class="btn btn-primary"
-                        href="https://app.netacademia.hu/officecsomag2017" role="button">
+              <gtm-link :gtm-data="GTMProductCollection.office"
+                        class="btn btn-primary"
+                        href="https://app.netacademia.hu/officecsomag" role="button">
                 Megnézem
               </gtm-link>
             </div>
@@ -257,7 +258,7 @@
           szemében!​
         </div>
         <div class="mx-auto">
-          <a class="btn btn-lg btn-danger" href="https://app.netacademia.hu/certificate" role="button">Részletek</a>
+          <nuxt-link class="btn btn-lg btn-danger" to="/certificate" role="button">Részletek</nuxt-link>
         </div>
       </div>
     </div>
