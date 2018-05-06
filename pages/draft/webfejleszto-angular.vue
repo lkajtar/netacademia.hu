@@ -167,9 +167,9 @@
 <script>
   import TimelineCard from "~/components/TimelineCard";
   import GtmLink from "~/components/GtmLink";
-  import TimelineContainer from "../components/TimelineContainer";
-  import CertiFeatures from "../components/CertiFeatures";
-  import CertiTopHero from "../components/CertiTopHero";
+  import TimelineContainer from "../../components/TimelineContainer";
+  import CertiFeatures from "../../components/CertiFeatures";
+  import CertiTopHero from "../../components/CertiTopHero";
 
   export default {
     layout: "bs-logo-footer",
