@@ -1,9 +1,9 @@
 <template>
   <div class="text-center mt-5 d-none d-sm-block">
     <p class="text-center lead description">{{text}}</p>
-    <a :href="href">
+    <nuxt-link :to="href">
       <img src="~/assets/down-arrow.png" alt="down-arrow" class="img-fluid bounce arrow" width="40">
-    </a>
+    </nuxt-link>
   </div>
 </template>
 

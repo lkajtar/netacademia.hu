@@ -9,7 +9,7 @@
                   Google AdWordsben, és ki tudd aknázni a Facebook Marketplace adta megannyi lehetőséget!"
     >
       <img slot="lead-icon" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon" class="img-fluid" width="60">
-      <a slot="call-to-action" href="#reszletek" class="btn-cus btn-cus-purple btn-lg ml-3 px-5">Részletek</a>
+      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus btn-cus-purple btn-lg ml-3 px-5">Részletek</nuxt-link>
     </CertiTopHero>
 
     <CertiFeatures price="Most csak 49.900 Ft"></CertiFeatures>
@@ -197,7 +197,7 @@
                   leképezi oktatási hozzáállásunkat és módszertanunkat: gyakorlatias és projekt-alapú. A sikeres vizsga
                   bizonyíték arra, hogy képes vagy egy modern, sikeres webáruházat felépíteni Shopify vagy Wordpress
                   alapokon, ráadádasul hirdetési tudásodat kamatoztatva értékes vásárlóerőt szólíthatsz meg.</p>
-                <a href="https://www.netacademia.hu/certificate/" class="">Bővebben a certificate-ről...</a>
+                <nuxt-link to="/certificate/" class="">Bővebben a certificate-ről...</nuxt-link>
               </div>
             </div>
           </div>

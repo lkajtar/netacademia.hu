@@ -12,7 +12,7 @@
         megtanulod, hogyan készíts a projektedből mobilapp és desktop alkalmazást is."
     >
       <img slot="lead-icon" src="~/assets/webfejleszto-vuejs/vue-icon.png" alt="vue-logo" class="img-fluid" width="60">
-      <a slot="call-to-action" href="#reszletek" class="btn-cus-border btn-border-green btn-lg ml-3">Részletek</a>
+      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus-border btn-border-green btn-lg ml-3">Részletek</nuxt-link>
     </CertiTopHero>
 
     <CertiFeatures price="Most csak 29.900 Ft"></CertiFeatures>

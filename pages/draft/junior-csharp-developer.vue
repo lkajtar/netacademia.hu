@@ -10,7 +10,7 @@
                                     többjátékos, virtuális és kiterjesztett valóság alapú játékok fejlesztésébe is!"
     >
       <img slot="lead-icon" src="~/assets/unity-developer/unity-icon.png" alt="unity-icon" class="img-fluid" width="60">
-      <a slot="call-to-action" href="#reszletek" class="btn-cus btn-cus-purple btn-lg ml-3 px-5">Részletek</a>
+      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus btn-cus-purple btn-lg ml-3 px-5">Részletek</nuxt-link>
     </CertiTopHero>
 
     <CertiFeatures price="Most csak 69.900 Ft"></CertiFeatures>

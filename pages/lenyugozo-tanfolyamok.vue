@@ -18,30 +18,30 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-4 blockk">
-            <a href="#htmlcss">
+            <nuxt-link to="#htmlcss">
               <bounce class="single-special text-center" direction="in">
                 <img src="~/assets/lenyugozo-tanfolyamok/htmlcss.svg" alt="" width="150" class="img-fluid mb-4">
                 <h4>HTML, CSS</h4>
               </bounce>
-            </a>
+            </nuxt-link>
           </div>
 
           <div class="col-12 col-md-4 blockk">
-            <a href="#csharp">
+            <nuxt-link to="#csharp">
               <Bounce class="single-special text-center" direction="in">
                 <img src="~/assets/lenyugozo-tanfolyamok/icon-cloud-c.svg" alt="" width="75" class="img-fluid mb-4">
                 <h4>C#</h4>
               </Bounce>
-            </a>
+            </nuxt-link>
           </div>
 
           <div class="col-12 col-md-4 blockk">
-            <a href="#unity">
+            <nuxt-link to="#unity">
               <Bounce class="single-special text-center" direction="in">
                 <img src="~/assets/lenyugozo-tanfolyamok/unity-3d-vector-icon-logo.svg" alt="" width="75" class="img-fluid mb-4">
                 <h4>UNITY</h4>
               </Bounce>
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>
