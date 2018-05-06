@@ -31,8 +31,9 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/bootstrap-icon.png" alt="bootstrap">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.bootstrap"
-           href="https://netacademia.hu/Tanfolyam/2018bt4-bootstrap4"
-        >Részletek...</gtm-link>
+                  href="https://netacademia.hu/Tanfolyam/2018bt4-bootstrap4"
+        >Részletek...
+        </gtm-link>
       </TimelineCard>
 
       <TimelineCard title="jQuery - alapozás"
@@ -47,8 +48,9 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/jquery-icon.png" alt="jquery">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.jquery"
-           href="https://netacademia.hu/Tanfolyam/2018jquery-jquery---alapozas"
-        >Részletek...</gtm-link>
+                  href="https://netacademia.hu/Tanfolyam/2018jquery-jquery---alapozas"
+        >Részletek...
+        </gtm-link>
       </TimelineCard>
 
       <TimelineCard title="Javascript - Szent Habakuk, hisz játszom!"
@@ -64,8 +66,9 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/javascript-icon.png" alt="javascript">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.javascript"
-           href="ttps://www.netacademia.hu/Tanfolyam/2018javascript-javascript---szent-habakuk-hisz-jatszom"
-        >Részletek...</gtm-link>
+                  href="ttps://www.netacademia.hu/Tanfolyam/2018javascript-javascript---szent-habakuk-hisz-jatszom"
+        >Részletek...
+        </gtm-link>
       </TimelineCard>
 
       <TimelineCard title="GIT - fájdalommentes verziókövetés"
@@ -80,8 +83,9 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/git-icon.png" alt="git">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.git"
-           href="https://netacademia.hu/Tanfolyam/2018GIT-git---fajdalommentes-verziokovetes"
-        >Részletek...</gtm-link>
+                  href="https://netacademia.hu/Tanfolyam/2018GIT-git---fajdalommentes-verziokovetes"
+        >Részletek...
+        </gtm-link>
       </TimelineCard>
 
       <TimelineCard title="VueJS - Ja, hogy ezt így is lehet"
@@ -96,8 +100,9 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/vue-icon.png" alt="vue">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.vue"
-           href="https://www.netacademia.hu/Tanfolyam/2018vuejs2-vuejs---ja-hogy-ezt-igy-is-lehet"
-        >Részletek...</gtm-link>
+                  href="https://www.netacademia.hu/Tanfolyam/2018vuejs2-vuejs---ja-hogy-ezt-igy-is-lehet"
+        >Részletek...
+        </gtm-link>
       </TimelineCard>
 
       <TimelineCard title="Vue - A végtelenbe és tovább!"
@@ -112,8 +117,9 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/vue-icon.png" alt="vue">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.vueAdvanced"
-           href="https://www.netacademia.hu/Tanfolyam/2018vuejs3-vue---a-vegtelenbe-es-tovabb"
-        >Részletek...</gtm-link>
+                  href="https://www.netacademia.hu/Tanfolyam/2018vuejs3-vue---a-vegtelenbe-es-tovabb"
+        >Részletek...
+        </gtm-link>
       </TimelineCard>
 
     </TimelineContainer>
@@ -137,7 +143,7 @@
           <span class="ar">9.900 </span>Ft!
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVueAsExtension"
-                  href=" https://www.netacademia.hu/Subscription/Create/0ceafbab-4b10-4835-9a25-f4a4876690b6"
+                  href="https://www.netacademia.hu/Subscription/Create/0ceafbab-4b10-4835-9a25-f4a4876690b6"
                   class="btn-cus btn-cus-orange mb-4"
         >Megveszem!
         </gtm-link>
@@ -148,7 +154,7 @@
           <span class="ar">29.900</span> Ft!
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVue"
-                  href=" https://netacademia.hu/Subscription/Create/webfejleszto-leszek-vuejs-edition"
+                  href="https://netacademia.hu/Subscription/Create/webfejleszto-leszek-vuejs-edition"
                   class="btn-cus btn-cus-orange mb-4"
         >Megveszem!
         </gtm-link>
@@ -168,7 +174,7 @@
                   bizonyíték arra, hogy képes vagy statikus és dinamikus reszponzív weboldalak készítésére,
                   elboldogulsz a webprogramozás és az alkalmazásfejlesztés világában is.
                 </p>
-                <a href="https://netacademia.hu/certificate">Bővebb információ</a>
+                <nuxt-link to="/certificate">Bővebb információ</nuxt-link>
               </div>
               <div class="col-11 mx-auto col-lg-11 my-4">
                 <h4 class="pb-3">Webfejlesztő leszek!
@@ -178,8 +184,7 @@
                 <p class="mb-3">Ebben a tanfolyamsorozatunkban a főszerepet az Angular keretrendszer kapta, és a kurzus
                   során egy Vatera-szerű
                   alkalmazást készíthetsz el velünk.</p>
-                <a href="https://netacademia.hu/webfejleszto-angular" class="">Bővebben az Angular edition
-                  tanfolyamról...</a>
+                <nuxt-link to="/webfejleszto-angular">Bővebben az Angular edition tanfolyamról...</nuxt-link>
               </div>
             </div>
           </div>
@@ -372,83 +377,6 @@ main {
 
 .ulticol {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-/* buttons */
-.btn-cus {
-  padding: 10px 20px;
-  border-radius: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.btn-cus:hover {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.btn-cus-orange {
-  background: #e55a0c;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-weight: 500;
-}
-
-.btn-cus-orange:hover {
-  background: #fe870d;
-}
-
-.text-orange {
-  color: #e55a0c;
-  font-weight: bold;
-}
-
-.btn-cus-border {
-  padding: 10px 20px;
-  border-radius: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-  text-decoration: none;
-}
-
-.btn-cus-border:hover {
-  text-decoration: none;
-}
-
-.btn-border-red {
-  border: 2px solid #c21500;
-  color: #c21500;
-}
-
-.btn-border-red:hover {
-  background: #c21500;
-  color: #ffffff;
-}
-
-.btn-border-blue {
-  border: 2px solid #2197c7;
-  color: #2197c7;
-}
-
-.btn-border-blue:hover {
-  background: #2197c7;
-  color: #ffffff;
-}
-
-.btn-border-green {
-  border: 2px solid #41b883;
-  color: #41b883;
-}
-
-.btn-border-green:hover {
-  background: #41b883;
-  color: #ffffff;
 }
 
 h1,

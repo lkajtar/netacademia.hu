@@ -9,8 +9,8 @@
                                     készítheted első saját fejlesztésű játékodat! Emellett betekintést nyerhetsz a
                                     többjátékos, virtuális és kiterjesztett valóság alapú játékok fejlesztésébe is!"
     >
-      <img slot="lead-icon" src="img/e834fce0/unity-icon.png" alt="unity-icon" class="img-fluid" width="60">
-      <a slot="call-to-action" href="#reszletek" class="btn-cus btn-dark btn-lg ml-3 px-5">Részletek</a>
+      <img slot="lead-icon" src="~/assets/unity-developer/unity-icon.png" alt="unity-icon" class="img-fluid" width="60">
+      <a slot="call-to-action" href="#reszletek" class="btn-cus btn-cus-purple btn-lg ml-3 px-5">Részletek</a>
     </CertiTopHero>
 
     <CertiFeatures price="Most csak 69.900 Ft"></CertiFeatures>
@@ -27,7 +27,7 @@
                     card-header-bg="#6B273C"
                     direction="left"
       >
-        <img slot="picture" src="img/e834fce0/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.lenyugozo"
                   href="https://netacademia.hu/Tanfolyam/2018unitylenyug-lenyugozo-unity"
         >Részletek...
@@ -45,7 +45,7 @@
                     card-header-bg="#284d5d"
                     direction="right"
       >
-        <img slot="picture" src="img/e834fce0/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.modern"
                   href="https://netacademia.hu/Tanfolyam/2017unity-unity---jatekfejlesztes-modern-eszkozokkel"
         >Részletek...
@@ -63,7 +63,7 @@
                     card-header-bg="#222c37"
                     direction="left"
       >
-        <img slot="picture" src="img/e834fce0/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.ketd"
                   href="https://netacademia.hu/Tanfolyam/2018unity2d-unity---bevezetes-a-2d-jatekfejlesztesbe"
         >Részletek...
@@ -81,7 +81,7 @@
                     card-header-bg="#6B273C"
                     direction="right"
       >
-        <img slot="picture" src="img/e834fce0/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.ui"
                   href="https://netacademia.hu/Tanfolyam/2018unityUI-unity-ui"
         >Részletek...
@@ -99,26 +99,24 @@
                     card-header-bg="#222c37"
                     direction="left"
       >
-        <img slot="picture" src="img/e834fce0/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
                   href="https://netacademia.hu/Tanfolyam/2018unityhalad%C3%B3-unity-advanced"
-        "
-        >Részletek...</gtm-link>
+        >Részletek...
+        </gtm-link>
       </TimelineCard>
 
     </TimelineContainer>
     <div class="row justify-content-center text-center py-5 mx-0 align-self-center">
 
-      <div class="col-12 col-lg-4 p-4 bg-card m-2 align-self-center py-5 px-3 single-special vue-gtm-app"
-           data-block-id="unity"
-           v-observe-visibility="VisibilityChanged">
+      <div class="col-12 col-lg-4 p-4 bg-card m-2 align-self-center py-5 px-3 single-special">
         <p class="mb-4">A Certified Unity Developer tanfolyamcsomag ára
           <br>bruttó
           <span class="ar">69.900 Ft</span>
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
                   href="https://netacademia.hu/Subscription/Create/certified-unity-developer"
-                  class="btn-cus btn-dark btn-lg ml-3 px-5"
+                  class="btn-cus btn-cus-purple btn-lg ml-3 px-5"
         >Megveszem!
         </gtm-link>
       </div>
@@ -132,14 +130,12 @@
           <div class="col-12 col-lg-7 mx-auto">
             <div class="row">
               <div class="col-11 mx-auto col-lg-11 my-4">
-                <h4 class="pb-3">Tanfolyami előkövetelmény</span>
-                </h4>
+                <h4 class="pb-3">Tanfolyami előkövetelmény</h4>
                 <p class="mb-3">A tanfolyamsorozat elvégzéséhez szükséges a C# nyelv és az objektum-orientált
                   programozás ismerete.</p>
                 <p>Még nem rendelkezel elegendő tudással? Most induló C# tanfolyamsorozatunkban ezt is
                   megtanulhatod!</p>
-                <a href="https://netacademia.hu/junior-csharp-developer" class="">Bővebben a C# fejlesztői
-                  útvonalról...</a>
+                <nuxt-link to="/junior-csharp-developer">Bővebben a C# fejlesztői útvonalról...</nuxt-link>
               </div>
               <div class="col-11 mx-auto my-4">
                 <h4 class="pb-3">Szerezz NetAcademia Certificate-et!</h4>
@@ -150,7 +146,7 @@
                   segítségével 2D-s és 3D-s játékot fejleszteni, alapvető funkciókkal és felhasználói felülettel, és
                   hogy haladó
                   szinten ismered a Unity lehetőségeit.</p>
-                <a href="https://netacademia.hu/certificate" class="">Bővebben a Certificate-ről...</a>
+                <nuxt-link to="/certificate">Bővebben a Certificate-ről...</nuxt-link>
               </div>
             </div>
           </div>
@@ -161,23 +157,10 @@
               nekünk az
               <span class="text-success">iroda@netacademia.net</span> e-mail címre, és a Unity előfizetésed árát most
               beszámítjuk Ultimate előfizetésünkbe!</p>
-            <!--<a href="https://netacademia.hu/ultimateakcio" class="btn-cus-border btn-cus btn-border-green px-3 text-center ">Ultimate előfizetést szeretnék!</a>-->
           </div>
         </div>
       </div>
     </section>
-
-    <!-- beharangozo -->
-    <div class="container">
-      <div class="row justify-content-center py-5">
-        <div class="col-11 col-lg-8">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f1dDEuFqrsI"
-                    allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
   </main>
 </template>
 
@@ -283,7 +266,7 @@ main {
       rgba(43, 45, 66, 0.65),
       rgba(43, 45, 66, 0.65)
     ),
-    url("img/e834fce0/background.jpg");
+    url("~/assets/unity-developer/background.jpg");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -299,83 +282,6 @@ main {
 
 .ulticol {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-/* buttons */
-.btn-cus {
-  padding: 10px 20px;
-  border-radius: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.btn-cus:hover {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.btn-cus-orange {
-  background: #e55a0c;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-weight: 500;
-}
-
-.btn-cus-orange:hover {
-  background: #fe870d;
-}
-
-.text-orange {
-  color: #e55a0c;
-  font-weight: bold;
-}
-
-.btn-cus-border {
-  padding: 10px 20px;
-  border-radius: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-  text-decoration: none;
-}
-
-.btn-cus-border:hover {
-  text-decoration: none;
-}
-
-.btn-border-red {
-  border: 2px solid #c21500;
-  color: #c21500;
-}
-
-.btn-border-red:hover {
-  background: #c21500;
-  color: #ffffff;
-}
-
-.btn-border-blue {
-  border: 2px solid #2197c7;
-  color: #2197c7;
-}
-
-.btn-border-blue:hover {
-  background: #2197c7;
-  color: #ffffff;
-}
-
-.btn-border-green {
-  border: 2px solid #41b883;
-  color: #41b883;
-}
-
-.btn-border-green:hover {
-  background: #41b883;
-  color: #ffffff;
 }
 
 h1,
