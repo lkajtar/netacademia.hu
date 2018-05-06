@@ -266,7 +266,7 @@
           <div class="col-12 text-center ulti pt-4">
             <p>Ha kínálatunk elnyerte a tetszésed, fizess elő egy évre, hogy korlátlanul tanulhass! Most 99.900 Ft + áfa</p>
             <div class="mx-auto button-ulti">
-              <gtm-link :gtm-data="GTMProductCollection.ultimate" href="https://netacademia.hu/ultimateakcio">
+              <gtm-link :gtm-data="GTMProductCollection.ultimate" href="/ultimateakcio">
                 Előfizetek
               </gtm-link>
             </div>

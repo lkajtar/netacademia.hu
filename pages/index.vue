@@ -32,12 +32,12 @@
     <div class="vfkozepre">
       <div class="cim">Teremtsd meg a jövőd!</div>
       <div class="gombdoboz">
-        <a href="/elofizetes#kepzes">
+        <nuxt-link to="/elofizetes#kepzes">
           <div class="gomb">Képzéseink</div>
-        </a>
-        <a href="/elofizetes#elofizetes">
+        </nuxt-link>
+        <nuxt-link to="/elofizetes#elofizetes">
           <div class="gomb">Előfizetés</div>
-        </a>
+        </nuxt-link>
 
         <nuxt-link to="/webfejleszto-vuejs">
           <div class="akciogomb">Webfejlesztői akció</div>

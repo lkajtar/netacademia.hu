@@ -9,8 +9,8 @@
             <h1>Certificate</h1>
             <p class="lead  mt-5">A puding próbája az evés. A vizsga azt a célt szolgálja, hogy bebizonyítsd országnak-világnak, hogy érted, és a gyakorlatban alkalmazni is tudod a tanfolyamon tanultakat. A NetAcademia Certificate olyan minősítési forma, ami nem a totózási, hanem a problémamegoldási képességedet méri fel. Éppen ezért képvisel magas értéket mind a munkaadók, mind a munkavállalók szemében!</p>
             <p class="lead mb-5">Tanúsítványunk egyelőre a nagy sikerű
-              <a href="https://netacademia.hu/webfejleszto-angular">Webfejlesztő útvonalunkra
-              </a> alapozva, Front-end fejlesztők számára elérhető.</p>
+              <nuxt-link to="/webfejleszto-angular">Webfejlesztő útvonalunkra
+              </nuxt-link> alapozva, Front-end fejlesztők számára elérhető.</p>
             <a href="https://www.netacademia.hu/Registration/CreateExam/2018angular-certificate" class="btn-red px-3">Vizsgázni szeretnék!</a>
           </div>
         </div>
@@ -167,8 +167,8 @@
       <div class="row justify-content-center">
         <div class="col-12 mt-4 text-center mb-5">
           <p class="lead">Tanúsítványunk egyelőre a nagy sikerű
-            <a href="https://netacademia.hu/webfejleszto-angular">Webfejlesztő útvonalunkra
-            </a> alapozva, Front-end fejlesztők számára elérhető.</p>
+            <nuxt-link to="/webfejleszto-angular">Webfejlesztő útvonalunkra
+            </nuxt-link> alapozva, Front-end fejlesztők számára elérhető.</p>
         </div>
 
         <div class="col-2 text-center">
