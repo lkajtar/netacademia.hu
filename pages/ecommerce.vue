@@ -8,7 +8,7 @@
                   Elkalauzolunk a marketing világába is, hogy képes legyél saját hirdetéseket létrehozni Facebookon és
                   Google AdWordsben, és ki tudd aknázni a Facebook Marketplace adta megannyi lehetőséget!"
     >
-      <img slot="lead-icon" src="~/assets/ecommerce/unity-icon.png" alt="unity-icon" class="img-fluid" width="60">
+      <img slot="lead-icon" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon" class="img-fluid" width="60">
       <a slot="call-to-action" href="#reszletek" class="btn-cus btn-cus-purple btn-lg ml-3 px-5">Részletek</a>
     </CertiTopHero>
 
@@ -25,7 +25,7 @@
                     card-header-bg="#6B273C"
                     direction="left"
       >
-        <img slot="picture" src="~/assets/ecommerce/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.lenyugozo"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomPlan"
         >Részletek...
@@ -43,7 +43,7 @@
                     card-header-bg="#284d5d"
                     direction="right"
       >
-        <img slot="picture" src="~/assets/ecommerce/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.modern"
                   href="https://app.netacademia.hu/Tanfolyam/2018Ecomshop"
         >Részletek...
@@ -61,7 +61,7 @@
                     card-header-bg="#222c37"
                     direction="left"
       >
-        <img slot="picture" src="~/assets/ecommerce/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.ketd"
                   href="https://app.netacademia.hu/Tanfolyam/2018Ecomfaceshop"
         >Részletek...
@@ -80,7 +80,7 @@
                     card-header-bg="#6B273C"
                     direction="right"
       >
-        <img slot="picture" src="~/assets/ecommerce/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.ui"
                   href="https://app.netacademia.hu/Tanfolyam/2018Ecomfun"
         >Részletek...
@@ -99,7 +99,7 @@
                     card-header-bg="#222c37"
                     direction="left"
       >
-        <img slot="picture" src="~/assets/ecommerce/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomGoog"
         >Részletek...
@@ -117,7 +117,7 @@
                     card-header-bg="#284d5d"
                     direction="right"
       >
-        <img slot="picture" src="~/assets/ecommerce/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomEmail"
         >Részletek...
@@ -136,7 +136,7 @@
                     card-header-bg="#6B273C"
                     direction="left"
       >
-        <img slot="picture" src="~/assets/ecommerce/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomCus"
         >Részletek...
@@ -154,7 +154,7 @@
                     card-header-bg="#222c37"
                     direction="right"
       >
-        <img slot="picture" src="~/assets/ecommerce/unity-icon.png" alt="unity-logo">
+        <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomMes"
         >Részletek...
