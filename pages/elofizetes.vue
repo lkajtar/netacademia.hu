@@ -55,8 +55,8 @@
       </div>
     </header>
 
-    <div class="container py-5">
-      <div class="row justify-content-center text-center">
+    <div class="container py-5" id="kepzes">
+      <div class="row justify-content-center text-center mt-5">
         <div class="col-12 second-title">
           <h3 class="mb-5 display-4">A jövődet meghatározó képzési útvonalaink</h3>
         </div>
