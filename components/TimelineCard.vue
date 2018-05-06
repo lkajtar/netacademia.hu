@@ -8,6 +8,7 @@
       <hr>
       <p class="font-weight-light m-0">{{length}} - {{price}}</p>
       <p>{{description}}</p>
+      <p v-if="description2">{{description2}}</p>
       <slot class="py-2" name="link"></slot>
     </Bounce>
   </div>
@@ -33,6 +34,9 @@ export default {
     description: {
       type: String,
       required: true
+    },
+    description2: {
+      type: String,
     },
     logoBg: {
       type: String,

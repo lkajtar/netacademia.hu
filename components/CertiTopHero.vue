@@ -32,8 +32,7 @@ export default {
       required: true
     },
     salesPitchTitle: {
-      type: String,
-      required: true
+      type: String
     },
     salesPitchText: {
       type: String,

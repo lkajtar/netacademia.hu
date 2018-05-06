@@ -3,7 +3,6 @@
     <CertiTopHero class="hero-bg"
                   page-title="Certified Unity Developer"
                   lead-text="Játékfejlesztés"
-                  sales-pitch-title="Projektalapú front-end fejlesztés az alapoktól"
                   sales-pitch-text="Érdekel, hogyan készülnek napjainkban a számítógépes játékok? A Unity játékmotoron
                                     keresztül megismerheted a játékfejlesztés modern eszközeit, és rögtön el is
                                     készítheted első saját fejlesztésű játékodat! Emellett betekintést nyerhetsz a
@@ -19,10 +18,10 @@
       <TimelineCard title="Lenyűgöző UNITY"
                     length="3 óra"
                     price="ingyenes"
-                    description="Látványos mobil játék készítése mindössze néhány óra alatt. Ez a képzés egy
-                                gyakorlatias, rövid bemutató arról, hogyan lehet látványos játékokat készíteni akár
-                                néhány óra leforgása alatt a Unity játékmotor segítségével. A tanfolyamon egy autós
-                                3D játékot fejlesztünk okostelefonokra."
+                    description="Látványos mobil játék készítése mindössze néhány óra alatt."
+                    description2="Ez a képzés egy gyakorlatias, rövid bemutató arról, hogyan lehet látványos játékokat
+                    készíteni akár néhány óra leforgása alatt a Unity játékmotor segítségével. A tanfolyamon egy autós
+                    3D játékot fejlesztünk okostelefonokra."
                     logo-bg="#6B273C"
                     card-header-bg="#6B273C"
                     direction="left"
@@ -57,8 +56,8 @@
                     price="49.900 Ft+áfa"
                     description="A tanfolyamon közelebbről megismerkedünk a 2D-s játéktervezéssel. Megtudjuk, hogyan
                                 használhatunk ismétlődő háttereket, hogyan alakíthatunk ki különböző textúrákat,
-                                karaktereket vagy éppen akadályokat. A kurzus során bemutatásra kerül a Unity új 2D
-                                szerkesztője, a Tilemap is."
+                                karaktereket vagy éppen akadályokat."
+                    description2=" A kurzus során bemutatásra kerül a Unity új 2D szerkesztője, a Tilemap is."
                     logo-bg="#222c37"
                     card-header-bg="#222c37"
                     direction="left"
@@ -77,6 +76,8 @@
                               (User Interface - UI) kialakításán fogunk dolgozni. Bevezetésre kerül a Unity UI
                               eszköztára. Megtanuljuk, hogyan jeleníthetünk meg szöveges-, és egyéb UI elemeket,
                               képeket, illetve hogyan pozícionálhatjuk mindezeket."
+                    description2="A tanfolyamon megtudhatjuk azt is, hogyan használhatunk egyéb, harmadik féltől
+                              származó UI témákat és megoldásokat."
                     logo-bg="#6B273C"
                     card-header-bg="#6B273C"
                     direction="right"
