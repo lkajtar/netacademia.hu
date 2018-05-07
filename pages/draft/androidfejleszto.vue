@@ -10,7 +10,7 @@
                                     többjátékos, virtuális és kiterjesztett valóság alapú játékok fejlesztésébe is!"
     >
       <img slot="lead-icon" src="~/assets/unity-developer/unity-icon.png" alt="unity-icon" class="img-fluid" width="60">
-      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus btn-cus-purple btn-lg ml-3 px-5">Részletek</nuxt-link>
+      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus btn-cus-darkred btn-lg ml-3 px-5">Részletek</nuxt-link>
     </CertiTopHero>
 
     <CertiFeatures price="Most csak 69.900 Ft"></CertiFeatures>
@@ -116,7 +116,7 @@
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
                   href="https://netacademia.hu/Subscription/Create/certified-unity-developer"
-                  class="btn-cus btn-cus-purple btn-lg ml-3 px-5"
+                  class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
         >Megveszem!
         </gtm-link>
       </div>

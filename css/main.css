@@ -15,9 +15,21 @@
   color: #ffffff;
 }
 
-.btn-cus-purple {
+.btn-cus-darkred {
   border: 1px solid #ffffff;
   background: #6B273C;
+}
+
+.btn-cus-purple {
+  background: #68217a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  border: 1px solid #ffffff;
+}
+
+.btn-cus-purple:hover {
+  background: #A936C6;
 }
 
 .btn-cus-orange {
