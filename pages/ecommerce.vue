@@ -8,11 +8,13 @@
                   Elkalauzolunk a marketing világába is, hogy képes legyél saját hirdetéseket létrehozni Facebookon és
                   Google AdWordsben, és ki tudd aknázni a Facebook Marketplace adta megannyi lehetőséget!"
     >
-      <img slot="lead-icon" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon" class="img-fluid" width="60">
-      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus btn-cus-purple btn-lg ml-3 px-5">Részletek</nuxt-link>
+      <img slot="lead-icon" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon" class="img-fluid"
+           width="60">
+      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus btn-cus-darkred btn-lg ml-3 px-5">Részletek
+      </nuxt-link>
     </CertiTopHero>
 
-    <CertiFeatures price="Most csak 49.900 Ft"></CertiFeatures>
+    <CertiFeatures price="Most csak 39.900 Ft"></CertiFeatures>
 
     <TimelineContainer id="reszletek">
       <TimelineCard title="Validáljuk ötletünket!"
@@ -165,12 +167,21 @@
     <div class="row justify-content-center text-center py-5 mx-0 align-self-center">
 
       <div class="col-12 col-lg-4 p-4 bg-card m-2 align-self-center py-5 px-3 single-special">
-        <p class="mb-4">A Certfied E-commerce Specialist tanfolyamcsomag ára<br>bruttó <span class="ar">49.900 Ft</span>
+        <p class="mb-4">A Certfied E-commerce Specialist tanfolyamcsomag ára <del>49.900 Ft</del> helyett, most <br>csak <span class="ar">39.900 Ft</span>
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
                   href="https://netacademia.hu/Subscription/Create/certified-e-commerce-specialist"
-                  class="btn-cus btn-cus-purple btn-lg ml-3 px-5"
+                  class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
         >Megveszem!
+        </gtm-link>
+      </div>
+      <div class="col-12 col-lg-4 p-4 bg-card m-2 align-self-center py-5 px-3 single-special">
+        <p class="mb-4">E-commerce útvonalunk az Office előfizetésünk részét képezi, mely sok ehhez hasonló képzést
+          foglal magában. Nézz körbe, további tanfolyamainkért!</p>
+        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
+                  href="/officecsomag"
+                  class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
+        >Érdekel!
         </gtm-link>
       </div>
     </div>
