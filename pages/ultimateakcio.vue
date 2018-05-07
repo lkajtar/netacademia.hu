@@ -8,7 +8,7 @@
           <span class="text-uppercase">Ultimate</span> előfizetés</h2>
         <p class="lead mt-1 mb-5">
           <span class="font-weight-bold">GDPR, CISSP, C, ITIL, Android, Java, Webfeljesztés, Excel All-in</span>. Ez csak néhány a több mint 300 tanfolyamunk közül. Ráadásul
-          <span class="font-weight-bold">május 2-ig 1 éves előfizetésünk 300.000 Ft helyett csak 99.900 Ft+áfa</span>.</p>
+          <span class="font-weight-bold">május 16-ig 1 éves előfizetésünk 300.000 Ft helyett csak 99.900 Ft+áfa</span>.</p>
         <div class="row">
           <a href="https://www.netacademia.hu/subscription/create" class="btn-orange btn-lg ml-3">Megveszem</a>
         </div>

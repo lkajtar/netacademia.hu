@@ -126,7 +126,7 @@
     <div class="row justify-content-center text-center py-5 mx-0 align-self-center vue-gtm-app">
       <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
         <p class="mb-4">Vedd meg a Webfejlesztő leszek! Angular editiont és a Webfejlesztő leszek! Vue.js editiont
-          most
+          május 14-ig csak
           <br>bruttó
           <span class="ar">39.800 </span>Ft!
         </p>
@@ -138,7 +138,7 @@
       </div>
       <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
         <p class="mb-4">Van már Webfejlesztő leszek! előfizetésed? Akkor neked a Webfejlesztő leszek! Vue.js edition
-          most csak
+          május 14-ig csak
           <br>bruttó
           <span class="ar">9.900 </span>Ft!
         </p>
@@ -150,6 +150,7 @@
       </div>
       <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
         <p class=" mb-4">Webfejlesztő leszek! – Vue edition – tanfolyamcsomag ára
+          <br>május 14-ig csak
           <br>bruttó
           <span class="ar">29.900</span> Ft!
         </p>
