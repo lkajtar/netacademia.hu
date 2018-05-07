@@ -11,7 +11,7 @@ const scroll = function(to, from, savedPosition) {
           position = { x: 0, y: 0 };
         }
         resolve(position);
-      }, 250);
+      }, 500);
     });
   } else {
     return { x: 0, y: 0 };
