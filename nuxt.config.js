@@ -92,7 +92,8 @@ module.exports = {
   css: ["~/css/main.css"],
   plugins: [
     { src: "~/plugins/vue-observe-visibility", ssr: false },
-    { src: "~/plugins/vue-youtube-embed", ssr: false }
+    { src: "~/plugins/vue-youtube-embed", ssr: false },
+    { src: "~/plugins/vue-mq", ssr: false }
   ],
   modules: [["@nuxtjs/google-tag-manager", { id: "GTM-T3WLP7" }]],
   /*

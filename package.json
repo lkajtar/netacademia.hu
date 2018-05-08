@@ -23,6 +23,7 @@
     "intersection-observer": "^0.5.0",
     "npm": "^6.0.0",
     "nuxt": "^1.0.0",
+    "vue-mq": "^0.2.1",
     "vue-observe-visibility": "^0.3.1",
     "vue-youtube-embed": "^2.1.3"
   },
