@@ -62,7 +62,16 @@ module.exports = {
         rel: "stylesheet",
         href:
           "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Montserrat"
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext"
       }
+
     ],
     script: [
       { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" },

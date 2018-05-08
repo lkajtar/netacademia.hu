@@ -1,33 +1,10 @@
 <template>
+
   <main>
     <video loop muted autoplay poster="/background.jpg" class="fullscreen-bg__video">
-      <source src="https://player.vimeo.com/external/264778690.hd.mp4?s=8b80ecb93aeb209e06951980b8d335424dc83c37&profile_id=174">
+      <source
+        src="https://player.vimeo.com/external/264778690.hd.mp4?s=8b80ecb93aeb209e06951980b8d335424dc83c37&profile_id=174">
     </video>
-
-    <img class="logocska" src="~/assets/logo-ikon.svg" alt="NetAcademia Oktatóközpont Kft.">
-    <div id="headerbox">
-      <ol>
-        <li>
-          <a href="http://app.netacademia.hu/tanfolyamkeresov2">Tanfolyamkereső</a>
-        </li>
-        <li>
-          <a href="http://app.netacademia.hu/indulotanfolyamok">Induló tanfolyamok</a>
-        </li>
-        <li>
-          <nuxt-link to="/certificate" class="hideonmobile">NetAcademia Certificate</nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/lenyugozo-tanfolyamok" class="hideonmobile">
-            Lenyűgöző tanfolyamok
-          </nuxt-link>
-          <!-- <a href="http://app.netacademia.hu/lenyugozo-tanfolyamok" class="hideonmobile">
-                                Lenyűgöző tanfolyamok</a> -->
-        </li>
-        <li>
-          <a href="http://app.netacademia.hu/Adataim">Adataim</a>
-        </li>
-      </ol>
-    </div>
 
     <div class="vfkozepre">
       <div class="cim">Teremtsd meg a jövőd!</div>
@@ -70,7 +47,11 @@
 </template>
 
 <script>
+import Navigation from "../components/Navigation";
+
 export default {
+  layout: 'landing',
+  components: { Navigation },
   computed: {
     currentYear: function() {
       return new Date().getFullYear();
@@ -115,7 +96,6 @@ export default {
 </style>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext");
 
 .fullscreen-bg__video {
   position: absolute;
