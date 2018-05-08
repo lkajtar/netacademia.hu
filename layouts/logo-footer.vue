@@ -1,19 +1,18 @@
 <template>
   <div>
-    <nav class="navbar fixed-top">
-      <nuxt-link class="navbar-brand" to="/"><img src="~/assets/logo-ikon.svg" height="50" alt="logo" style="background-color: transparent;"></nuxt-link>
-    </nav>
+    <Navigation theme="logo"></Navigation>
     <nuxt/>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Footer from "~/components/Footer.vue";
+  import Navigation from "~/components/Navigation";
+  import Footer from "~/components/Footer";
 
-export default {
-  components: { Footer }
-};
+  export default {
+    components: { Navigation, Footer}
+  };
 </script>
 
 <style>

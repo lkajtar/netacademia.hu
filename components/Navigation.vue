@@ -1,5 +1,10 @@
 <template>
-  <nav class="navbar fixed-top navbar-expand-md" :class="themeClass.nav">
+  <nav v-if="theme === 'logo'" class="navbar fixed-top">
+    <nuxt-link class="navbar-brand" to="/">
+      <img width="40px" src="~/assets/logo-ikon.svg" alt="NetAcademia Oktatóközpont Kft." style="background-color: transparent;" />
+    </nuxt-link>
+  </nav>
+  <nav v-else class="navbar fixed-top navbar-expand-md" :class="themeClass.nav">
     <nuxt-link class="navbar-brand" to="/">
       <img width="40px" src="~/assets/logo-ikon.svg" alt="NetAcademia Oktatóközpont Kft."/>
     </nuxt-link>
@@ -60,7 +65,7 @@ export default {
       type: String,
       default: "light",
       validator: function(val) {
-        return ["light", "dark", "transparent"].indexOf(val) !== -1;
+        return ["light", "dark", "transparent", "logo"].indexOf(val) !== -1;
       }
     }
   },
