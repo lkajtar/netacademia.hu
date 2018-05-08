@@ -201,7 +201,7 @@
   import CertiTopHero from "../components/CertiTopHero";
 
   export default {
-    layout: "bs-logo-footer",
+    layout: "logo-footer",
     components: {
       CertiTopHero,
       CertiFeatures,

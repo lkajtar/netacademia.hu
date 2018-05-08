@@ -197,7 +197,7 @@
 
 <script>
 export default {
-  layout: "bs-nav-light"
+  layout: "nav-light"
 };
 </script>
 

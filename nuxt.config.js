@@ -4,7 +4,6 @@ const scroll = function(to, from, savedPosition) {
       setTimeout(() => {
         let position = {};
         if (to.hash && document.querySelector(to.hash)) {
-          console.log("route:", to.hash);
           // scroll to anchor by returning the selector
           position = { selector: to.hash };
         } else {
@@ -57,7 +56,25 @@ module.exports = {
         content: "Teremtsd meg a jövőd!"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "stylesheet",
+        href:
+          "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      }
+    ],
+    script: [
+      { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      },
+      {
+        src:
+          "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      }
+    ]
   },
   /*
   ** Customize the progress bar color

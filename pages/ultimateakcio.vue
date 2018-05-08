@@ -203,7 +203,7 @@
 import BouncingDownArrow from "../components/BouncingDownArrow";
 export default {
   components: {BouncingDownArrow},
-  layout: "bs-logo-footer"
+  layout: "logo-footer"
 };
 </script>
 

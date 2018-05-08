@@ -285,7 +285,7 @@ import Bounce from "~/components/Bounce.vue";
 
 export default {
   components: { GtmLink, Bounce },
-  layout: "bs-logo-footer",
+  layout: "logo-footer",
   data: function() {
     return {
       GTMProductCollection: {

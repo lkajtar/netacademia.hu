@@ -274,7 +274,7 @@ import BouncingDownArrow from "../components/BouncingDownArrow";
 
 export default {
   components: { BouncingDownArrow, GtmLink, ElofizetesProductCard },
-  layout: "bs-nav-footer-dark",
+  layout: "nav-dark-footer",
   data: function() {
     return {
       GTMProductCollection: {
