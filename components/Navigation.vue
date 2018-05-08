@@ -30,7 +30,7 @@
           <nuxt-link class="nav-link" to="/elofizetes">Előfizetés</nuxt-link>
         </li>
         <li class="nav-item">
-          <nuxt-link class="nav-link" to="/Adataim">Adataim</nuxt-link>
+          <a class="nav-link" href="https://app.netacademia.hu/Adataim">Adataim</a>
         </li>
       </ul>
       <!--<ul class="navbar-nav ml-auto">-->
