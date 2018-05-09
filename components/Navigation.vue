@@ -16,25 +16,25 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <!--<ul class="navbar-nav ml-auto">-->
       <ul class="navbar-nav mx-auto">
-        <li class="nav-item">
+        <li class="nav-item flex-center">
           <a class="nav-link" href="/tanfolyamkeresov2">Tanfolyamkereső</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item flex-center">
           <a class="nav-link" href="/indulotanfolyamok">Induló tanfolyamok</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item flex-center">
           <nuxt-link class="nav-link" to="/certificate">NetAcademia Certificate</nuxt-link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item flex-center">
           <nuxt-link class="nav-link" to="/lenyugozo-tanfolyamok">Lenyűgöző tanfolyamok</nuxt-link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item flex-center">
           <nuxt-link class="nav-link" to="/ultimateakcio">Akció</nuxt-link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item flex-center">
           <nuxt-link class="nav-link" to="/elofizetes">Előfizetés</nuxt-link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item flex-center">
           <a class="nav-link" href="https://app.netacademia.hu/Adataim">Adataim</a>
         </li>
       </ul>

@@ -86,12 +86,6 @@ h1 {
   font-weight: 300;
 }
 
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .lablec {
   font-family: Arial;
   font-size: 14px;
