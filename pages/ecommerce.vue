@@ -179,7 +179,7 @@
         <p class="mb-4">E-commerce útvonalunk az Office előfizetésünk részét képezi, mely sok ehhez hasonló képzést
           foglal magában. Nézz körbe, további tanfolyamainkért!</p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartOffice"
-                  href="/officecsomag"
+                  href="https://app.netacademia.hu/officecsomag"
                   class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
         >Érdekel!
         </gtm-link>
