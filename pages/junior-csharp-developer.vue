@@ -177,7 +177,7 @@
                   és módszertanunkat: gyakorlatias és projekt-alapú. A sikeres vizsga bizonyíték arra, hogy képes vagy C# nyelven
                   programozni több platformra, legyen szó Windows desktop vagy webes alkalmazásról, használni tudod a XAML-t,
                   tisztában vagy az objektumorientáltsággal, eligazodsz a .NET környezetben.</p>
-                <nuxt-link to="/certificate" class="">Bővebben a Certificate-ről...</nuxt-link>
+                <nuxt-link to="/certificate">Bővebben a Certificate-ről...</nuxt-link>
               </div>
             </div>
           </div>

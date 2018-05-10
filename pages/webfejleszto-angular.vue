@@ -126,7 +126,7 @@
                     felületéhez."
                     logo-bg="#ffffff"
                     card-header-bg="#47848f"
-                    direction="right"
+                    direction="left"
       >
         <img slot="picture" src="~/assets/webfejleszto-angular/electron-icon.png" alt="electron">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.electron"
@@ -198,7 +198,7 @@
                   munkával kapcsolatos adatokat kérjen a felhasználóktól, majd ezen adatokat felhasználva különböző
                   statisztikák elkészítésére adjon lehetőséget.
                 </p>
-                <nuxt-link to="/webfejleszto-vuejs" class="">Bővebben a Vue edition tanfolyamról...</nuxt-link>
+                <nuxt-link to="/webfejleszto-vuejs">Bővebben a Vue edition tanfolyamról...</nuxt-link>
               </div>
             </div>
           </div>

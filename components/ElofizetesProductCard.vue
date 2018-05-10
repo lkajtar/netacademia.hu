@@ -17,7 +17,7 @@
         <p class="text-size text-center mb-4 mb-md-0">{{ description }}</p>
       </div>
       <div class="col-12 mb-2 text-center">
-        <p class="">
+        <p>
           <img src="~/assets/elofizetes/time.png" alt="idotartam" width="40" class="mr-2">{{ length }}</p>
       </div>
       <div class="col-12 text-center">

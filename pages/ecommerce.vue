@@ -200,7 +200,7 @@
                   eredményesebb legyen, az arra szánt pénzt úgy és arra
                   költsük el, hogy az számunkra a legnagyobb hasznot hozza.</p>
                 <a href="https://app.netacademia.hu/Tanfolyam/2017adatmarketing-az-adatvezerelt-marketing-alapjai"
-                   class="">Bővebben a tanfolyamról...</a>
+                  class="">Bővebben a tanfolyamról...</a>
               </div>
               <div class="col-11 mx-auto my-4">
                 <h4 class="pb-3">Szerezz NetAcademia Certificate-et!</h4>
@@ -208,7 +208,7 @@
                   leképezi oktatási hozzáállásunkat és módszertanunkat: gyakorlatias és projekt-alapú. A sikeres vizsga
                   bizonyíték arra, hogy képes vagy egy modern, sikeres webáruházat felépíteni Shopify vagy Wordpress
                   alapokon, ráadádasul hirdetési tudásodat kamatoztatva értékes vásárlóerőt szólíthatsz meg.</p>
-                <nuxt-link to="/certificate/" class="">Bővebben a certificate-ről...</nuxt-link>
+                <nuxt-link to="/certificate/">Bővebben a certificate-ről...</nuxt-link>
               </div>
             </div>
           </div>
