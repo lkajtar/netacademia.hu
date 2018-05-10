@@ -67,7 +67,7 @@
                 <div class="app-download-area">
                   <div class="button">
                     <!-- Google Store Btn -->
-                    <gtm-link :gtm-data="GTMProductCollection.web" href="https://netacademia.hu/Tanfolyam/2017htmllanding-lenyugozo-weblapok-keszitese">
+                    <gtm-link :gtm-data="GTMProductCollection.web" href="https://app.netacademia.hu/Tanfolyam/2017htmllanding-lenyugozo-weblapok-keszitese">
                       <p class="mb-0">Részt veszek a tanfolyamon!</p>
                     </gtm-link>
                   </div>
@@ -81,7 +81,7 @@
       <!-- product: unity -->
       <div class="py-5">
         <div class="container py-lg-5">
-          <div class="row" id="unity">
+          <div class="row">
             <div class="col-lg-6 col-xl-5 mr-xl-auto my-auto order-2 order-lg-1">
               <div class="special_description_content">
                 <h2>Lenyűgöző UNITY</h2>
@@ -91,7 +91,7 @@
                 <div class="app-download-area">
                   <div class="button">
                     <!-- Google Store Btn -->
-                    <gtm-link :gtm-data="GTMProductCollection.unity" href="https://netacademia.hu/Tanfolyam/2018unitylenyug-lenyugozo-unity">
+                    <gtm-link :gtm-data="GTMProductCollection.unity" href="https://app.netacademia.hu/Tanfolyam/2018unitylenyug-lenyugozo-unity">
                       <p class="mb-0">Részt veszek a tanfolyamon!</p>
                     </gtm-link>
                   </div>
@@ -128,7 +128,7 @@
                 <p class="font-weight-bold">Tanfolyam időpontja: 2018.04.23. 15 óra</p>
                 <div class="app-download-area">
                   <div class="button">
-                    <gtm-link :gtm-data="GTMProductCollection.csharp" href="https://netacademia.hu/Tanfolyam/2018csharp-lenyugozo-c-programozas">
+                    <gtm-link :gtm-data="GTMProductCollection.csharp" href="https://app.netacademia.hu/Tanfolyam/2018csharp-lenyugozo-c-programozas">
                       <p class="mb-0">Részt veszek a tanfolyamon!</p>
                     </gtm-link>
                   </div>
@@ -142,7 +142,7 @@
       <!-- product: windows -->
       <div class="py-5">
         <div class="container py-lg-5">
-          <div class="row" id="unity">
+          <div class="row">
             <div class="col-lg-6 col-xl-5 mr-xl-auto my-auto order-2 order-lg-1">
               <div class="special_description_content">
                 <h2>Windows Server alapismeretek, telepítés</h2>
@@ -191,7 +191,7 @@
               <h5>Bootstrap4</h5>
               <p class="mb-2">A kurzus során projekt alapon, gyakorlati módon ismerjük meg a Bootstrap keretrendszert, és a HTML-CSS kódolást!</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.bootstrap" href="https://netacademia.hu/Tanfolyam/2018bt4-bootstrap4">
+                <gtm-link :gtm-data="GTMProductCollection.bootstrap" href="https://app.netacademia.hu/Tanfolyam/2018bt4-bootstrap4">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -204,7 +204,7 @@
               <h5>Az első webes C# projektem</h5>
               <p class="mb-2">Az XAML fejlesztést követően betekintünk a webes alkalmazásfejlesztés kulisszái mögé is C# nyelven.</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.webtodo" href="https://netacademia.hu/Tanfolyam/2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese">
+                <gtm-link :gtm-data="GTMProductCollection.webtodo" href="https://app.netacademia.hu/Tanfolyam/2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -217,7 +217,7 @@
               <h5>CISSP</h5>
               <p class="mb-2">A képzés alatt az információbiztonság legkülönfélébb összetevőit vizsgáljuk egészen a rendszerüzemeltetéstől a hálózatbiztonságig.</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.cissp" href="https://netacademia.hu/Tanfolyam/2018CISSP-certified-information-systems-security-pro---cissp">
+                <gtm-link :gtm-data="GTMProductCollection.cissp" href="https://app.netacademia.hu/Tanfolyam/2018CISSP-certified-information-systems-security-pro---cissp">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -231,7 +231,7 @@
               <p class="mb-2">A tanfolyamon kis játékos projekteket valósítunk meg, és miközben megismerjük a JavaScript és a front-end fejlesztés alapjait.
               </p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.javascript" href="https://netacademia.hu/Tanfolyam/2018javascript-javascript---szent-habakuk-hisz-jatszom">
+                <gtm-link :gtm-data="GTMProductCollection.javascript" href="https://app.netacademia.hu/Tanfolyam/2018javascript-javascript---szent-habakuk-hisz-jatszom">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -244,7 +244,7 @@
               <h5>Multiplatform C# 2018</h5>
               <p class="mb-2">Ez egy lexikális, minden sarokba benézős tanfolyam, ééés: mindent kipróbálunk Windows-on és Linuxon is.</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.csharpalapok" href="https://netacademia.hu/Tanfolyam/2018csharpalapok-c-alapok-2018-a-multiplatform-c">
+                <gtm-link :gtm-data="GTMProductCollection.csharpalapok" href="https://app.netacademia.hu/Tanfolyam/2018csharpalapok-c-alapok-2018-a-multiplatform-c">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -257,7 +257,7 @@
               <h5>Videovágás alapok</h5>
               <p class="mb-2">Elsajátíthatjuk a Final Cut Pro X videovágó szoftver legfrissebb verziójának alapjait, így képesek leszünk minőségi videókat elkészíteni.</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.prox" href="https://netacademia.hu/Tanfolyam/2018prox-videovagas-alapok--final-cut-pro-x-el">
+                <gtm-link :gtm-data="GTMProductCollection.prox" href="https://app.netacademia.hu/Tanfolyam/2018prox-videovagas-alapok--final-cut-pro-x-el">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>

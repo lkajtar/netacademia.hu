@@ -10,7 +10,7 @@
           <span class="font-weight-bold">GDPR, CISSP, C, ITIL, Android, Java, Webfeljesztés, Excel All-in</span>. Ez csak néhány a több mint 300 tanfolyamunk közül. Ráadásul
           <span class="font-weight-bold">május 16-ig 1 éves előfizetésünk 300.000 Ft helyett csak 99.900 Ft+áfa</span>.</p>
         <div class="row">
-          <a href="https://www.netacademia.hu/subscription/create" class="btn-orange btn-lg ml-3">Megveszem</a>
+          <a href="https://app.netacademia.hu/subscription/create" class="btn-orange btn-lg ml-3">Megveszem</a>
         </div>
         <div class="text-center mt-5 d-none d-sm-block">
           <BouncingDownArrow href="#akcio"></BouncingDownArrow>
@@ -134,7 +134,7 @@
           <div class="col-10">
             <p class="lead">A tanfolyamokat online, élőben lehet követni, vagy ha lemaradtál, felvételről bármikor vissza tudod nézni. A gyakorlatorientált oktatás, a rugalmas időbeosztás, a gyakorló szakember oktatók mind-mind lehetővé teszik, hogy úgy tanulj, ahogyan Neked a legjobb: KÉNYELMESEN, OTTHONRÓL, ONLINE.</p>
             <div class="text-center pt-3">
-              <a href="https://www.netacademia.hu/subscription/create" class="btn-orange btn-lg">Megveszem</a>
+              <a href="https://app.netacademia.hu/subscription/create" class="btn-orange btn-lg">Megveszem</a>
             </div>
           </div>
         </div>

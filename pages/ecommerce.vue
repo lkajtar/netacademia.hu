@@ -170,7 +170,7 @@
         <p class="mb-4">A Certfied E-commerce Specialist tanfolyamcsomag ára <del>49.900 Ft</del> helyett, most <br>csak <span class="ar">39.900 Ft</span>
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
-                  href="https://netacademia.hu/Subscription/Create/certified-e-commerce-specialist"
+                 href="https://app.netacademia.hu/Subscription/Create/certified-e-commerce-specialist"
                   class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
         >Megveszem!
         </gtm-link>

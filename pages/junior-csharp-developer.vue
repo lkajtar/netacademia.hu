@@ -29,7 +29,7 @@
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.lenyugozo"
-                  href="https://netacademia.hu/Tanfolyam/2018csharp-lenyugozo-c-programozas"
+                 href="https://app.netacademia.hu/Tanfolyam/2018csharp-lenyugozo-c-programozas"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -46,7 +46,7 @@
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.modern"
-                  href="https://netacademia.hu/Tanfolyam/2018XAML-kartyajatek-xaml-es-c-hasznalataval"
+                 href="https://app.netacademia.hu/Tanfolyam/2018XAML-kartyajatek-xaml-es-c-hasznalataval"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -65,7 +65,7 @@
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.ketd"
-                  href="https://netacademia.hu/Tanfolyam/2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese"
+                 href="https://app.netacademia.hu/Tanfolyam/2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -83,7 +83,7 @@
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.ui"
-                  href="https://netacademia.hu/Tanfolyam/2018snake-bevezetes-az-objektumorientalt-vilagba-a-snake-projekt"
+                 href="https://app.netacademia.hu/Tanfolyam/2018snake-bevezetes-az-objektumorientalt-vilagba-a-snake-projekt"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -102,7 +102,7 @@
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
-                  href="https://netacademia.hu/Tanfolyam/2018Restaurant-betekintes-az-objektumorientalt-programozasba-a-weben-is-az-etterem-projekt"
+                 href="https://app.netacademia.hu/Tanfolyam/2018Restaurant-betekintes-az-objektumorientalt-programozasba-a-weben-is-az-etterem-projekt"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -123,7 +123,7 @@
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
-                  href="https://netacademia.hu/Tanfolyam/2018csharpalapok-c-alapok-2018-a-multiplatform-c"
+                 href="https://app.netacademia.hu/Tanfolyam/2018csharpalapok-c-alapok-2018-a-multiplatform-c"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -144,7 +144,7 @@
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
-                  href="https://www.netacademia.hu/Tanfolyam/2018csharpprojekt-alkalmazasfejlesztes-c-nyelven-projekt-feladat"
+                  href="https://app.netacademia.hu/Tanfolyam/2018csharpprojekt-alkalmazasfejlesztes-c-nyelven-projekt-feladat"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -157,7 +157,7 @@
           <span class="ar">69.900 Ft</span>
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
-                  href="https://netacademia.hu/Subscription/Create/certified-junior-c-developer"
+                 href="https://app.netacademia.hu/Subscription/Create/certified-junior-c-developer"
                   class="btn-cus btn-cus-purple mb-5 px-5"
         >Megveszem!
         </gtm-link>

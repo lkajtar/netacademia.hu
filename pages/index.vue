@@ -23,16 +23,16 @@
         <div class="lablec fixed-bottom flex-center">
           <span class="d-none d-sm-block">© NetAcademia 1998-{{ currentYear }}</span>
           <span>
-          <a href="http://app.netacademia.hu/GeneralTermsAndConditions/Subscription">ÁSZF</a>
+          <a href="https://app.netacademia.hu/GeneralTermsAndConditions/Subscription">ÁSZF</a>
         </span>
           <span>
-          <a href="http://app.netacademia.hu/GeneralTermsAndConditions/PrivacyStatement">Adatvédelem</a>
+          <a href="https://app.netacademia.hu/GeneralTermsAndConditions/PrivacyStatement">Adatvédelem</a>
         </span>
           <span class="d-none d-sm-block">
-          <a href="http://app.netacademia.hu/kapcsolat" class="hideonmobile">Kapcsolat</a>
+          <a href="https://app.netacademia.hu/kapcsolat" class="hideonmobile">Kapcsolat</a>
         </span>
           <span>
-          <a href="http://app.netacademia.hu/oktato">Jelentkezz oktatónak!</a>
+          <a href="https://app.netacademia.hu/oktato">Jelentkezz oktatónak!</a>
         </span>
         </div>
       </div>

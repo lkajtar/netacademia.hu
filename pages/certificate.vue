@@ -11,7 +11,7 @@
             <p class="lead mb-5">Tanúsítványunk egyelőre a nagy sikerű
               <nuxt-link to="/webfejleszto-angular">Webfejlesztő útvonalunkra
               </nuxt-link> alapozva, Front-end fejlesztők számára elérhető.</p>
-            <a href="https://www.netacademia.hu/Registration/CreateExam/2018angular-certificate" class="btn-red px-3">Vizsgázni szeretnék!</a>
+            <a href="https://app.netacademia.hu/Registration/CreateExam/2018angular-certificate" class="btn-red px-3">Vizsgázni szeretnék!</a>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@
           <h2 class="mb-4">Hogyan szerezhető meg a Certificate?</h2>
           <p>A vizsga egy projektmunka elkészítéséből, majd egy online szóbeli vizsga alkalmával annak megvédéséből áll. A projektvizsga esetében nemcsak a késztermék kap lényeges szerepet, hanem az út is, amelyen létrehoztad. A bemutatandó képességek nagy része az alapos és kitartó munkában mutatkozik meg, ezért a vizsgának lényeges eleme a teljes munkafolyamat.</p>
           <p class="mb-5">A vizsgát többször is meg lehet próbálni, de a vizsgadíj ismételt befizetése szükséges.</p>
-          <a href="https://www.netacademia.hu/Registration/CreateExam/2018angular-certificate" class="btn-red px-3">Vizsgára jelentkezek!</a>
+          <a href="https://app.netacademia.hu/Registration/CreateExam/2018angular-certificate" class="btn-red px-3">Vizsgára jelentkezek!</a>
         </div>
 
         <div class="col-11 col-lg-5 col-md-offset-1 my-auto px-0">

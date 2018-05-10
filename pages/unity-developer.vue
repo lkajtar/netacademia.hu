@@ -28,7 +28,7 @@
       >
         <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.lenyugozo"
-                  href="https://netacademia.hu/Tanfolyam/2018unitylenyug-lenyugozo-unity"
+                 href="https://app.netacademia.hu/Tanfolyam/2018unitylenyug-lenyugozo-unity"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -46,7 +46,7 @@
       >
         <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.modern"
-                  href="https://netacademia.hu/Tanfolyam/2017unity-unity---jatekfejlesztes-modern-eszkozokkel"
+                 href="https://app.netacademia.hu/Tanfolyam/2017unity-unity---jatekfejlesztes-modern-eszkozokkel"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -64,7 +64,7 @@
       >
         <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.ketd"
-                  href="https://netacademia.hu/Tanfolyam/2018unity2d-unity---bevezetes-a-2d-jatekfejlesztesbe"
+                 href="https://app.netacademia.hu/Tanfolyam/2018unity2d-unity---bevezetes-a-2d-jatekfejlesztesbe"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -84,7 +84,7 @@
       >
         <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.ui"
-                  href="https://netacademia.hu/Tanfolyam/2018unityUI-unity-ui"
+                 href="https://app.netacademia.hu/Tanfolyam/2018unityUI-unity-ui"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -102,7 +102,7 @@
       >
         <img slot="picture" src="~/assets/unity-developer/unity-icon.png" alt="unity-logo">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
-                  href="https://netacademia.hu/Tanfolyam/2018unityhalad%C3%B3-unity-advanced"
+                 href="https://app.netacademia.hu/Tanfolyam/2018unityhalad%C3%B3-unity-advanced"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -116,7 +116,7 @@
           <span class="ar">69.900 Ft</span>
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
-                  href="https://netacademia.hu/Subscription/Create/certified-unity-developer"
+                 href="https://app.netacademia.hu/Subscription/Create/certified-unity-developer"
                   class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
         >Megveszem!
         </gtm-link>

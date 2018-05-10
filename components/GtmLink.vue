@@ -1,8 +1,12 @@
 <template>
-  <nuxt-link :to="href" @click="Clicked" @mouseDown.middle="Clicked"
+  <nuxt-link v-if="isNuxtLink" :to="href" @click="Clicked" @mouseDown.middle="Clicked"
              v-observe-visibility="VisibilityChanged">
     <slot></slot>
   </nuxt-link>
+  <a v-else :href="href" @click="Clicked" @mouseDown.middle="Clicked"
+     v-observe-visibility="VisibilityChanged">
+    <slot></slot>
+  </a>
 </template>
 
 <script>
@@ -25,6 +29,13 @@ export default {
     return {
       visible: false
     };
+  },
+  computed: {
+    isNuxtLink: function() {
+      // console.log(this.href.indexOf('://'));
+      // ha nincs egy linkben :// akkor azt nuxt-link-ken kezeljuk
+      return this.href.indexOf('://') === -1;
+    }
   },
   methods: {
     Clicked: function() {

@@ -31,7 +31,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/bootstrap-icon.png" alt="bootstrap">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.bootstrap"
-                  href="https://netacademia.hu/Tanfolyam/2018bt4-bootstrap4"
+                 href="https://app.netacademia.hu/Tanfolyam/2018bt4-bootstrap4"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -48,7 +48,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/jquery-icon.png" alt="jquery">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.jquery"
-                  href="https://netacademia.hu/Tanfolyam/2018jquery-jquery---alapozas"
+                 href="https://app.netacademia.hu/Tanfolyam/2018jquery-jquery---alapozas"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -66,7 +66,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/javascript-icon.png" alt="javascript">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.javascript"
-                  href="ttps://www.netacademia.hu/Tanfolyam/2018javascript-javascript---szent-habakuk-hisz-jatszom"
+                  href="https://app.netacademia.hu/Tanfolyam/2018javascript-javascript---szent-habakuk-hisz-jatszom"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -83,7 +83,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/git-icon.png" alt="git">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.git"
-                  href="https://netacademia.hu/Tanfolyam/2018GIT-git---fajdalommentes-verziokovetes"
+                 href="https://app.netacademia.hu/Tanfolyam/2018GIT-git---fajdalommentes-verziokovetes"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -100,7 +100,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/vue-icon.png" alt="vue">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.vue"
-                  href="https://www.netacademia.hu/Tanfolyam/2018vuejs2-vuejs---ja-hogy-ezt-igy-is-lehet"
+                  href="https://app.netacademia.hu/Tanfolyam/2018vuejs2-vuejs---ja-hogy-ezt-igy-is-lehet"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -117,7 +117,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/vue-icon.png" alt="vue">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.vueAdvanced"
-                  href="https://www.netacademia.hu/Tanfolyam/2018vuejs3-vue---a-vegtelenbe-es-tovabb"
+                  href="https://app.netacademia.hu/Tanfolyam/2018vuejs3-vue---a-vegtelenbe-es-tovabb"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -131,7 +131,7 @@
           <span class="ar">39.800 </span>Ft!
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVueAndAngular"
-                  href="https://netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-es-vuejs"
+                 href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-es-vuejs"
                   class="btn-cus btn-cus-orange"
         >Megveszem!
         </gtm-link>
@@ -143,7 +143,7 @@
           <span class="ar">9.900 </span>Ft!
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVueAsExtension"
-                  href="https://www.netacademia.hu/Subscription/Create/0ceafbab-4b10-4835-9a25-f4a4876690b6"
+                  href="https://app.netacademia.hu/Subscription/Create/0ceafbab-4b10-4835-9a25-f4a4876690b6"
                   class="btn-cus btn-cus-orange mb-4"
         >Megveszem!
         </gtm-link>
@@ -155,7 +155,7 @@
           <span class="ar">29.900</span> Ft!
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVue"
-                  href="https://netacademia.hu/Subscription/Create/webfejleszto-leszek-vuejs-edition"
+                  href="/Subscription/Create/webfejleszto-leszek-vuejs-edition"
                   class="btn-cus btn-cus-orange mb-4"
         >Megveszem!
         </gtm-link>
