@@ -28,7 +28,7 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.lenyugozo"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.design"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomPlan"
         >Részletek...
         </gtm-link>
@@ -46,7 +46,7 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.modern"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.create"
                   href="https://app.netacademia.hu/Tanfolyam/2018Ecomshop"
         >Részletek...
         </gtm-link>
@@ -64,7 +64,7 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.ketd"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.facebook"
                   href="https://app.netacademia.hu/Tanfolyam/2018Ecomfaceshop"
         >Részletek...
         </gtm-link>
@@ -83,7 +83,7 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.ui"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.cone"
                   href="https://app.netacademia.hu/Tanfolyam/2018Ecomfun"
         >Részletek...
         </gtm-link>
@@ -102,7 +102,7 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.adwords"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomGoog"
         >Részletek...
         </gtm-link>
@@ -120,7 +120,7 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.email"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomEmail"
         >Részletek...
         </gtm-link>
@@ -139,7 +139,7 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.crm"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomCus"
         >Részletek...
         </gtm-link>
@@ -157,7 +157,7 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/ecommerce/ecommerce-icon.png" alt="ecommerce-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.analytics"
                   href="https://app.netacademia.hu/Tanfolyam/2018EcomMes"
         >Részletek...
         </gtm-link>
@@ -169,7 +169,7 @@
       <div class="col-12 col-lg-4 p-4 bg-card m-2 align-self-center py-5 px-3 single-special">
         <p class="mb-4">A Certfied E-commerce Specialist tanfolyamcsomag ára <del>49.900 Ft</del> helyett, most <br>csak <span class="ar">39.900 Ft</span>
         </p>
-        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
+        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCarteCommerce"
                  href="https://app.netacademia.hu/Subscription/Create/certified-e-commerce-specialist"
                   class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
         >Megveszem!
@@ -178,7 +178,7 @@
       <div class="col-12 col-lg-4 p-4 bg-card m-2 align-self-center py-5 px-3 single-special">
         <p class="mb-4">E-commerce útvonalunk az Office előfizetésünk részét képezi, mely sok ehhez hasonló képzést
           foglal magában. Nézz körbe, további tanfolyamainkért!</p>
-        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
+        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartOffice"
                   href="/officecsomag"
                   class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
         >Érdekel!
@@ -243,70 +243,137 @@ export default {
   data: function() {
     return {
       GTMProductCollection: {
-        lenyugozo: {
-          name: "Lenyűgöző Unity",
-          id: "2018unitylenyug-lenyugozo-unity",
-          price: "0",
-          brand: "NetAcademia",
-          category: "Tanfolyam",
-          variant: "",
-          list: "Certified Unity Developer",
-          position: 1,
-          PCategories: ["Ingyenes"]
+        design: {
+          'name': 'Pénztermelő webáruház megtervezése',
+          'id': '2018EcomPlan-tervezzuk-meg-penztermelo-webaruhazunk-elinditasat',
+          'price': '18999',
+          'brand': 'NetAcademia',
+          'category': 'Tanfolyam',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 1,
+          'PCategories': [
+            "certified-e-commerce-specialist",
+            "office"
+          ]
         },
-        modern: {
-          name: "Unity - játékfejlesztés modern eszközökkel",
-          id: "2017unity-unity---jatekfejlesztes-modern-eszkozokkel",
-          price: "74930",
-          brand: "NetAcademia",
-          category: "Tanfolyam",
-          variant: "",
-          list: "Certified Unity Developer",
-          position: 2,
-          PCategories: ["Certified Unity Developer"]
+        create: {
+          'name': 'Webshop létrehozása',
+          'id': '2018EcomShop-webshop-letrehozasa',
+          'price': '28999',
+          'brand': 'NetAcademia',
+          'category': 'Tanfolyam',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 2,
+          'PCategories': [
+            "certified-e-commerce-specialist",
+            "office"
+          ]
         },
-        ketd: {
-          name: "Unity - Bevezetés a 2D játékfejlesztésbe",
-          id: "2018unity2d-unity---bevezetes-a-2d-jatekfejlesztesbe",
-          price: "62230",
-          brand: "NetAcademia",
-          category: "Tanfolyam",
-          variant: "",
-          list: "Certified Unity Developer",
-          position: 3,
-          PCategories: ["Certified Unity Developer"]
+        facebook: {
+          'name': 'Facebook bolti terület használata',
+          'id': '2018EcomFaceShop-facebook-bolti-terulet-hasznalata',
+          'price': '18999',
+          'brand': 'NetAcademia',
+          'category': 'Tanfolyam',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 3,
+          'PCategories': [
+            "certified-e-commerce-specialist",
+            "office"
+          ]
         },
-        ui: {
-          name: "Unity UI",
-          id: "2018unityUI-unity-ui",
-          price: "62230",
-          brand: "NetAcademia",
-          category: "Tanfolyam",
-          variant: "",
-          list: "Certified Unity Developer",
-          position: 4,
-          PCategories: ["Certified Unity Developer"]
+        cone: {
+          'name': 'Értékesítési tölcsér készítése',
+          'id': '2018EcomFun-ertekesitesi-tolcser-keszitese',
+          'price': '28999',
+          'brand': 'NetAcademia',
+          'category': 'Tanfolyam',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 4,
+          'PCategories': [
+            "certified-e-commerce-specialist",
+            "office"
+          ]
         },
-        advanced: {
-          name: "Unity advanced",
-          id: "2018unityhaladó-unity-advanced",
-          price: "62230",
-          brand: "NetAcademia",
-          category: "Tanfolyam",
-          variant: "",
-          list: "Certified Unity Developer",
-          position: 5,
-          PCategories: ["Certified Unity Developer"]
+        adwords: {
+          'name': "Google Adwords-hirdetések",
+          'id': '2018EcomGoog-google-adwords-alapok',
+          'price': '28999',
+          'brand': 'NetAcademia',
+          'category': 'Tanfolyam',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 5,
+          'PCategories': [
+            "certified-e-commerce-specialist",
+            "office"
+          ]
         },
-        addToCartUnity: {
-          name: "Certified Unity Developer 12 hónapos előfizetés",
-          id: "17b62be2-c693-4fa3-a79a-382e789f838a",
-          price: "69900",
-          brand: "NetAcademia",
-          category: "Elofizetes",
-          variant: "",
-          list: "Certified Unity Developer",
-          position: 6
+        email: {
+          'name': "Email marketing",
+          'id': '2018EcomGAd-halado-google-adwords',
+          'price': '18999',
+          'brand': 'NetAcademia',
+          'category': 'Tanfolyam',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 6,
+          'PCategories': [
+            "certified-e-commerce-specialist",
+            "office"
+          ]
+        },
+        crm: {
+          'name': "Webáruház-ügyfélkezelés, CRM",
+          'id': '2018EcomCus-webaruhaz-ugyfelkezeles',
+          'price': '28999',
+          'brand': 'NetAcademia',
+          'category': 'Tanfolyam',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 7,
+          'PCategories': [
+            "certified-e-commerce-specialist",
+            "office"
+          ]
+        },
+        analytics: {
+          'name': "Webáruház telejsítményének mérése, értékelése",
+          'id': '2018EcomMes-webaruhaz-merese-ertekelese',
+          'price': '18999',
+          'brand': 'NetAcademia',
+          'category': 'Tanfolyam',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 8,
+          'PCategories': [
+            "certified-e-commerce-specialist",
+            "office"
+          ]
+        },
+        addToCarteCommerce: {
+          'name': "Certified E-commerce Specialist oktatási csomag",
+          'id': 'certified-e-commerce-specialist',
+          'price': '39900',
+          'brand': 'NetAcademia',
+          'category': 'Elofizetes',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 9,
+        },
+        addToCartOffice: {
+          'name': "Office és irodai alkalmazások 12 hónapos tanfolyamcsomag",
+          'id': 'office',
+          'price': '62230',
+          'brand': 'NetAcademia',
+          'category': 'Elofizetes',
+          'variant': '',
+          'list': 'Certified E-commerce Specialist',
+          'position': 10,
         }
       }
     };

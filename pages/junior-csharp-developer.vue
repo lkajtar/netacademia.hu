@@ -45,7 +45,7 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.modern"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.xaml"
                  href="https://app.netacademia.hu/Tanfolyam/2018XAML-kartyajatek-xaml-es-c-hasznalataval"
         >Részletek...
         </gtm-link>
@@ -64,7 +64,7 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.ketd"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.todo"
                  href="https://app.netacademia.hu/Tanfolyam/2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese"
         >Részletek...
         </gtm-link>
@@ -82,7 +82,7 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.ui"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.snake"
                  href="https://app.netacademia.hu/Tanfolyam/2018snake-bevezetes-az-objektumorientalt-vilagba-a-snake-projekt"
         >Részletek...
         </gtm-link>
@@ -101,7 +101,7 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.etterem"
                  href="https://app.netacademia.hu/Tanfolyam/2018Restaurant-betekintes-az-objektumorientalt-programozasba-a-weben-is-az-etterem-projekt"
         >Részletek...
         </gtm-link>
@@ -122,7 +122,7 @@
                     direction="right"
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.multi"
                  href="https://app.netacademia.hu/Tanfolyam/2018csharpalapok-c-alapok-2018-a-multiplatform-c"
         >Részletek...
         </gtm-link>
@@ -143,7 +143,7 @@
                     direction="left"
       >
         <img slot="picture" src="~/assets/junior-csharp-developer/csharp-icon.svg" alt="csharp-icon">
-        <gtm-link slot="link" :gtm-data="GTMProductCollection.advanced"
+        <gtm-link slot="link" :gtm-data="GTMProductCollection.sajat"
                   href="https://app.netacademia.hu/Tanfolyam/2018csharpprojekt-alkalmazasfejlesztes-c-nyelven-projekt-feladat"
         >Részletek...
         </gtm-link>
@@ -156,7 +156,7 @@
           <br>bruttó
           <span class="ar">69.900 Ft</span>
         </p>
-        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartUnity"
+        <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartCSharp"
                  href="https://app.netacademia.hu/Subscription/Create/certified-junior-c-developer"
                   class="btn-cus btn-cus-purple mb-5 px-5"
         >Megveszem!
@@ -213,70 +213,92 @@
       return {
         GTMProductCollection: {
           lenyugozo: {
-            name: "Lenyűgöző Unity",
-            id: "2018unitylenyug-lenyugozo-unity",
-            price: "0",
-            brand: "NetAcademia",
-            category: "Tanfolyam",
-            variant: "",
-            list: "Certified Unity Developer",
-            position: 1,
-            PCategories: ["Ingyenes"]
+            'name': 'Lenyűgöző C# programozás',
+            'id': '2018csharp-lenyugozo-c-programozas',
+            'price': '0',
+            'brand': 'NetAcademia',
+            'category': 'Tanfolyam',
+            'variant': '',
+            'list': 'Certified Junior C# Developer',
+            'position': 1,
+            'PCategories': ['Ingyenes']
           },
-          modern: {
-            name: "Unity - játékfejlesztés modern eszközökkel",
-            id: "2017unity-unity---jatekfejlesztes-modern-eszkozokkel",
-            price: "74930",
-            brand: "NetAcademia",
-            category: "Tanfolyam",
-            variant: "",
-            list: "Certified Unity Developer",
-            position: 2,
-            PCategories: ["Certified Unity Developer"]
+          xaml: {
+            'name': 'Kártyajáték XAML és C# használatával',
+            'id': '2018XAML-kartyajatek-xaml-es-c-hasznalataval',
+            'price': '62230',
+            'brand': 'NetAcademia',
+            'category': 'Tanfolyam',
+            'variant': '',
+            'list': 'Certified Junior C# Developer',
+            'position': 2,
+            'PCategories': ["Certified Junior C# Developer", 'NetAcademia Ultimate']
           },
-          ketd: {
-            name: "Unity - Bevezetés a 2D játékfejlesztésbe",
-            id: "2018unity2d-unity---bevezetes-a-2d-jatekfejlesztesbe",
-            price: "62230",
-            brand: "NetAcademia",
-            category: "Tanfolyam",
-            variant: "",
-            list: "Certified Unity Developer",
-            position: 3,
-            PCategories: ["Certified Unity Developer"]
+          todo: {
+            'name': 'Az első webes C# projektem: TO-DO alkalmazás készítése',
+            'id': '2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese',
+            'price': '62230',
+            'brand': 'NetAcademia',
+            'category': 'Tanfolyam',
+            'variant': '',
+            'list': 'Certified Junior C# Developer',
+            'position': 3,
+            'PCategories': ["Certified Junior C# Developer", 'NetAcademia Ultimate']
           },
-          ui: {
-            name: "Unity UI",
-            id: "2018unityUI-unity-ui",
-            price: "62230",
-            brand: "NetAcademia",
-            category: "Tanfolyam",
-            variant: "",
-            list: "Certified Unity Developer",
-            position: 4,
-            PCategories: ["Certified Unity Developer"]
+          snake: {
+            'name': 'Bevezetés az objektumorientált világba: a SNAKE projekt',
+            'id': '2018snake-bevezetes-az-objektumorientalt-vilagba-a-snake-projekt',
+            'price': '36830',
+            'brand': 'NetAcademia',
+            'category': 'Tanfolyam',
+            'variant': '',
+            'list': 'Certified Junior C# Developer',
+            'position': 4,
+            'PCategories': ["Certified Junior C# Developer", 'NetAcademia Ultimate']
           },
-          advanced: {
-            name: "Unity advanced",
-            id: "2018unityhaladó-unity-advanced",
-            price: "62230",
-            brand: "NetAcademia",
-            category: "Tanfolyam",
-            variant: "",
-            list: "Certified Unity Developer",
-            position: 5,
-            PCategories: ["Certified Unity Developer"]
+          etterem: {
+            'name': "Betekintés az objektumorientált programozásba a weben is: az étterem projekt",
+            'id': '2018Restaurant-betekintes-az-objektumorientalt-programozasba-a-weben-is-az-etterem-projekt',
+            'price': '62230',
+            'brand': 'NetAcademia',
+            'category': 'Tanfolyam',
+            'variant': '',
+            'list': 'Certified Junior C# Developer',
+            'position': 5,
+            'PCategories': ["Certified Junior C# Developer", 'NetAcademia Ultimate']
           },
-          addToCartUnity: {
-            name: "Certified Unity Developer 12 hónapos előfizetés",
-            id: "17b62be2-c693-4fa3-a79a-382e789f838a",
-            price: "69900",
-            brand: "NetAcademia",
-            category: "Elofizetes",
-            variant: "",
-            list: "Certified Unity Developer",
-            position: 6
-          }
+          multi: {
+            'name': "C# alapok 2018: a multiplatform C#",
+            'id': '2018csharpalapok-c-alapok-2018-a-multiplatform-c',
+            'price': '74930',
+            'brand': 'NetAcademia',
+            'category': 'Tanfolyam',
+            'variant': '',
+            'list': 'Certified Junior C# Developer',
+            'position': 6,
+            'PCategories': ["Certified Junior C# Developer", 'NetAcademia Ultimate']
+          },
+          sajat: {
+            'name': "Alkalmazásfejlesztés C# nyelven: projekt feladat",
+            'id': '2018csharpprojekt-alkalmazasfejlesztes-c-nyelven-projekt-feladat',
+            'price': '74930',
+            'brand': 'NetAcademia',
+            'category': 'Tanfolyam',
+            'variant': '',
+            'list': 'Certified Junior C# Developer',
+            'position': 7,
+            'PCategories': ["Certified Junior C# Developer", 'NetAcademia Ultimate']
+          },
+          addToCartCSharp: {
+            'name': "Certified Junior C# Developer 12 hónapos tanfolyamcsomag",
+            'id': 'd5e46a95-4f92-46df-bfe9-4e70eb3c38d0',
+            'price': '69900',
+            'brand': 'NetAcademia',
+            'category': 'Elofizetes',
+            'variant': '',
+            'list': 'Certified Junior C# Developer',
+            'position': 8,
+          },
         }
       };
     }
