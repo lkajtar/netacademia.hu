@@ -92,8 +92,8 @@
             <div class="feature-content">
               <h4>Vizsgára jelentkezés</h4>
               <p class="mb-2">A vizsgára való jelentkezéshez kattints a „Vizsgára jelentkezem” gombra, majd add meg adataidat. Az emailben megkapott linken egy előzetes, 50 kérdésből álló tesztet kell kitöltened. Ha ez sikeres, megkapod a projektfeladatot, és kiválaszthatod a számodra megfelelő szóbeli vizsga időpontját. A vizsgaidőpont előtt legalább egy héttel le kell adnod a projektfeladatot, aminek módjáról a feladatkiadás során kapsz tájékoztatást.</p>
-              <p class="mb-1 font-weight-bold">Jelentkezési határidő: 2018. április 9</p>
-              <p class="mb-1 font-weight-bold">Szóbeli vizsgaidőpontok: 2018. április 23-ai héten. További időpontok miatt nézz vissza később az oldalra.</p>
+              <p class="mb-1 font-weight-bold">Jelentkezési határidő: 2018. május 21. </p>
+              <p class="mb-1 font-weight-bold">Szóbeli vizsgaidőpontok: 2018. június 18-ai héten. További időpontok miatt nézz vissza később az oldalra.</p>
               <p class="mb-1 font-weight-bold">A vizsgadíj: 49.900 Ft+áfa</p>
               <p class="mb-1 font-weight-bold">Előfizetőinknek kedvezménnyel: 29.900 Ft+áfa
               </p>
