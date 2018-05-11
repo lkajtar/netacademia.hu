@@ -12,8 +12,10 @@
           távmunkában is dolgozhatsz, ezzel jelentősen növelve a munkakeresésed esélyeit! Mindegy, hogy Piripócson élsz,
           vagy a Bahamákon, velünk eljuthasz a következő szintre. Távmunkához távtanulás dukál!</p>
         <p class="lead">Több tanfolyamsorozatot is elvégeznél? Válaszd
-          <nuxt-link to="#ultimate" class="text-danger font-weight-bold">Ultimate előfizetésünket</nuxt-link>, mellyel mindegyik
-          elérhető!</p>
+          <nuxt-link to="#ultimate" class="text-danger font-weight-bold">Ultimate előfizetésünket</nuxt-link>
+          , mellyel mindegyik
+          elérhető!
+        </p>
         <div class="row pt-2">
           <div class="col-3 col-lg-1 my-auto">
             <nuxt-link to="/unity-developer">
@@ -65,7 +67,8 @@
             Mindegyik tanfolyamsorozatunkhoz gyakorlati vizsga tartozik, mellyel bebizonythatod, hogy Te meg
             tudod csinálni! A presztizsértékű
             <nuxt-link to="/certificate" class="text-danger font-weight-bold"> NetAcademia Certified</nuxt-link>
-            címmel ezt meg fogod tudni mutatni az egész világnak!</p>
+            címmel ezt meg fogod tudni mutatni az egész világnak!
+          </p>
         </div>
       </div>
     </div>
@@ -270,9 +273,12 @@
 <script>
 import GtmLink from "~/components/GtmLink.vue";
 import ElofizetesProductCard from "~/components/ElofizetesProductCard.vue";
-import BouncingDownArrow from "../components/BouncingDownArrow";
+import BouncingDownArrow from "~/components/BouncingDownArrow";
+import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
 
 export default {
+  name: "elofizetes",
+  mixins: [GtmPageLoad("Listaoldal")],
   components: { BouncingDownArrow, GtmLink, ElofizetesProductCard },
   layout: "nav-dark-footer",
   data: function() {

@@ -10,8 +10,10 @@
                   önt, és ezután jövünk mi, rendszergazdák, akik megadják a szükséges jogosultságokat, és segítik a
                   zökkenőmentes integrálást."
     >
-      <img slot="lead-icon" src="~/assets/windowsserver/windowsserver.png" alt="windowsserver-icon" class="img-fluid" width="60">
-      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus btn-cus-darkred btn-lg ml-3 px-5">Részletek</nuxt-link>
+      <img slot="lead-icon" src="~/assets/windowsserver/windowsserver.png" alt="windowsserver-icon" class="img-fluid"
+           width="60">
+      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus btn-cus-darkred btn-lg ml-3 px-5">Részletek
+      </nuxt-link>
     </CertiTopHero>
 
     <CertiFeatures price="Most csak 69.900 Ft"></CertiFeatures>
@@ -30,7 +32,7 @@
       >
         <img slot="picture" src="~/assets/windowsserver/windowsserver.png" alt="windowsserver-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.install"
-                 href="https://app.netacademia.hu/Tanfolyam/2018wu00-windows-server-alapismeretek-telepites"
+                  href="https://app.netacademia.hu/Tanfolyam/2018wu00-windows-server-alapismeretek-telepites"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -48,7 +50,7 @@
       >
         <img slot="picture" src="~/assets/windowsserver/windowsserver.png" alt="windowsserver-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.powerShell"
-                 href="ttps://app.netacademia.hu/Tanfolyam/2018wu01-server-core-kezeles-powershell-ismeretek"
+                  href="ttps://app.netacademia.hu/Tanfolyam/2018wu01-server-core-kezeles-powershell-ismeretek"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -65,7 +67,7 @@
       >
         <img slot="picture" src="~/assets/windowsserver/windowsserver.png" alt="windowsserver-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.activeDirectory"
-                 href="https://app.netacademia.hu/Tanfolyam/2018wu02-windows-server-ad-kezelese"
+                  href="https://app.netacademia.hu/Tanfolyam/2018wu02-windows-server-ad-kezelese"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -81,7 +83,7 @@
       >
         <img slot="picture" src="~/assets/windowsserver/windowsserver.png" alt="windowsserver-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.centralManagement"
-                 href="https://app.netacademia.hu/Tanfolyam/2018wu03-csoporthazirendek-kezelese"
+                  href="https://app.netacademia.hu/Tanfolyam/2018wu03-csoporthazirendek-kezelese"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -100,7 +102,7 @@
       >
         <img slot="picture" src="~/assets/windowsserver/windowsserver.png" alt="windowsserver-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.permissions"
-                 href="https://app.netacademia.hu/Tanfolyam/2018wu04-jogosultsagok-kezelese"
+                  href="https://app.netacademia.hu/Tanfolyam/2018wu04-jogosultsagok-kezelese"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -119,7 +121,7 @@
       >
         <img slot="picture" src="~/assets/windowsserver/windowsserver.png" alt="windowsserver-icon">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.activeDirectoryExtend"
-                 href="https://app.netacademia.hu/Tanfolyam/2018wu05-ad-sema-bovitese"
+                  href="https://app.netacademia.hu/Tanfolyam/2018wu05-ad-sema-bovitese"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -129,11 +131,12 @@
       <div class="col-12 col-lg-4 p-4 bg-card m-2 align-self-center py-5 px-3 single-special">
         <p class="mb-4">A Certfied Windows Administrator tanfolyamcsomag ára
           <br>bruttó
-          <del>89.900 Ft</del> helyett, most csak
+          <del>89.900 Ft</del>
+          helyett, most csak
           <span class="ar">69.900 Ft</span>
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.windows"
-                 href="https://netacademia.hu/Subscription/Create/certified-windows-administrator"
+                  href="https://netacademia.hu/Subscription/Create/certified-windows-administrator"
                   class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
         >Megveszem!
         </gtm-link>
@@ -150,14 +153,16 @@
               <div class="col-11 mx-auto col-lg-11 my-4">
                 <h4 class="pb-3">Tanfolyam követelményei</h4>
                 <p class="mb-3">
-                  A tanfolyamsorozathoz nincs szükség előzetes ismeretre, hiszen teljesen az alapoktól, a Windows Server telepítésétől kalauzolunk
+                  A tanfolyamsorozathoz nincs szükség előzetes ismeretre, hiszen teljesen az alapoktól, a Windows Server
+                  telepítésétől kalauzolunk
                   végig!
                 </p>
 
               </div>
               <div class="col-11 mx-auto my-4">
                 <h4 class="pb-3">Szerezz NetAcademia Certificate-et!</h4>
-                <p class="mb-3">A NetAcademia Certificate-tel egy olyan tanúsítványt hoztunk létre, mely egyaránt leképezi oktatási
+                <p class="mb-3">A NetAcademia Certificate-tel egy olyan tanúsítványt hoztunk létre, mely egyaránt
+                  leképezi oktatási
                   hozzáállásunkat és módszertanunkat: gyakorlatias és projekt-alapú. A sikeres vizsga bizonyíték
                   arra, hogy képes Windows Server alapú rendszerek alapvető üzemeltetésére, karbantartására.</p>
                 <nuxt-link to="/certificate">Bővebben a Certificate-ről...</nuxt-link>
@@ -166,9 +171,11 @@
           </div>
           <div class="col-12 mx-auto col-lg-5 border p-5 ulticol text-center my-auto">
             <h2>Ultimate kedvezmény</h2>
-            <p class="mt-4">Van már Certfied Windows Administrator előfizetésed? Tanulj tovább, mélyítsd el velünk marketing ismereteidet!
+            <p class="mt-4">Van már Certfied Windows Administrator előfizetésed? Tanulj tovább, mélyítsd el velünk
+              marketing ismereteidet!
               Írj nekünk az
-              <span class="text-success">iroda@netacademia.net</span> e-mail címre, és Certified Windows Administrator előfizetésed árát most
+              <span class="text-success">iroda@netacademia.net</span> e-mail címre, és Certified Windows Administrator
+              előfizetésed árát most
               beszámítjuk Ultimate előfizetésünkbe!</p>
           </div>
         </div>
@@ -178,159 +185,159 @@
 </template>
 
 <script>
-  import TimelineCard from "~/components/TimelineCard";
-  import GtmLink from "~/components/GtmLink";
-  import TimelineContainer from "../components/TimelineContainer";
-  import CertiFeatures from "../components/CertiFeatures";
-  import CertiTopHero from "../components/CertiTopHero";
+import TimelineCard from "~/components/TimelineCard";
+import GtmLink from "~/components/GtmLink";
+import TimelineContainer from "~/components/TimelineContainer";
+import CertiFeatures from "~/components/CertiFeatures";
+import CertiTopHero from "~/components/CertiTopHero";
+import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
 
-  export default {
-    layout: "logo-footer",
-    components: {
-      CertiTopHero,
-      CertiFeatures,
-      TimelineContainer,
-      TimelineCard,
-      GtmLink
-    },
-    data: function() {
-      return {
-        GTMProductCollection: {
-          install: {
-            'name': 'Windows Server alapismeretek, telepítés',
-            'id': '2018wu00-windows-server-alapismeretek-telepites',
-            'price': '0',
-            'brand': 'NetAcademia',
-            'category': 'Tanfolyam',
-            'variant': '',
-            'list': 'Certified Windows Administrator',
-            'position': 1,
-            'PCategories': [
-              "certified-windows-administrator",
-              "ingyenes"
-            ]
-          },
-          powerShell: {
-            'name': 'Server Core kezelés, PowerShell ismeretek',
-            'id': '2018wu01-server-core-kezeles-powershell-ismeretek',
-            'price': '24130',
-            'brand': 'NetAcademia',
-            'category': 'Tanfolyam',
-            'variant': '',
-            'list': 'Certified Windows Administrator',
-            'position': 2,
-            'PCategories': ["certified-windows-administrator"]
-          },
-          activeDirectory: {
-            'name': 'Windows Server AD kezelése',
-            'id': '2018wu02-windows-server-ad-kezelese',
-            'price': '74930',
-            'brand': 'NetAcademia',
-            'category': 'Tanfolyam',
-            'variant': '',
-            'list': 'Certified Windows Administrator',
-            'position': 3,
-            'PCategories': ["certified-windows-administrator"]
-          },
-          centralManagement: {
-            'name': 'Csoportházirendek kezelése',
-            'id': '2018wu03-csoporthazirendek-kezelese',
-            'price': '49530',
-            'brand': 'NetAcademia',
-            'category': 'Tanfolyam',
-            'variant': '',
-            'list': 'Certified Windows Administrator',
-            'position': 4,
-            'PCategories': ["certified-windows-administrator"]
-          },
-          permissions: {
-            'name': "Jogosultságok kezelése",
-            'id': '2018wu04-jogosultsagok-kezelese',
-            'price': '36830',
-            'brand': 'NetAcademia',
-            'category': 'Tanfolyam',
-            'variant': '',
-            'list': 'Certified Windows Administrator',
-            'position': 5,
-            'PCategories': ["certified-windows-administrator"]
-          },
-          activeDirectoryExtend: {
-            'name': "AD Séma bővítése",
-            'id': '2018wu05-ad-sema-bovitese',
-            'price': '24130',
-            'brand': 'NetAcademia',
-            'category': 'Tanfolyam',
-            'variant': '',
-            'list': 'Certified Windows Administrator',
-            'position': 6,
-            'PCategories': ["certified-windows-administrator"]
-          },
-          windows: {
-            'name': "Certified Windows Administrator oktatási csomag",
-            'id': 'certified-windows-administrator',
-            'price': '69900',
-            'brand': 'NetAcademia',
-            'category': 'Elofizetes',
-            'variant': '',
-            'list': 'Certified Windows Administrator',
-            'position': 7,
-          }
+export default {
+  name: "windows-path",
+  mixins: [GtmPageLoad("Egyéb")],
+  layout: "logo-footer",
+  components: {
+    CertiTopHero,
+    CertiFeatures,
+    TimelineContainer,
+    TimelineCard,
+    GtmLink
+  },
+  data: function() {
+    return {
+      GTMProductCollection: {
+        install: {
+          name: "Windows Server alapismeretek, telepítés",
+          id: "2018wu00-windows-server-alapismeretek-telepites",
+          price: "0",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified Windows Administrator",
+          position: 1,
+          PCategories: ["certified-windows-administrator", "ingyenes"]
+        },
+        powerShell: {
+          name: "Server Core kezelés, PowerShell ismeretek",
+          id: "2018wu01-server-core-kezeles-powershell-ismeretek",
+          price: "24130",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified Windows Administrator",
+          position: 2,
+          PCategories: ["certified-windows-administrator"]
+        },
+        activeDirectory: {
+          name: "Windows Server AD kezelése",
+          id: "2018wu02-windows-server-ad-kezelese",
+          price: "74930",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified Windows Administrator",
+          position: 3,
+          PCategories: ["certified-windows-administrator"]
+        },
+        centralManagement: {
+          name: "Csoportházirendek kezelése",
+          id: "2018wu03-csoporthazirendek-kezelese",
+          price: "49530",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified Windows Administrator",
+          position: 4,
+          PCategories: ["certified-windows-administrator"]
+        },
+        permissions: {
+          name: "Jogosultságok kezelése",
+          id: "2018wu04-jogosultsagok-kezelese",
+          price: "36830",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified Windows Administrator",
+          position: 5,
+          PCategories: ["certified-windows-administrator"]
+        },
+        activeDirectoryExtend: {
+          name: "AD Séma bővítése",
+          id: "2018wu05-ad-sema-bovitese",
+          price: "24130",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified Windows Administrator",
+          position: 6,
+          PCategories: ["certified-windows-administrator"]
+        },
+        windows: {
+          name: "Certified Windows Administrator oktatási csomag",
+          id: "certified-windows-administrator",
+          price: "69900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Certified Windows Administrator",
+          position: 7
         }
-      };
-    }
-  };
+      }
+    };
+  }
+};
 </script>
 
 <style>
-  main {
-    font-size: 100%;
-    background-color: #e9f0f5;
-  }
+main {
+  font-size: 100%;
+  background-color: #e9f0f5;
+}
 
-  .hero-bg {
-    background-color: #fafafa;
-    background-image: linear-gradient(
+.hero-bg {
+  background-color: #fafafa;
+  background-image: linear-gradient(
       rgba(43, 45, 66, 0.65),
       rgba(43, 45, 66, 0.65)
     ),
     url("~/assets/windowsserver/background2.jpg");
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
-  }
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
 
-  .bg-card {
-    background-color: #35495e;
-    color: #ffffff;
-    font-size: 1.1rem;
-    font-weight: 400;
-    border-radius: 2px;
-  }
+.bg-card {
+  background-color: #35495e;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  border-radius: 2px;
+}
 
-  .ulticol {
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  }
+.ulticol {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
 
-  h1,
-  h2 {
-    font-weight: bold;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    line-height: 0.9;
-  }
+h1,
+h2 {
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  line-height: 0.9;
+}
 
-  h3 {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: bold;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-  }
+h3 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
 
-  p {
-    line-height: 1.6;
-    letter-spacing: 1px;
-  }
+p {
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
 </style>

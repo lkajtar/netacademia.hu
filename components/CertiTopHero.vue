@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import BouncingDownArrow from "../components/BouncingDownArrow";
+import BouncingDownArrow from "~/components/BouncingDownArrow";
 
 export default {
   props: {

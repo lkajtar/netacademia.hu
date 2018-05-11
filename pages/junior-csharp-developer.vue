@@ -196,11 +196,14 @@
 <script>
   import TimelineCard from "~/components/TimelineCard";
   import GtmLink from "~/components/GtmLink";
-  import TimelineContainer from "../components/TimelineContainer";
-  import CertiFeatures from "../components/CertiFeatures";
-  import CertiTopHero from "../components/CertiTopHero";
+  import TimelineContainer from "~/components/TimelineContainer";
+  import CertiFeatures from "~/components/CertiFeatures";
+  import CertiTopHero from "~/components/CertiTopHero";
+  import {GtmPageLoad} from "~/components/mixins/GtmPageLoad";
 
   export default {
+    name: 'csharp-path',
+    mixins: [GtmPageLoad('Egyéb')],
     layout: "logo-footer",
     components: {
       CertiTopHero,

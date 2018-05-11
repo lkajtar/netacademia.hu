@@ -42,24 +42,17 @@
 
 <script>
 import VideoBg from "~/components/VideoBG";
+import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
 
 export default {
+  name: "landing",
   layout: "landing",
+  mixins: [GtmPageLoad("Főoldal")],
   components: { VideoBg },
   computed: {
     currentYear: function() {
       return new Date().getFullYear();
     }
-  },
-  head: {
-    script: [
-      {
-        innerHTML:
-          'dataLayer = [{ "UnsignedUser": "True", "SignedUser": "False", "pageCategory": "Főoldal" }];',
-        type: "application/ld+json"
-      }
-    ],
-    __dangerouslyDisableSanitizers: ["script"]
   }
 };
 </script>

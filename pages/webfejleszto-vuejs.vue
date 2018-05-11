@@ -12,7 +12,8 @@
         megtanulod, hogyan készíts a projektedből mobilapp és desktop alkalmazást is."
     >
       <img slot="lead-icon" src="~/assets/webfejleszto-vuejs/vue-icon.png" alt="vue-logo" class="img-fluid" width="60">
-      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus-border btn-border-green btn-lg ml-3">Részletek</nuxt-link>
+      <nuxt-link slot="call-to-action" to="#reszletek" class="btn-cus-border btn-border-green btn-lg ml-3">Részletek
+      </nuxt-link>
     </CertiTopHero>
 
     <CertiFeatures price="Most csak 29.900 Ft"></CertiFeatures>
@@ -31,7 +32,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/bootstrap-icon.png" alt="bootstrap">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.bootstrap"
-                 href="https://app.netacademia.hu/Tanfolyam/2018bt4-bootstrap4"
+                  href="https://app.netacademia.hu/Tanfolyam/2018bt4-bootstrap4"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -48,7 +49,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/jquery-icon.png" alt="jquery">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.jquery"
-                 href="https://app.netacademia.hu/Tanfolyam/2018jquery-jquery---alapozas"
+                  href="https://app.netacademia.hu/Tanfolyam/2018jquery-jquery---alapozas"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -83,7 +84,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-vuejs/git-icon.png" alt="git">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.git"
-                 href="https://app.netacademia.hu/Tanfolyam/2018GIT-git---fajdalommentes-verziokovetes"
+                  href="https://app.netacademia.hu/Tanfolyam/2018GIT-git---fajdalommentes-verziokovetes"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -131,7 +132,7 @@
           <span class="ar">39.800 </span>Ft!
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVueAndAngular"
-                 href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-es-vuejs"
+                  href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-es-vuejs"
                   class="btn-cus btn-cus-orange"
         >Megveszem!
         </gtm-link>
@@ -155,7 +156,7 @@
           <span class="ar">29.900</span> Ft!
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVue"
-                  href="/Subscription/Create/webfejleszto-leszek-vuejs-edition"
+                  href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-vuejs-edition"
                   class="btn-cus btn-cus-orange mb-4"
         >Megveszem!
         </gtm-link>
@@ -217,11 +218,14 @@
 <script>
 import TimelineCard from "~/components/TimelineCard";
 import GtmLink from "~/components/GtmLink";
-import TimelineContainer from "../components/TimelineContainer";
-import CertiFeatures from "../components/CertiFeatures";
-import CertiTopHero from "../components/CertiTopHero";
+import TimelineContainer from "~/components/TimelineContainer";
+import CertiFeatures from "~/components/CertiFeatures";
+import CertiTopHero from "~/components/CertiTopHero";
+import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
 
 export default {
+  name: "vue-path",
+  mixins: [GtmPageLoad("Egyéb")],
   layout: "logo-footer",
   components: {
     CertiTopHero,

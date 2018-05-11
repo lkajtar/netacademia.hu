@@ -7,8 +7,10 @@
         <h2 class="mb-5 mt-2">
           <span class="text-uppercase">Ultimate</span> előfizetés</h2>
         <p class="lead mt-1 mb-5">
-          <span class="font-weight-bold">GDPR, CISSP, C, ITIL, Android, Java, Webfeljesztés, Excel All-in</span>. Ez csak néhány a több mint 300 tanfolyamunk közül. Ráadásul
-          <span class="font-weight-bold">május 16-ig 1 éves előfizetésünk 300.000 Ft helyett csak 99.900 Ft+áfa</span>.</p>
+          <span class="font-weight-bold">GDPR, CISSP, C, ITIL, Android, Java, Webfeljesztés, Excel All-in</span>. Ez
+          csak néhány a több mint 300 tanfolyamunk közül. Ráadásul
+          <span class="font-weight-bold">május 16-ig 1 éves előfizetésünk 300.000 Ft helyett csak 99.900 Ft+áfa</span>.
+        </p>
         <div class="row">
           <a href="https://app.netacademia.hu/subscription/create" class="btn-orange btn-lg ml-3">Megveszem</a>
         </div>
@@ -132,7 +134,9 @@
       <div class="container text-center">
         <div class="row justify-content-center py-5">
           <div class="col-10">
-            <p class="lead">A tanfolyamokat online, élőben lehet követni, vagy ha lemaradtál, felvételről bármikor vissza tudod nézni. A gyakorlatorientált oktatás, a rugalmas időbeosztás, a gyakorló szakember oktatók mind-mind lehetővé teszik, hogy úgy tanulj, ahogyan Neked a legjobb: KÉNYELMESEN, OTTHONRÓL, ONLINE.</p>
+            <p class="lead">A tanfolyamokat online, élőben lehet követni, vagy ha lemaradtál, felvételről bármikor
+              vissza tudod nézni. A gyakorlatorientált oktatás, a rugalmas időbeosztás, a gyakorló szakember oktatók
+              mind-mind lehetővé teszik, hogy úgy tanulj, ahogyan Neked a legjobb: KÉNYELMESEN, OTTHONRÓL, ONLINE.</p>
             <div class="text-center pt-3">
               <a href="https://app.netacademia.hu/subscription/create" class="btn-orange btn-lg">Megveszem</a>
             </div>
@@ -200,10 +204,14 @@
 </template>
 
 <script>
-import BouncingDownArrow from "../components/BouncingDownArrow";
+import BouncingDownArrow from "~/components/BouncingDownArrow";
+import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
+
 export default {
-  components: {BouncingDownArrow},
-  layout: "logo-footer"
+  name: "ulti-akcio",
+  mixins: [GtmPageLoad("Termékoldal")],
+  layout: "logo-footer",
+  components: { BouncingDownArrow }
 };
 </script>
 
@@ -262,14 +270,17 @@ h2 {
     font-size: 3.5rem;
     margin-top: 20px;
   }
+
   .top-hero h2 {
     font-size: 3rem;
     margin-top: 110px;
   }
+
   .top-hero h2 span {
     font-size: 4rem;
     margin-top: 110px;
   }
+
   .top-hero p {
     font-size: 20px;
   }
@@ -287,14 +298,17 @@ h2 {
     font-size: 4rem;
     margin-top: 70px;
   }
+
   .top-hero h2 {
     font-size: 4rem;
     margin-top: 110px;
   }
+
   .top-hero h2 span {
     font-size: 5.5rem;
     margin-top: 110px;
   }
+
   .top-hero p {
     font-size: 20px;
   }
@@ -342,6 +356,7 @@ h2 {
 .arrow {
   margin-top: 110px;
 }
+
 .bounce {
   -moz-animation: bounce 1s infinite;
   -webkit-animation: bounce 1s infinite;
@@ -402,6 +417,7 @@ h2 {
 .card {
   box-shadow: 1px 4px 5px rgba(51, 47, 45, 0.5);
 }
+
 .header {
   background-color: #e55a0c;
 }
@@ -417,6 +433,7 @@ h2 {
   margin-bottom: 7px;
   font-size: 1.15rem;
 }
+
 @media (min-width: 770px) and (max-width: 991px) {
   .card {
     min-height: 400px;
@@ -427,6 +444,7 @@ h2 {
   .card {
     min-height: 380px;
   }
+
   .card p {
     margin-bottom: 7px;
     font-size: 1rem;

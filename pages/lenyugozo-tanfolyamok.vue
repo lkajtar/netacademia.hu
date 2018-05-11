@@ -6,7 +6,8 @@
           <div class="col-12 col-md">
             <div class="wellcome-heading w-75">
               <h2 class="text-uppercase">Lenyűgöző tanfolyamok</h2>
-              <p>Több tucatnyi ingyenes tanfolyamunk közül itt azok szerepelnek, melyek során lenyűgöző dolgokat ismerhetsz meg és hozhatsz létre pusztán pár óra tanulással.</p>
+              <p>Több tucatnyi ingyenes tanfolyamunk közül itt azok szerepelnek, melyek során lenyűgöző dolgokat
+                ismerhetsz meg és hozhatsz létre pusztán pár óra tanulással.</p>
               <p>Regisztrálj, és végezd el ingyenes tanfolyamainkat!</p>
             </div>
           </div>
@@ -38,7 +39,8 @@
           <div class="col-12 col-md-4 blockk">
             <nuxt-link to="#unity">
               <Bounce class="single-special text-center" direction="in">
-                <img src="~/assets/lenyugozo-tanfolyamok/unity-3d-vector-icon-logo.svg" alt="" width="75" class="img-fluid mb-4">
+                <img src="~/assets/lenyugozo-tanfolyamok/unity-3d-vector-icon-logo.svg" alt="" width="75"
+                     class="img-fluid mb-4">
                 <h4>UNITY</h4>
               </Bounce>
             </nuxt-link>
@@ -61,13 +63,17 @@
             <div class="col-lg-6 col-xl-5 ml-xl-auto my-auto">
               <div class="special_description_content">
                 <h2>Lenyűgöző weblapok készítése</h2>
-                <p>Kukába a XX. századi weblapdizájnokkal! Kezdők is kezdjék az életüket XXI. századi, modern, ütős weblapokkal!</p>
-                <p>Ezen a tanfolyamon egy mai, modern landing page-et készítünk a semmiből kiindulva, Notepad segítségével. Az óra során annyit fogsz tanulni, hogy utána képes leszel olyan weboldalakat létrehozni, mint az elektromos autógyár Tesla híres főoldala.</p>
+                <p>Kukába a XX. századi weblapdizájnokkal! Kezdők is kezdjék az életüket XXI. századi, modern, ütős
+                  weblapokkal!</p>
+                <p>Ezen a tanfolyamon egy mai, modern landing page-et készítünk a semmiből kiindulva, Notepad
+                  segítségével. Az óra során annyit fogsz tanulni, hogy utána képes leszel olyan weboldalakat
+                  létrehozni, mint az elektromos autógyár Tesla híres főoldala.</p>
                 <p class="font-weight-bold">Tanfolyam időpontja: 2018.04.</p>
                 <div class="app-download-area">
                   <div class="button">
                     <!-- Google Store Btn -->
-                    <gtm-link :gtm-data="GTMProductCollection.web" href="https://app.netacademia.hu/Tanfolyam/2017htmllanding-lenyugozo-weblapok-keszitese">
+                    <gtm-link :gtm-data="GTMProductCollection.web"
+                              href="https://app.netacademia.hu/Tanfolyam/2017htmllanding-lenyugozo-weblapok-keszitese">
                       <p class="mb-0">Részt veszek a tanfolyamon!</p>
                     </gtm-link>
                   </div>
@@ -86,12 +92,15 @@
               <div class="special_description_content">
                 <h2>Lenyűgöző UNITY</h2>
                 <p>Látványos mobil játék készítése mindössze néhány óra alatt.</p>
-                <p>Ez a képzés egy gyakorlatias, rövid bemutató arról, hogyan lehet látványos játékokat készíteni akár néhány óra leforgása alatt a Unity játékmotor segítségével. A tanfolyamon egy autós 3D játékot fejlesztünk okostelefonokra.</p>
+                <p>Ez a képzés egy gyakorlatias, rövid bemutató arról, hogyan lehet látványos játékokat készíteni akár
+                  néhány óra leforgása alatt a Unity játékmotor segítségével. A tanfolyamon egy autós 3D játékot
+                  fejlesztünk okostelefonokra.</p>
                 <p class="font-weight-bold">Tanfolyam időpontja: 2018.04.09. 18 óra</p>
                 <div class="app-download-area">
                   <div class="button">
                     <!-- Google Store Btn -->
-                    <gtm-link :gtm-data="GTMProductCollection.unity" href="https://app.netacademia.hu/Tanfolyam/2018unitylenyug-lenyugozo-unity">
+                    <gtm-link :gtm-data="GTMProductCollection.unity"
+                              href="https://app.netacademia.hu/Tanfolyam/2018unitylenyug-lenyugozo-unity">
                       <p class="mb-0">Részt veszek a tanfolyamon!</p>
                     </gtm-link>
                   </div>
@@ -124,11 +133,13 @@
               <div class="special_description_content">
                 <h2>Lenyűgöző C# programozás</h2>
                 <p>Készítsünk együtt csevegő robotot!</p>
-                <p>A kurzus során bepillantást nyerhetsz abba, hogyan kódol egy C# programozó: létrehozunk és beüzemelünk egy chatbotot teljesen nulláról, hogy a kezdők számára is világos legyen minden lépés.</p>
+                <p>A kurzus során bepillantást nyerhetsz abba, hogyan kódol egy C# programozó: létrehozunk és
+                  beüzemelünk egy chatbotot teljesen nulláról, hogy a kezdők számára is világos legyen minden lépés.</p>
                 <p class="font-weight-bold">Tanfolyam időpontja: 2018.04.23. 15 óra</p>
                 <div class="app-download-area">
                   <div class="button">
-                    <gtm-link :gtm-data="GTMProductCollection.csharp" href="https://app.netacademia.hu/Tanfolyam/2018csharp-lenyugozo-c-programozas">
+                    <gtm-link :gtm-data="GTMProductCollection.csharp"
+                              href="https://app.netacademia.hu/Tanfolyam/2018csharp-lenyugozo-c-programozas">
                       <p class="mb-0">Részt veszek a tanfolyamon!</p>
                     </gtm-link>
                   </div>
@@ -146,12 +157,16 @@
             <div class="col-lg-6 col-xl-5 mr-xl-auto my-auto order-2 order-lg-1">
               <div class="special_description_content">
                 <h2>Windows Server alapismeretek, telepítés</h2>
-                <p>Ez az ingyenes tanfolyam a Windows üzemeltető útvonal bevezető képzése. Megnézzük, hogy mitől szerver egy szerver, milyen verziókkal találkozhatunk, ezek közül melyik mire való. A cél, hogy létrejöjjön egy saját magunk által virtuális gépben telepített szerver, amit az útvonal későbbi tanfolyamaihoz fel tudunk használni.</p>
+                <p>Ez az ingyenes tanfolyam a Windows üzemeltető útvonal bevezető képzése. Megnézzük, hogy mitől szerver
+                  egy szerver, milyen verziókkal találkozhatunk, ezek közül melyik mire való. A cél, hogy létrejöjjön
+                  egy saját magunk által virtuális gépben telepített szerver, amit az útvonal későbbi tanfolyamaihoz fel
+                  tudunk használni.</p>
                 <p class="font-weight-bold">Tanfolyam időpontja: 2018.05.07. 17 óra</p>
                 <div class="app-download-area">
                   <div class="button">
                     <!-- Google Store Btn -->
-                    <gtm-link :gtm-data="GTMProductCollection.windows" href="https://app.netacademia.hu/Tanfolyam/2018wu00-windows-server-alapismeretek-telepites">
+                    <gtm-link :gtm-data="GTMProductCollection.windows"
+                              href="https://app.netacademia.hu/Tanfolyam/2018wu00-windows-server-alapismeretek-telepites">
                       <p class="mb-0">Részt veszek a tanfolyamon!</p>
                     </gtm-link>
                   </div>
@@ -189,9 +204,11 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="single-feature">
               <h5>Bootstrap4</h5>
-              <p class="mb-2">A kurzus során projekt alapon, gyakorlati módon ismerjük meg a Bootstrap keretrendszert, és a HTML-CSS kódolást!</p>
+              <p class="mb-2">A kurzus során projekt alapon, gyakorlati módon ismerjük meg a Bootstrap keretrendszert,
+                és a HTML-CSS kódolást!</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.bootstrap" href="https://app.netacademia.hu/Tanfolyam/2018bt4-bootstrap4">
+                <gtm-link :gtm-data="GTMProductCollection.bootstrap"
+                          href="https://app.netacademia.hu/Tanfolyam/2018bt4-bootstrap4">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -202,9 +219,11 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="single-feature">
               <h5>Az első webes C# projektem</h5>
-              <p class="mb-2">Az XAML fejlesztést követően betekintünk a webes alkalmazásfejlesztés kulisszái mögé is C# nyelven.</p>
+              <p class="mb-2">Az XAML fejlesztést követően betekintünk a webes alkalmazásfejlesztés kulisszái mögé is C#
+                nyelven.</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.webtodo" href="https://app.netacademia.hu/Tanfolyam/2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese">
+                <gtm-link :gtm-data="GTMProductCollection.webtodo"
+                          href="https://app.netacademia.hu/Tanfolyam/2018webtodo-az-elso-webes-c-projektem-to-do-alkalmazas-keszitese">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -215,9 +234,11 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="single-feature">
               <h5>CISSP</h5>
-              <p class="mb-2">A képzés alatt az információbiztonság legkülönfélébb összetevőit vizsgáljuk egészen a rendszerüzemeltetéstől a hálózatbiztonságig.</p>
+              <p class="mb-2">A képzés alatt az információbiztonság legkülönfélébb összetevőit vizsgáljuk egészen a
+                rendszerüzemeltetéstől a hálózatbiztonságig.</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.cissp" href="https://app.netacademia.hu/Tanfolyam/2018CISSP-certified-information-systems-security-pro---cissp">
+                <gtm-link :gtm-data="GTMProductCollection.cissp"
+                          href="https://app.netacademia.hu/Tanfolyam/2018CISSP-certified-information-systems-security-pro---cissp">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -228,10 +249,12 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="single-feature">
               <h5>Javasript</h5>
-              <p class="mb-2">A tanfolyamon kis játékos projekteket valósítunk meg, és miközben megismerjük a JavaScript és a front-end fejlesztés alapjait.
+              <p class="mb-2">A tanfolyamon kis játékos projekteket valósítunk meg, és miközben megismerjük a JavaScript
+                és a front-end fejlesztés alapjait.
               </p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.javascript" href="https://app.netacademia.hu/Tanfolyam/2018javascript-javascript---szent-habakuk-hisz-jatszom">
+                <gtm-link :gtm-data="GTMProductCollection.javascript"
+                          href="https://app.netacademia.hu/Tanfolyam/2018javascript-javascript---szent-habakuk-hisz-jatszom">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -242,9 +265,11 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="single-feature">
               <h5>Multiplatform C# 2018</h5>
-              <p class="mb-2">Ez egy lexikális, minden sarokba benézős tanfolyam, ééés: mindent kipróbálunk Windows-on és Linuxon is.</p>
+              <p class="mb-2">Ez egy lexikális, minden sarokba benézős tanfolyam, ééés: mindent kipróbálunk Windows-on
+                és Linuxon is.</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.csharpalapok" href="https://app.netacademia.hu/Tanfolyam/2018csharpalapok-c-alapok-2018-a-multiplatform-c">
+                <gtm-link :gtm-data="GTMProductCollection.csharpalapok"
+                          href="https://app.netacademia.hu/Tanfolyam/2018csharpalapok-c-alapok-2018-a-multiplatform-c">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
@@ -255,16 +280,19 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="single-feature">
               <h5>Videovágás alapok</h5>
-              <p class="mb-2">Elsajátíthatjuk a Final Cut Pro X videovágó szoftver legfrissebb verziójának alapjait, így képesek leszünk minőségi videókat elkészíteni.</p>
+              <p class="mb-2">Elsajátíthatjuk a Final Cut Pro X videovágó szoftver legfrissebb verziójának alapjait, így
+                képesek leszünk minőségi videókat elkészíteni.</p>
               <small>
-                <gtm-link :gtm-data="GTMProductCollection.prox" href="https://app.netacademia.hu/Tanfolyam/2018prox-videovagas-alapok--final-cut-pro-x-el">
+                <gtm-link :gtm-data="GTMProductCollection.prox"
+                          href="https://app.netacademia.hu/Tanfolyam/2018prox-videovagas-alapok--final-cut-pro-x-el">
                   A tanfolyam részletei...
                 </gtm-link>
               </small>
             </div>
           </div>
           <div class="col-12 text-center ulti pt-4">
-            <p>Ha kínálatunk elnyerte a tetszésed, fizess elő egy évre, hogy korlátlanul tanulhass! Most 99.900 Ft + áfa</p>
+            <p>Ha kínálatunk elnyerte a tetszésed, fizess elő egy évre, hogy korlátlanul tanulhass! Most 99.900 Ft +
+              áfa</p>
             <div class="mx-auto button-ulti">
               <gtm-link :gtm-data="GTMProductCollection.ultimate" href="/ultimateakcio">
                 Előfizetek
@@ -282,10 +310,13 @@
 <script>
 import GtmLink from "~/components/GtmLink.vue";
 import Bounce from "~/components/Bounce.vue";
+import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
 
 export default {
-  components: { GtmLink, Bounce },
+  name: "lenyugozo",
+  mixins: [GtmPageLoad("Listaoldal")],
   layout: "logo-footer",
+  components: { GtmLink, Bounce },
   data: function() {
     return {
       GTMProductCollection: {
@@ -464,6 +495,7 @@ export default {
     margin-top: 60px;
     margin-bottom: 40px;
   }
+
   .wellcome-heading {
     font-size: 1.5rem;
   }
@@ -475,9 +507,11 @@ export default {
     margin-top: 80px;
     margin-bottom: 25px;
   }
+
   .wellcome-heading {
     font-size: 1.5rem;
   }
+
   .wellcome_area {
     background-color: #fafafa;
     background-image: linear-gradient(
@@ -495,6 +529,7 @@ export default {
     margin-top: 100px;
     margin-bottom: 40px;
   }
+
   .wellcome-heading {
     font-size: 1.4rem;
   }

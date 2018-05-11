@@ -7,11 +7,17 @@
             <h2 class="display-3">
               <span>Net</span>Academia</h2>
             <h1>Certificate</h1>
-            <p class="lead  mt-5">A puding próbája az evés. A vizsga azt a célt szolgálja, hogy bebizonyítsd országnak-világnak, hogy érted, és a gyakorlatban alkalmazni is tudod a tanfolyamon tanultakat. A NetAcademia Certificate olyan minősítési forma, ami nem a totózási, hanem a problémamegoldási képességedet méri fel. Éppen ezért képvisel magas értéket mind a munkaadók, mind a munkavállalók szemében!</p>
+            <p class="lead  mt-5">A puding próbája az evés. A vizsga azt a célt szolgálja, hogy bebizonyítsd
+              országnak-világnak, hogy érted, és a gyakorlatban alkalmazni is tudod a tanfolyamon tanultakat. A
+              NetAcademia Certificate olyan minősítési forma, ami nem a totózási, hanem a problémamegoldási képességedet
+              méri fel. Éppen ezért képvisel magas értéket mind a munkaadók, mind a munkavállalók szemében!</p>
             <p class="lead mb-5">Tanúsítványunk egyelőre a nagy sikerű
               <nuxt-link to="/webfejleszto-angular">Webfejlesztő útvonalunkra
-              </nuxt-link> alapozva, Front-end fejlesztők számára elérhető.</p>
-            <a href="https://app.netacademia.hu/Registration/CreateExam/2018angular-certificate" class="btn-red px-3">Vizsgázni szeretnék!</a>
+              </nuxt-link>
+              alapozva, Front-end fejlesztők számára elérhető.
+            </p>
+            <a href="https://app.netacademia.hu/Registration/CreateExam/2018angular-certificate" class="btn-red px-3">Vizsgázni
+              szeretnék!</a>
           </div>
         </div>
       </div>
@@ -35,7 +41,8 @@
             <img src="~/assets/certificate/pipa.svg" class="feature-icon-pipa">
             <div class="feature-content">
               <h4>Garancia a versenyképes szakmai tudásra</h4>
-              <p>A sikeres vizsga bizonyíték arra, hogy képes vagy statikus és dinamikus reszponzív weboldalak készítésére, elboldogulsz a webprogramozás és az alkalmazásfejlesztés világában is.</p>
+              <p>A sikeres vizsga bizonyíték arra, hogy képes vagy statikus és dinamikus reszponzív weboldalak
+                készítésére, elboldogulsz a webprogramozás és az alkalmazásfejlesztés világában is.</p>
             </div>
           </div>
           <!-- /feature -->
@@ -45,7 +52,9 @@
             <img src="~/assets/certificate/pipa.svg" class="feature-icon-pipa">
             <div class="feature-content">
               <h4>Ellenőrzött referenciamunka</h4>
-              <p>A pályakezdők többsége nem rendelkezik megfelelő minőségű referenciamunkával, de vizsgamunkáddal ezt a hiányosságot is pótolhatod. A tanfolyam és a vizsga során elkészített projektfeladatodat is nyugodt szívvel megmutathatod egy-egy állásinterjú alkalmával.
+              <p>A pályakezdők többsége nem rendelkezik megfelelő minőségű referenciamunkával, de vizsgamunkáddal ezt a
+                hiányosságot is pótolhatod. A tanfolyam és a vizsga során elkészített projektfeladatodat is nyugodt
+                szívvel megmutathatod egy-egy állásinterjú alkalmával.
               </p>
             </div>
           </div>
@@ -54,7 +63,9 @@
             <img src="~/assets/certificate/pipa.svg" class="feature-icon-pipa">
             <div class="feature-content">
               <h4>„Papírral” könnyebb</h4>
-              <p>A megszerzett certificate előnyt jelent a munkaerőpiacon, gyorsabban találhatsz munkát általa. Tanúsítványunkat magyar és angol nyelven, papír- és elektronikus formában is megkapod. Az elektronikus certificate-hez QR-kóddal bármikor könnyedén hozzáférhetsz.
+              <p>A megszerzett certificate előnyt jelent a munkaerőpiacon, gyorsabban találhatsz munkát általa.
+                Tanúsítványunkat magyar és angol nyelven, papír- és elektronikus formában is megkapod. Az elektronikus
+                certificate-hez QR-kóddal bármikor könnyedén hozzáférhetsz.
               </p>
             </div>
           </div>
@@ -68,9 +79,13 @@
 
         <div class="col-12 mb-5 col-lg-7 my-lg-auto px-4 p-lg-5">
           <h2 class="mb-4">Hogyan szerezhető meg a Certificate?</h2>
-          <p>A vizsga egy projektmunka elkészítéséből, majd egy online szóbeli vizsga alkalmával annak megvédéséből áll. A projektvizsga esetében nemcsak a késztermék kap lényeges szerepet, hanem az út is, amelyen létrehoztad. A bemutatandó képességek nagy része az alapos és kitartó munkában mutatkozik meg, ezért a vizsgának lényeges eleme a teljes munkafolyamat.</p>
+          <p>A vizsga egy projektmunka elkészítéséből, majd egy online szóbeli vizsga alkalmával annak megvédéséből áll.
+            A projektvizsga esetében nemcsak a késztermék kap lényeges szerepet, hanem az út is, amelyen létrehoztad. A
+            bemutatandó képességek nagy része az alapos és kitartó munkában mutatkozik meg, ezért a vizsgának lényeges
+            eleme a teljes munkafolyamat.</p>
           <p class="mb-5">A vizsgát többször is meg lehet próbálni, de a vizsgadíj ismételt befizetése szükséges.</p>
-          <a href="https://app.netacademia.hu/Registration/CreateExam/2018angular-certificate" class="btn-red px-3">Vizsgára jelentkezek!</a>
+          <a href="https://app.netacademia.hu/Registration/CreateExam/2018angular-certificate" class="btn-red px-3">Vizsgára
+            jelentkezek!</a>
         </div>
 
         <div class="col-11 col-lg-5 col-md-offset-1 my-auto px-0">
@@ -91,14 +106,20 @@
             <img src="~/assets/certificate/egy.svg" class="feature-icon">
             <div class="feature-content">
               <h4>Vizsgára jelentkezés</h4>
-              <p class="mb-2">A vizsgára való jelentkezéshez kattints a „Vizsgára jelentkezem” gombra, majd add meg adataidat. Az emailben megkapott linken egy előzetes, 50 kérdésből álló tesztet kell kitöltened. Ha ez sikeres, megkapod a projektfeladatot, és kiválaszthatod a számodra megfelelő szóbeli vizsga időpontját. A vizsgaidőpont előtt legalább egy héttel le kell adnod a projektfeladatot, aminek módjáról a feladatkiadás során kapsz tájékoztatást.</p>
+              <p class="mb-2">A vizsgára való jelentkezéshez kattints a „Vizsgára jelentkezem” gombra, majd add meg
+                adataidat. Az emailben megkapott linken egy előzetes, 50 kérdésből álló tesztet kell kitöltened. Ha ez
+                sikeres, megkapod a projektfeladatot, és kiválaszthatod a számodra megfelelő szóbeli vizsga időpontját.
+                A vizsgaidőpont előtt legalább egy héttel le kell adnod a projektfeladatot, aminek módjáról a
+                feladatkiadás során kapsz tájékoztatást.</p>
               <p class="mb-1 font-weight-bold">Jelentkezési határidő: 2018. május 21. </p>
-              <p class="mb-1 font-weight-bold">Szóbeli vizsgaidőpontok: 2018. június 18-ai héten. További időpontok miatt nézz vissza később az oldalra.</p>
+              <p class="mb-1 font-weight-bold">Szóbeli vizsgaidőpontok: 2018. június 18-ai héten. További időpontok
+                miatt nézz vissza később az oldalra.</p>
               <p class="mb-1 font-weight-bold">A vizsgadíj: 49.900 Ft+áfa</p>
               <p class="mb-1 font-weight-bold">Előfizetőinknek kedvezménnyel: 29.900 Ft+áfa
               </p>
               <p class="font-weight-bold">Fizetési mód: PayPal</p>
-              <p>Lemaradtál a jelentkezésről vagy később akarsz felkészülni? Semmi baj, rövidesen újabb időpontokat adunk meg!</p>
+              <p>Lemaradtál a jelentkezésről vagy később akarsz felkészülni? Semmi baj, rövidesen újabb időpontokat
+                adunk meg!</p>
             </div>
           </div>
           <!-- /feature -->
@@ -108,7 +129,10 @@
             <img src="~/assets/certificate/ketto.svg" class="feature-icon">
             <div class="feature-content">
               <h4>Teszt</h4>
-              <p>Akár elvégezted tanfolyamainkat, akár nem, egy 50 kérdésből álló teszt sikeres kitöltése előfeltétele a vizsgának. Sikertelen teszt esetén újból jelentkezned kell, mely a vizsgadíj ismételt befizetését is jelenti. A teszt előfeltétele a projektfeladat kiadásának is, tehát a vizsgázó nem kezdhet el dolgozni a projekten a teszt sikeres kitöltése előtt.</p>
+              <p>Akár elvégezted tanfolyamainkat, akár nem, egy 50 kérdésből álló teszt sikeres kitöltése előfeltétele a
+                vizsgának. Sikertelen teszt esetén újból jelentkezned kell, mely a vizsgadíj ismételt befizetését is
+                jelenti. A teszt előfeltétele a projektfeladat kiadásának is, tehát a vizsgázó nem kezdhet el dolgozni a
+                projekten a teszt sikeres kitöltése előtt.</p>
             </div>
           </div>
 
@@ -116,7 +140,11 @@
             <img src="~/assets/certificate/harom.svg" class="feature-icon">
             <div class="feature-content">
               <h4>Projektfeladat</h4>
-              <p>A vizsgafeladat kiadása email-ben fog történni és hasonló lesz a kurzus során elkészített munkához. A feladat elkészítésére maximum 4 hét áll rendelkezésedre, és a kész munkát legalább egy héttel az általad választott szóbeli vizsga előtt kell eljuttatnod hozzánk. Ha később jelentkezel vizsgára, akkor saját felelősségedre 4 hétnél kevesebb idő alatt is megpróbálhatod elkészíteni a projektfeladatot. Ha lemaradtál a jelentkezésről, ne aggódj, újabb vizsgaidőpontokat is megadunk majd a későbbiek során.</p>
+              <p>A vizsgafeladat kiadása email-ben fog történni és hasonló lesz a kurzus során elkészített munkához. A
+                feladat elkészítésére maximum 4 hét áll rendelkezésedre, és a kész munkát legalább egy héttel az általad
+                választott szóbeli vizsga előtt kell eljuttatnod hozzánk. Ha később jelentkezel vizsgára, akkor saját
+                felelősségedre 4 hétnél kevesebb idő alatt is megpróbálhatod elkészíteni a projektfeladatot. Ha
+                lemaradtál a jelentkezésről, ne aggódj, újabb vizsgaidőpontokat is megadunk majd a későbbiek során.</p>
             </div>
           </div>
 
@@ -124,7 +152,10 @@
             <img src="~/assets/certificate/negy.svg" class="feature-icon">
             <div class="feature-content">
               <h4>A Projektfeladat értékelése</h4>
-              <p>A tanár a projektfeladatot előzetesen ismertetett szempontok alapján értékeli. Amennyiben úgy értékeli a leadott projekt alapján, hogy a vizsgázó nem elégséges teljesítményt nyújt, akkor az a szóbeli védést megelőzően is bukáshoz vezethet. Ebben az esetben a tanár egy rövid indoklást küldd a projektfeladattal kapcsolatban, azonban részletesebb vitára, megbeszélésre nem lesz elérhető.
+              <p>A tanár a projektfeladatot előzetesen ismertetett szempontok alapján értékeli. Amennyiben úgy értékeli
+                a leadott projekt alapján, hogy a vizsgázó nem elégséges teljesítményt nyújt, akkor az a szóbeli védést
+                megelőzően is bukáshoz vezethet. Ebben az esetben a tanár egy rövid indoklást küldd a projektfeladattal
+                kapcsolatban, azonban részletesebb vitára, megbeszélésre nem lesz elérhető.
               </p>
             </div>
           </div>
@@ -133,7 +164,10 @@
             <img src="~/assets/certificate/ot.svg" class="feature-icon">
             <div class="feature-content">
               <h4>A vizsgafeladat védése</h4>
-              <p>A szóbeli vizsga is online, Skype-os megbeszélés során, zajlik. A „védés” során a vizsgáztató tanár kérdéseket tesz fel, illetve a projektfeladat egyes részeit illetően kiegészítéseket kérhet. Ezek a kérdések vonatkozhatnak pl. a vizsgamunkában lévő félreérthető vagy kidolgozatlan elemekre, a tanár által nem ismert részletekre, a vizsgázó véleményére, vagy válaszaira.</p>
+              <p>A szóbeli vizsga is online, Skype-os megbeszélés során, zajlik. A „védés” során a vizsgáztató tanár
+                kérdéseket tesz fel, illetve a projektfeladat egyes részeit illetően kiegészítéseket kérhet. Ezek a
+                kérdések vonatkozhatnak pl. a vizsgamunkában lévő félreérthető vagy kidolgozatlan elemekre, a tanár
+                által nem ismert részletekre, a vizsgázó véleményére, vagy válaszaira.</p>
             </div>
           </div>
         </div>
@@ -155,9 +189,14 @@
             </figure>
           </div>
           <div class="col-12 col-lg-8 col-xl-9 mt-xl-4">
-            <h5 class="mb-4">Az első 10 vizsgajelentkező részt vehet egy ingyenes álláskeresési tanácsadáson, ahol Nagy Dávid szakértő az önéletrajzuk alapján egy fél órás, személyes vagy Skype-os próbainterjú során ad visszajelzést a jelentkezőknek.
+            <h5 class="mb-4">Az első 10 vizsgajelentkező részt vehet egy ingyenes álláskeresési tanácsadáson, ahol Nagy
+              Dávid szakértő az önéletrajzuk alapján egy fél órás, személyes vagy Skype-os próbainterjú során ad
+              visszajelzést a jelentkezőknek.
             </h5>
-            <p class="mb-0">"Habár a munkaerőpiac még sosem kedvezett ennyire a munkakeresőknek, mint manapság, az ideális állás megtalálása továbbra sem könnyű feladat. A kihívás jóval nagyobb, mint egy önéletrajz megírása, de hiszek benne, hogy önismerettel, egyértelmű célokkal és a kitartással idővel bárki elérheti karriercéljait. Az én küldetésem, hogy ebben segítsek."</p>
+            <p class="mb-0">"Habár a munkaerőpiac még sosem kedvezett ennyire a munkakeresőknek, mint manapság, az
+              ideális állás megtalálása továbbra sem könnyű feladat. A kihívás jóval nagyobb, mint egy önéletrajz
+              megírása, de hiszek benne, hogy önismerettel, egyértelmű célokkal és a kitartással idővel bárki elérheti
+              karriercéljait. Az én küldetésem, hogy ebben segítsek."</p>
           </div>
         </div>
       </div>
@@ -168,7 +207,9 @@
         <div class="col-12 mt-4 text-center mb-5">
           <p class="lead">Tanúsítványunk egyelőre a nagy sikerű
             <nuxt-link to="/webfejleszto-angular">Webfejlesztő útvonalunkra
-            </nuxt-link> alapozva, Front-end fejlesztők számára elérhető.</p>
+            </nuxt-link>
+            alapozva, Front-end fejlesztők számára elérhető.
+          </p>
         </div>
 
         <div class="col-2 text-center">
@@ -196,7 +237,11 @@
 </template>
 
 <script>
+import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
+
 export default {
+  name: "certi",
+  mixins: [GtmPageLoad("Termékoldal")],
   layout: "nav-light"
 };
 </script>

@@ -167,10 +167,12 @@
     <div class="row justify-content-center text-center py-5 mx-0 align-self-center">
 
       <div class="col-12 col-lg-4 p-4 bg-card m-2 align-self-center py-5 px-3 single-special">
-        <p class="mb-4">A Certfied E-commerce Specialist tanfolyamcsomag ára <del>49.900 Ft</del> helyett, most <br>csak <span class="ar">39.900 Ft</span>
+        <p class="mb-4">A Certfied E-commerce Specialist tanfolyamcsomag ára
+          <del>49.900 Ft</del>
+          helyett, most <br>csak <span class="ar">39.900 Ft</span>
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCarteCommerce"
-                 href="https://app.netacademia.hu/Subscription/Create/certified-e-commerce-specialist"
+                  href="https://app.netacademia.hu/Subscription/Create/certified-e-commerce-specialist"
                   class="btn-cus btn-cus-darkred btn-lg ml-3 px-5"
         >Megveszem!
         </gtm-link>
@@ -200,7 +202,7 @@
                   eredményesebb legyen, az arra szánt pénzt úgy és arra
                   költsük el, hogy az számunkra a legnagyobb hasznot hozza.</p>
                 <a href="https://app.netacademia.hu/Tanfolyam/2017adatmarketing-az-adatvezerelt-marketing-alapjai"
-                  class="">Bővebben a tanfolyamról...</a>
+                   class="">Bővebben a tanfolyamról...</a>
               </div>
               <div class="col-11 mx-auto my-4">
                 <h4 class="pb-3">Szerezz NetAcademia Certificate-et!</h4>
@@ -227,11 +229,14 @@
 <script>
 import TimelineCard from "~/components/TimelineCard";
 import GtmLink from "~/components/GtmLink";
-import TimelineContainer from "../components/TimelineContainer";
-import CertiFeatures from "../components/CertiFeatures";
-import CertiTopHero from "../components/CertiTopHero";
+import TimelineContainer from "~/components/TimelineContainer";
+import CertiFeatures from "~/components/CertiFeatures";
+import CertiTopHero from "~/components/CertiTopHero";
+import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
 
 export default {
+  name: "ecoomerce-path",
+  mixins: [GtmPageLoad("Egyéb")],
   layout: "logo-footer",
   components: {
     CertiTopHero,
@@ -244,136 +249,112 @@ export default {
     return {
       GTMProductCollection: {
         design: {
-          'name': 'Pénztermelő webáruház megtervezése',
-          'id': '2018EcomPlan-tervezzuk-meg-penztermelo-webaruhazunk-elinditasat',
-          'price': '18999',
-          'brand': 'NetAcademia',
-          'category': 'Tanfolyam',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 1,
-          'PCategories': [
-            "certified-e-commerce-specialist",
-            "office"
-          ]
+          name: "Pénztermelő webáruház megtervezése",
+          id: "2018EcomPlan-tervezzuk-meg-penztermelo-webaruhazunk-elinditasat",
+          price: "18999",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 1,
+          PCategories: ["certified-e-commerce-specialist", "office"]
         },
         create: {
-          'name': 'Webshop létrehozása',
-          'id': '2018EcomShop-webshop-letrehozasa',
-          'price': '28999',
-          'brand': 'NetAcademia',
-          'category': 'Tanfolyam',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 2,
-          'PCategories': [
-            "certified-e-commerce-specialist",
-            "office"
-          ]
+          name: "Webshop létrehozása",
+          id: "2018EcomShop-webshop-letrehozasa",
+          price: "28999",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 2,
+          PCategories: ["certified-e-commerce-specialist", "office"]
         },
         facebook: {
-          'name': 'Facebook bolti terület használata',
-          'id': '2018EcomFaceShop-facebook-bolti-terulet-hasznalata',
-          'price': '18999',
-          'brand': 'NetAcademia',
-          'category': 'Tanfolyam',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 3,
-          'PCategories': [
-            "certified-e-commerce-specialist",
-            "office"
-          ]
+          name: "Facebook bolti terület használata",
+          id: "2018EcomFaceShop-facebook-bolti-terulet-hasznalata",
+          price: "18999",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 3,
+          PCategories: ["certified-e-commerce-specialist", "office"]
         },
         cone: {
-          'name': 'Értékesítési tölcsér készítése',
-          'id': '2018EcomFun-ertekesitesi-tolcser-keszitese',
-          'price': '28999',
-          'brand': 'NetAcademia',
-          'category': 'Tanfolyam',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 4,
-          'PCategories': [
-            "certified-e-commerce-specialist",
-            "office"
-          ]
+          name: "Értékesítési tölcsér készítése",
+          id: "2018EcomFun-ertekesitesi-tolcser-keszitese",
+          price: "28999",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 4,
+          PCategories: ["certified-e-commerce-specialist", "office"]
         },
         adwords: {
-          'name': "Google Adwords-hirdetések",
-          'id': '2018EcomGoog-google-adwords-alapok',
-          'price': '28999',
-          'brand': 'NetAcademia',
-          'category': 'Tanfolyam',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 5,
-          'PCategories': [
-            "certified-e-commerce-specialist",
-            "office"
-          ]
+          name: "Google Adwords-hirdetések",
+          id: "2018EcomGoog-google-adwords-alapok",
+          price: "28999",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 5,
+          PCategories: ["certified-e-commerce-specialist", "office"]
         },
         email: {
-          'name': "Email marketing",
-          'id': '2018EcomGAd-halado-google-adwords',
-          'price': '18999',
-          'brand': 'NetAcademia',
-          'category': 'Tanfolyam',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 6,
-          'PCategories': [
-            "certified-e-commerce-specialist",
-            "office"
-          ]
+          name: "Email marketing",
+          id: "2018EcomGAd-halado-google-adwords",
+          price: "18999",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 6,
+          PCategories: ["certified-e-commerce-specialist", "office"]
         },
         crm: {
-          'name': "Webáruház-ügyfélkezelés, CRM",
-          'id': '2018EcomCus-webaruhaz-ugyfelkezeles',
-          'price': '28999',
-          'brand': 'NetAcademia',
-          'category': 'Tanfolyam',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 7,
-          'PCategories': [
-            "certified-e-commerce-specialist",
-            "office"
-          ]
+          name: "Webáruház-ügyfélkezelés, CRM",
+          id: "2018EcomCus-webaruhaz-ugyfelkezeles",
+          price: "28999",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 7,
+          PCategories: ["certified-e-commerce-specialist", "office"]
         },
         analytics: {
-          'name': "Webáruház telejsítményének mérése, értékelése",
-          'id': '2018EcomMes-webaruhaz-merese-ertekelese',
-          'price': '18999',
-          'brand': 'NetAcademia',
-          'category': 'Tanfolyam',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 8,
-          'PCategories': [
-            "certified-e-commerce-specialist",
-            "office"
-          ]
+          name: "Webáruház telejsítményének mérése, értékelése",
+          id: "2018EcomMes-webaruhaz-merese-ertekelese",
+          price: "18999",
+          brand: "NetAcademia",
+          category: "Tanfolyam",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 8,
+          PCategories: ["certified-e-commerce-specialist", "office"]
         },
         addToCarteCommerce: {
-          'name': "Certified E-commerce Specialist oktatási csomag",
-          'id': 'certified-e-commerce-specialist',
-          'price': '39900',
-          'brand': 'NetAcademia',
-          'category': 'Elofizetes',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 9,
+          name: "Certified E-commerce Specialist oktatási csomag",
+          id: "certified-e-commerce-specialist",
+          price: "39900",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 9
         },
         addToCartOffice: {
-          'name': "Office és irodai alkalmazások 12 hónapos tanfolyamcsomag",
-          'id': 'office',
-          'price': '62230',
-          'brand': 'NetAcademia',
-          'category': 'Elofizetes',
-          'variant': '',
-          'list': 'Certified E-commerce Specialist',
-          'position': 10,
+          name: "Office és irodai alkalmazások 12 hónapos tanfolyamcsomag",
+          id: "office",
+          price: "62230",
+          brand: "NetAcademia",
+          category: "Elofizetes",
+          variant: "",
+          list: "Certified E-commerce Specialist",
+          position: 10
         }
       }
     };

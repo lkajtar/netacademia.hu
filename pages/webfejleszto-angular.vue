@@ -30,7 +30,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-angular/bootstrap-icon.png" alt="bootstrap">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.bootstrap"
-                 href="https://app.netacademia.hu/Tanfolyam/2017bootstrap4-bootstrap---tegyuk-negyedikbe"
+                  href="https://app.netacademia.hu/Tanfolyam/2017bootstrap4-bootstrap---tegyuk-negyedikbe"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -46,7 +46,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-angular/jquery-icon.png" alt="jquery">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.jquery"
-                 href="https://app.netacademia.hu/Tanfolyam/2017jquery-jquery---a-hajnalok-hajnalan"
+                  href="https://app.netacademia.hu/Tanfolyam/2017jquery-jquery---a-hajnalok-hajnalan"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -63,7 +63,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-angular/angular-icon.png" alt="angular">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.angularIntro"
-                 href="https://app.netacademia.hu/Tanfolyam/2017angularintro-angular-intro--esemenyvadasz"
+                  href="https://app.netacademia.hu/Tanfolyam/2017angularintro-angular-intro--esemenyvadasz"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -80,7 +80,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-angular/angular-icon.png" alt="angular">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.angularAdvanced"
-                 href="https://app.netacademia.hu/Tanfolyam/2017ngadvanced-ng-advanced"
+                  href="https://app.netacademia.hu/Tanfolyam/2017ngadvanced-ng-advanced"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -97,7 +97,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-angular/angular-icon.png" alt="angular">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.angularPro"
-                 href="https://app.netacademia.hu/Tanfolyam/2017angularpro-angular-pro"
+                  href="https://app.netacademia.hu/Tanfolyam/2017angularpro-angular-pro"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -113,7 +113,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-angular/ionic-icon.png" alt="vue">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.ionic"
-                 href="https://app.netacademia.hu/Tanfolyam/2017ionic-ionic---appra-fel"
+                  href="https://app.netacademia.hu/Tanfolyam/2017ionic-ionic---appra-fel"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -130,7 +130,7 @@
       >
         <img slot="picture" src="~/assets/webfejleszto-angular/electron-icon.png" alt="electron">
         <gtm-link slot="link" :gtm-data="GTMProductCollection.electron"
-                 href="https://app.netacademia.hu/Tanfolyam/2017electron-electron"
+                  href="https://app.netacademia.hu/Tanfolyam/2017electron-electron"
         >Részletek...
         </gtm-link>
       </TimelineCard>
@@ -144,7 +144,7 @@
           <br>bruttó
           <span class="ar">39.800 </span>Ft!</p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVueAndAngular"
-                 href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-es-vuejs"
+                  href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-es-vuejs"
                   class="btn-cus btn-cus-orange"
         >Megveszem!
         </gtm-link>
@@ -165,7 +165,7 @@
           <br>bruttó
           <span class="ar">29.900</span> Ft!</p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartAngular"
-                 href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-edition"
+                  href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-edition"
                   class="btn-cus btn-cus-orange"
         >Megveszem!
         </gtm-link>
@@ -218,11 +218,14 @@
 <script>
 import TimelineCard from "~/components/TimelineCard";
 import GtmLink from "~/components/GtmLink";
-import TimelineContainer from "../components/TimelineContainer";
-import CertiFeatures from "../components/CertiFeatures";
-import CertiTopHero from "../components/CertiTopHero";
+import TimelineContainer from "~/components/TimelineContainer";
+import CertiFeatures from "~/components/CertiFeatures";
+import CertiTopHero from "~/components/CertiTopHero";
+import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
 
 export default {
+  name: "angular-path",
+  mixins: [GtmPageLoad("Egyéb")],
   layout: "logo-footer",
   components: {
     CertiTopHero,
