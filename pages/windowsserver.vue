@@ -194,7 +194,7 @@ import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
 
 export default {
   name: "windows-path",
-  mixins: [GtmPageLoad("Egyéb")],
+  mixins: [GtmPageLoad("Listaoldal")],
   layout: "logo-footer",
   components: {
     CertiTopHero,

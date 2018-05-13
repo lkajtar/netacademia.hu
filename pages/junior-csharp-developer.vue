@@ -203,7 +203,7 @@
 
   export default {
     name: 'csharp-path',
-    mixins: [GtmPageLoad('Egyéb')],
+    mixins: [GtmPageLoad("Listaoldal")],
     layout: "logo-footer",
     components: {
       CertiTopHero,

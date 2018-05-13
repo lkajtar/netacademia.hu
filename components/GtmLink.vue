@@ -82,7 +82,7 @@ export default {
             ecommerce: {
               click: {
                 actionField: {
-                  list: "Előfizetés"
+                  list: this.gtmData.list || 'valamiinnenazertcsakhianyzik...ejnye'
                 },
                 products: [this.gtmData]
               }

@@ -225,7 +225,7 @@ import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
 
 export default {
   name: "vue-path",
-  mixins: [GtmPageLoad("Egyéb")],
+  mixins: [GtmPageLoad("Listaoldal")],
   layout: "logo-footer",
   components: {
     CertiTopHero,
