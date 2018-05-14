@@ -134,7 +134,7 @@ export default {
           this.isLoggedIn = true;
           return r.json();
         } else {
-          throw "Server oldalon valami gond volt";
+          throw "Server mondja: You shall not pass!";
         }
       })
       .then(r => {
