@@ -41,7 +41,7 @@
       </ul>
       <ul class="navbar-nav ml-auto">
         <li v-if="!isLoggedIn">
-          <a class="nav-link" :href="loginUrl">Bejelentkezés</a>
+          <a class="nav-link text-center" :href="loginUrl">Bejelentkezés</a>
           <!--<a class="nav-link" href="https://app.netacademia.hu/Account/Logon?returnUrl=http://localhost:3000/">Bejelentkezés</a>-->
         </li>
         <li class="nav-item dropdown text-center" v-else>
