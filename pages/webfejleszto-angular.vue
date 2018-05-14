@@ -16,7 +16,7 @@
       </nuxt-link>
     </CertiTopHero>
 
-    <CertiFeatures price="Most csak 29.900 Ft"></CertiFeatures>
+    <CertiFeatures price="Most csak 49.900 Ft"></CertiFeatures>
 
     <TimelineContainer id="reszletek">
       <TimelineCard title="Bootstrap - tegyük negyedikbe"
@@ -140,9 +140,9 @@
       <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
         <p class="mb-4">Vedd meg a Webfejlesztő leszek! Angular editiont és a Webfejlesztő leszek! Vue.js editiont
           együtt,
-          május 14-ig csak
           <br>bruttó
-          <span class="ar">39.800 </span>Ft!</p>
+          <span class="ar">69.800 </span>Ft-ért!
+        </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVueAndAngular"
                   href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-es-vuejs"
                   class="btn-cus btn-cus-orange"
@@ -151,9 +151,8 @@
       </div>
       <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
         <p class="mb-4">Van már Webfejlesztő leszek! előfizetésed? Akkor neked a Webfejlesztő leszek! Angular edition
-          május 14-ig csak
           <br>bruttó
-          <span class="ar">9.900 </span>Ft!</p>
+          <span class="ar">19.900 </span>Ft!</p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartAngularAsExtension"
                   href="https://app.netacademia.hu/Subscription/Create/2d7fea29-44b4-4497-8114-872a0a43d6b7"
                   class="btn-cus btn-cus-orange"
@@ -161,9 +160,9 @@
         </gtm-link>
       </div>
       <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
-        <p class=" mb-4">Webfejlesztő leszek! – Angular edition – tanfolyamcsomag ára <br>május 14-ig csak
+        <p class=" mb-4">Webfejlesztő leszek! – Angular edition – tanfolyamcsomag ára
           <br>bruttó
-          <span class="ar">29.900</span> Ft!</p>
+          <span class="ar">49.900</span> Ft!</p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartAngular"
                   href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-angular-edition"
                   class="btn-cus btn-cus-orange"
@@ -240,7 +239,7 @@ export default {
         addToCartVueAndAngular: {
           name: "Webfejlesztő leszek! Angular + VueJS 12 hónapos előfizetés",
           id: "2b9ffe78-a73f-44e1-ad90-50ae71661efe",
-          price: "39800",
+          price: "69800",
           brand: "NetAcademia",
           category: "Elofizetes",
           variant: "",
@@ -248,8 +247,8 @@ export default {
         },
         addToCartAngularAsExtension: {
           name: "Webfejlesztő 12 hónapos előfizetés",
-          "id:": "2d7fea29-44b4-4497-8114-872a0a43d6b7",
-          price: "9900",
+          id: "2d7fea29-44b4-4497-8114-872a0a43d6b7",
+          price: "19900",
           brand: "NetAcademia",
           category: "Elofizetes",
           variant: "",
@@ -257,8 +256,8 @@ export default {
         },
         addToCartAngular: {
           name: "Webfejlesztő 12 hónapos előfizetés",
-          "id:": "2d7fea29-44b4-4497-8114-872a0a43d6b7",
-          price: "29900",
+          id: "2d7fea29-44b4-4497-8114-872a0a43d6b7",
+          price: "49900",
           brand: "NetAcademia",
           category: "Elofizetes",
           variant: "",
