@@ -95,7 +95,13 @@ module.exports = {
     { src: "~/plugins/vue-youtube-embed", ssr: false },
     { src: "~/plugins/vue-mq", ssr: false }
   ],
-  modules: [["@nuxtjs/google-tag-manager", { id: "GTM-T3WLP7" }]],
+  modules: [
+    ["@nuxtjs/google-tag-manager", { id: "GTM-T3WLP7" }],
+    '@nuxtjs/axios'
+  ],
+  axios: {
+
+  },
   /*
   ** Build configuration
   */

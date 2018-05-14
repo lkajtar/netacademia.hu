@@ -41,17 +41,18 @@
       </ul>
       <ul class="navbar-nav ml-auto">
         <li v-if="!isLoggedIn">
-          <nuxt-link class="nav-link" :to="loginUrl">Bejelentkezés</nuxt-link>
+          <a class="nav-link" :href="loginUrl">Bejelentkezés</a>
+          <!--<a class="nav-link" href="https://app.netacademia.hu/Account/Logon?returnUrl=http://localhost:3000/">Bejelentkezés</a>-->
         </li>
-        <li class="nav-item dropdown" v-else>
-          <nuxt-link class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">
+        <li class="nav-item dropdown text-center" v-else>
+          <nuxt-link class="nav-link dropdown-toggle" to="" id="navbarDropdownMenuLink" data-toggle="dropdown">
             {{user.name}}
           </nuxt-link>
           <div class="dropdown-menu" :class="themeClass.dropdownMenu" aria-labelledby="navbarDropdownMenuLink">
             <nuxt-link class="dropdown-item" :class="themeClass.dropdownItem" to="/Adataim">Profil</nuxt-link>
-            <nuxt-link class="dropdown-item" :class="themeClass.dropdownItem" to="#" @click.prevent="logOut">
+            <button class="dropdown-item" :class="themeClass.dropdownItem" @click.prevent="logOut">
               Kijelentkezes
-            </nuxt-link>
+            </button>
           </div>
         </li>
       </ul>
@@ -60,86 +61,90 @@
 </template>
 
 <script>
-  export default {
-    props: {
-      theme: {
-        type: String,
-        default: "light",
-        validator: function (val) {
-          return ["light", "dark", "transparent", "logo"].indexOf(val) !== -1;
-        }
+export default {
+  props: {
+    theme: {
+      type: String,
+      default: "light",
+      validator: function(val) {
+        return ["light", "dark", "transparent", "logo"].indexOf(val) !== -1;
       }
-    },
-    data: function () {
-      return {
-        loginUrl: `/Account/Logon?returnUrl=https://www.netacademia.hu/netacademia.hu${this.$route.path}`,
-        isLoggedIn: false,
-        user: {
-          name: "",
-          email: ""
-        }
-      };
-    },
-    computed: {
-      themeClass: function () {
-        switch (this.theme) {
-          case "transparent":
-            return {
-              nav: ["navbar-dark", "bg-under-md"],
-              dropdownMenu: [],
-              dropdownItem: []
-            };
-          case "dark":
-            return {
-              nav: ["navbar-dark", "bg-dark"],
-              dropdownMenu: ["bg-dark"],
-              dropdownItem: ["text-light dark-hover"]
-            };
-          default:
-            return {
-              nav: ["navbar-light", "bg-light"],
-              dropdownMenu: [],
-              dropdownItem: []
-            };
-        }
+    }
+  },
+  data: function() {
+    return {
+      isLoggedIn: false,
+      user: {
+        name: "",
+        email: ""
+      },
+      loginUrl: `https://app.netacademia.hu/Account/Logon?returnUrl=https://www.netacademia.hu/netacademia.hu${
+        this.$route.path
+      }`
+    };
+  },
+  computed: {
+    themeClass: function() {
+      switch (this.theme) {
+        case "transparent":
+          return {
+            nav: ["navbar-dark", "bg-under-md"],
+            dropdownMenu: ["bg-under-md"],
+            dropdownItem: ["text-light-under-md"]
+          };
+        case "dark":
+          return {
+            nav: ["navbar-dark", "bg-dark"],
+            dropdownMenu: ["bg-dark"],
+            dropdownItem: ["text-light dark-hover"]
+          };
+        default:
+          return {
+            nav: ["navbar-light", "bg-light"],
+            dropdownMenu: [],
+            dropdownItem: []
+          };
       }
-    },
-    methods: {
-      logOut() {
-        // TODO: base url-eket cserelni ha meglesz environment
-        fetch("https://app.netacademia.hu/Account/LogOffAjax", {
-          method: "POST"
-        }).then(r => {
-          if (r.ok) {
-            this.isLoggedIn = false;
-            this.user.name = "";
-            this.user.email = "";
-          } else {
-            console.log("logout para");
-          }
-        });
-      }
-    },
-    mounted: function () {
+    }
+  },
+  methods: {
+    logOut() {
       // TODO: base url-eket cserelni ha meglesz environment
-      fetch("https://app.netacademia.hu/api/Profile/1.0.0/profile", {
+      fetch("https://app.netacademia.hu/Account/LogOffAjax", {
+        method: "POST",
         credentials: "include"
+      }).then(r => {
+        if (r.ok) {
+          this.isLoggedIn = false;
+          this.user.name = "";
+          this.user.email = "";
+        } else {
+          console.log("logout para");
+        }
+      });
+    }
+  },
+  mounted: function() {
+    // TODO: base url-eket cserelni ha meglesz environment
+    fetch("https://app.netacademia.hu/api/Profile/1.0.0/profile", {
+      credentials: "include"
+    })
+      .then(r => {
+        if (r.ok) {
+          this.isLoggedIn = true;
+          return r.json();
+        } else {
+          throw "Server oldalon valami gond volt";
+        }
       })
-        .then(r => {
-          if (r.ok) {
-            this.isLoggedIn = true;
-
-            r = r.json().then(r => {
-              this.user.name = r.name ? r.name : "Felhasználó";
-              if (r.email) this.user.email = r.email;
-              return r;
-            });
-          }
-          return r;
-        })
-        .catch(err => console.warn(err));
-    },
-  };
+      .then(r => {
+        this.user.name = r.name ? r.name : "Felhasználó";
+        if (r.email) this.user.email = r.email;
+        return r;
+      })
+      .catch(err => console.warn(err));
+  }
+};
 </script>
 <style>
 .dark-hover:hover {
@@ -149,6 +154,10 @@
 @media (max-width: 767px) {
   .bg-under-md {
     background-color: #343a40;
+  }
+
+  .text-light-under-md {
+    color: #f8f9fa;
   }
 }
 </style>
