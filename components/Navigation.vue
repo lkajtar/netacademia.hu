@@ -38,12 +38,12 @@
       </ul>
       <ul class="navbar-nav ml-auto">
         <li v-if="!$store.state.isLoggedIn">
-          <a class="nav-link text-center" :href="loginUrl">Bejelentkezés</a>
-          <!--<a class="nav-link" href="https://app.netacademia.hu/Account/Logon?returnUrl=http://localhost:3000/">Bejelentkezés</a>-->
+          <!--<a class="nav-link text-center" :href="loginUrl">Bejelentkezés</a>-->
+          <a class="nav-link" href="https://app.netacademia.hu/Account/Logon?returnUrl=http://localhost:3000/">Bejelentkezés</a>
         </li>
         <li class="nav-item dropdown text-center" v-else>
           <nuxt-link class="nav-link dropdown-toggle" to="" id="navbarDropdownMenuLink" data-toggle="dropdown">
-            {{user.name}}
+            {{$store.state.name}}
           </nuxt-link>
           <div class="dropdown-menu" :class="themeClass.dropdownMenu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" :class="themeClass.dropdownItem"
@@ -107,41 +107,11 @@ export default {
   },
   methods: {
     logOut() {
-      // TODO: base url-eket cserelni ha meglesz environment
-      fetch("https://app.netacademia.hu/Account/LogOffAjax", {
-        method: "POST",
-        credentials: "include"
-      }).then(r => {
-        if (r.ok) {
-          this.isLoggedIn = false;
-          this.user.name = "";
-          this.user.email = "";
-        } else {
-          console.log("logout para");
-        }
-      });
+      this.$store.dispatch('AUTH_LOGOUT');
     }
   },
   mounted: function() {
-    // TODO: base url-eket cserelni ha meglesz environment
-    fetch("https://app.netacademia.hu/api/Profile/1.0.0/profile", {
-      credentials: "include"
-    })
-      .then(r => {
-        if (r.ok) {
-          // this.isLoggedIn = true;
-          this.$store.commit('loginSucces');
-          return r.json();
-        } else {
-          throw "Server mondja: You shall not pass!";
-        }
-      })
-      .then(r => {
-        this.user.name = r.name ? r.name : "Felhasználó";
-        if (r.email) this.user.email = r.email;
-        return r;
-      })
-      .catch(err => console.warn(err));
+    this.$store.dispatch('AUTH_REQ');
   }
 };
 </script>
