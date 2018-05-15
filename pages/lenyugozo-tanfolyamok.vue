@@ -68,7 +68,6 @@
                 <p>Ezen a tanfolyamon egy mai, modern landing page-et készítünk a semmiből kiindulva, Notepad
                   segítségével. Az óra során annyit fogsz tanulni, hogy utána képes leszel olyan weboldalakat
                   létrehozni, mint az elektromos autógyár Tesla híres főoldala.</p>
-                <p class="font-weight-bold">Tanfolyam időpontja: 2018.04.</p>
                 <div class="app-download-area">
                   <div class="button">
                     <!-- Google Store Btn -->
@@ -95,7 +94,6 @@
                 <p>Ez a képzés egy gyakorlatias, rövid bemutató arról, hogyan lehet látványos játékokat készíteni akár
                   néhány óra leforgása alatt a Unity játékmotor segítségével. A tanfolyamon egy autós 3D játékot
                   fejlesztünk okostelefonokra.</p>
-                <p class="font-weight-bold">Tanfolyam időpontja: 2018.04.09. 18 óra</p>
                 <div class="app-download-area">
                   <div class="button">
                     <!-- Google Store Btn -->
@@ -135,7 +133,7 @@
                 <p>Készítsünk együtt csevegő robotot!</p>
                 <p>A kurzus során bepillantást nyerhetsz abba, hogyan kódol egy C# programozó: létrehozunk és
                   beüzemelünk egy chatbotot teljesen nulláról, hogy a kezdők számára is világos legyen minden lépés.</p>
-                <p class="font-weight-bold">Tanfolyam időpontja: 2018.04.23. 15 óra</p>
+                <p class="font-weight-bold">Tanfolyam időpontja: 2018.06.04. 15 óra</p>
                 <div class="app-download-area">
                   <div class="button">
                     <gtm-link :gtm-data="GTMProductCollection.csharp"
@@ -161,7 +159,6 @@
                   egy szerver, milyen verziókkal találkozhatunk, ezek közül melyik mire való. A cél, hogy létrejöjjön
                   egy saját magunk által virtuális gépben telepített szerver, amit az útvonal későbbi tanfolyamaihoz fel
                   tudunk használni.</p>
-                <p class="font-weight-bold">Tanfolyam időpontja: 2018.05.07. 17 óra</p>
                 <div class="app-download-area">
                   <div class="button">
                     <!-- Google Store Btn -->
