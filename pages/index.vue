@@ -43,8 +43,8 @@
                             <div class="gomb">Előfizetés</div>
                         </a>
 
-                        <a href="http://app.netacademia.hu/webfejleszto-vuejs">
-                            <div class="akciogomb">Webfejlesztői akció</div>
+                        <a href="https://app.netacademia.hu/unity-developer">
+                            <div class="akciogomb">Játékfejlesztés</div>
                         </a>
       </div>
       <br/>
