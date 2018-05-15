@@ -18,30 +18,39 @@
     <section>
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-4 blockk">
+          <div class="col-12 col-md-3 blockk">
             <nuxt-link to="#htmlcss">
               <bounce class="single-special text-center" direction="in">
-                <img src="~/assets/lenyugozo-tanfolyamok/htmlcss.svg" alt="" width="150" class="img-fluid mb-4">
+                <img src="~/assets/lenyugozo-tanfolyamok/htmlcss.svg" alt="" width="145" class="img-fluid mb-4">
                 <h4>HTML, CSS</h4>
               </bounce>
             </nuxt-link>
           </div>
 
-          <div class="col-12 col-md-4 blockk">
-            <nuxt-link to="#csharp">
-              <Bounce class="single-special text-center" direction="in">
-                <img src="~/assets/lenyugozo-tanfolyamok/icon-cloud-c.svg" alt="" width="75" class="img-fluid mb-4">
-                <h4>C#</h4>
-              </Bounce>
-            </nuxt-link>
-          </div>
-
-          <div class="col-12 col-md-4 blockk">
+          <div class="col-12 col-md-3 blockk">
             <nuxt-link to="#unity">
               <Bounce class="single-special text-center" direction="in">
                 <img src="~/assets/lenyugozo-tanfolyamok/unity-3d-vector-icon-logo.svg" alt="" width="75"
                      class="img-fluid mb-4">
                 <h4>UNITY</h4>
+              </Bounce>
+            </nuxt-link>
+          </div>
+
+          <div class="col-12 col-md-3 blockk">
+            <nuxt-link to="#csharp">
+              <Bounce class="single-special text-center" direction="in">
+                <img src="~/assets/lenyugozo-tanfolyamok/icon-cloud-c.svg" alt="" width="70" class="img-fluid mb-4">
+                <h4>C#</h4>
+              </Bounce>
+            </nuxt-link>
+          </div>
+
+          <div class="col-12 col-md-3 blockk">
+            <nuxt-link to="#windows">
+              <Bounce class="single-special text-center" direction="in">
+                <img src="~/assets/lenyugozo-tanfolyamok/windowsserverlogo.png" alt="" width="80" class="img-fluid mb-4">
+                <h5>Windows Server</h5>
               </Bounce>
             </nuxt-link>
           </div>
@@ -151,7 +160,7 @@
       <!-- product: windows -->
       <div class="py-5">
         <div class="container py-lg-5">
-          <div class="row">
+          <div class="row" id="windows">
             <div class="col-lg-6 col-xl-5 mr-xl-auto my-auto order-2 order-lg-1">
               <div class="special_description_content">
                 <h2>Windows Server alapismeretek, telepítés</h2>
@@ -540,6 +549,13 @@ export default {
 
 .single-special h4 {
   font-size: 1.7rem;
+  color: #5b32b4;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.single-special h5 {
+  font-size: 1.3rem;
   color: #5b32b4;
   margin-bottom: 0px;
   font-weight: 700;
