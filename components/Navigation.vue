@@ -37,7 +37,7 @@
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
-        <li v-if="!isLoggedIn">
+        <li v-if="!$store.state.isLoggedIn">
           <a class="nav-link text-center" :href="loginUrl">Bejelentkezés</a>
           <!--<a class="nav-link" href="https://app.netacademia.hu/Account/Logon?returnUrl=http://localhost:3000/">Bejelentkezés</a>-->
         </li>
@@ -129,7 +129,8 @@ export default {
     })
       .then(r => {
         if (r.ok) {
-          this.isLoggedIn = true;
+          // this.isLoggedIn = true;
+          this.$store.commit('loginSucces');
           return r.json();
         } else {
           throw "Server mondja: You shall not pass!";
