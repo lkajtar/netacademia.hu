@@ -17,31 +17,11 @@ const scroll = function(to, from, savedPosition) {
   }
 };
 
-const ghPagesConf =
-  process.env.DEPLOY_ENV === "GH_PAGES"
-    ? {
-        router: {
-          base: "/netacademia.hu/",
-          linkActiveClass: "active",
-          scrollBehavior: scroll
-        },
-        generate: {
-          dir: "dist-ghpages"
-        }
-      }
-    : {
-        router: {
-          linkActiveClass: "active",
-          scrollBehavior: scroll
-        }
-      };
-
 module.exports = {
-  /*
-  ** Custom router base to serve from project repo on github pages from the gh-pages branch
-  ** Custom generation dir
-  */
-  ...ghPagesConf,
+  router: {
+    linkActiveClass: "active",
+    scrollBehavior: scroll
+  },
   /*
   ** Headers of the page
   */

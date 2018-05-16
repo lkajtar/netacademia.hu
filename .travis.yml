@@ -9,13 +9,13 @@ cache:
 branches:
   only:
   - master
-  - develop
+  - test
 
 install:
   - npm install
 
 script:
-  - if [ "$TRAVIS_BRANCH" = "develop" ]; then npm run generate:gh-pages; fi
+  - if [ "$TRAVIS_BRANCH" = "test" ]; then npm run generate:test; fi
   - if [ "$TRAVIS_BRANCH" = "master" ]; then npm run generate; fi
 
 deploy:
@@ -31,7 +31,7 @@ deploy:
     skip-cleanup: true
     github-token: $GITHUB_ACCESS_TOKEN  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
     target-branch: gh-pages
-    local-dir: dist-ghpages
+    local-dir: dist
     on:
-      branch: develop
+      branch: test
 

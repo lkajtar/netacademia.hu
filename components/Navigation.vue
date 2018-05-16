@@ -35,9 +35,6 @@
         <li class="nav-item flex-center">
           <nuxt-link class="nav-link" to="/elofizetes">Előfizetés</nuxt-link>
         </li>
-        <!--<li class="nav-item flex-center">-->
-        <!--<a class="nav-link" href="https://app.netacademia.hu/Adataim">Adataim</a>-->
-        <!--</li>-->
       </ul>
       <ul class="navbar-nav ml-auto">
         <li v-if="!isLoggedIn">
@@ -49,7 +46,7 @@
             {{user.name}}
           </nuxt-link>
           <div class="dropdown-menu" :class="themeClass.dropdownMenu" aria-labelledby="navbarDropdownMenuLink">
-            <nuxt-link class="dropdown-item" :class="themeClass.dropdownItem" to="/Adataim">Profil</nuxt-link>
+            <a class="dropdown-item" :class="themeClass.dropdownItem" href="https://app.netacademia.hu/Adataim">Profil</a>
             <button class="dropdown-item" :class="themeClass.dropdownItem" @click.prevent="logOut">
               Kijelentkezes
             </button>
