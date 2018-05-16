@@ -46,7 +46,8 @@
             {{user.name}}
           </nuxt-link>
           <div class="dropdown-menu" :class="themeClass.dropdownMenu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" :class="themeClass.dropdownItem" href="https://app.netacademia.hu/Adataim">Profil</a>
+            <a class="dropdown-item" :class="themeClass.dropdownItem"
+               href="https://app.netacademia.hu/Adataim">Profil</a>
             <button class="dropdown-item" :class="themeClass.dropdownItem" @click.prevent="logOut">
               Kijelentkezes
             </button>
@@ -75,7 +76,7 @@ export default {
         name: "",
         email: ""
       },
-      loginUrl: `https://app.netacademia.hu/Account/Logon?returnUrl=https://www.netacademia.hu/netacademia.hu${
+      loginUrl: `https://app.netacademia.hu/Account/Logon?returnUrl=https://test.netacademia.hu${
         this.$route.path
       }`
     };
