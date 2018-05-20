@@ -22,6 +22,10 @@ module.exports = {
     linkActiveClass: "active",
     scrollBehavior: scroll
   },
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+    backendUrl: process.env.BACKEND_URL || 'https://app.netacademia.hu'
+  },
   /*
   ** Headers of the page
   */
