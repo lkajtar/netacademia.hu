@@ -75,10 +75,10 @@ export default {
     ...mapState({
       user: state => state.user,
       loginUrl(state) {
-        // debugger
-        return `${state.backend.login}?returnUrl=${state.baseUrl}${
-          this.$route.path
-        }`;
+        return (
+          `${state.url.backend}${state.url.login}` +
+          `?returnUrl=${state.url.base}${this.$route.path}`
+        );
       }
     }),
     themeClass: function() {
