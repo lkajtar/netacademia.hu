@@ -95,8 +95,17 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ["intersection-observer", "vue-observe-visibility"],
+    vendor: ["intersection-observer", "vue-observe-visibility", "babel-polyfill"],
     analyze: true,
+    babel: {
+      presets: [
+        ['vue-app', {
+          useBuiltIns: true,
+          targets: { ie: 9, uglify: true }
+        }
+        ]
+      ]
+    },
     /*
     ** Run ESLint on save
     */
