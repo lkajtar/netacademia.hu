@@ -16,6 +16,9 @@ const scroll = function(to, from, savedPosition) {
     return { x: 0, y: 0 };
   }
 };
+
+const gtmId = process.env.GTM || "GTM-MWT4847";
+
 module.exports = {
   router: {
     linkActiveClass: "active",
@@ -75,7 +78,7 @@ module.exports = {
     { src: "~/plugins/vue-mq", ssr: false }
   ],
   modules: [
-    ["@nuxtjs/google-tag-manager", { id: "GTM-T3WLP7" }],
+    ["@nuxtjs/google-tag-manager", { id: gtmId }],
     '@nuxtjs/axios'
   ],
   env: {
