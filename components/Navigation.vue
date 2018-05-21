@@ -37,9 +37,8 @@
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
-        <li v-if="!isLoggedIn">
+        <li v-if="!user.isLoggedIn">
           <a class="nav-link text-center" :href="loginUrl">Bejelentkezés</a>
-          <!--<a class="nav-link" href="https://app.netacademia.hu/Account/Logon?returnUrl=http://localhost:3000/">Bejelentkezés</a>-->
         </li>
         <li class="nav-item dropdown text-center" v-else>
           <nuxt-link class="nav-link dropdown-toggle" to="" id="navbarDropdownMenuLink" data-toggle="dropdown">
@@ -47,7 +46,7 @@
           </nuxt-link>
           <div class="dropdown-menu" :class="themeClass.dropdownMenu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" :class="themeClass.dropdownItem"
-               href="https://app.netacademia.hu/Adataim">Profil</a>
+               href="/Adataim">Profil</a>
             <button class="dropdown-item" :class="themeClass.dropdownItem" @click.prevent="logOut">
               Kijelentkezes
             </button>
@@ -59,6 +58,9 @@
 </template>
 
 <script>
+import { AUTH_LOGOUT_ACTION, AUTH_REQ_ACTION } from "../store/user";
+import { mapState } from "vuex";
+
 export default {
   props: {
     theme: {
@@ -69,19 +71,16 @@ export default {
       }
     }
   },
-  data: function() {
-    return {
-      isLoggedIn: false,
-      user: {
-        name: "",
-        email: ""
-      },
-      loginUrl: `https://app.netacademia.hu/Account/Logon?returnUrl=https://test.netacademia.hu${
-        this.$route.path
-      }`
-    };
-  },
   computed: {
+    ...mapState({
+      user: state => state.user,
+      loginUrl(state) {
+        return (
+          `${state.url.backend}${state.url.login}` +
+          `?returnUrl=${state.url.base}${this.$route.path}`
+        );
+      }
+    }),
     themeClass: function() {
       switch (this.theme) {
         case "transparent":
@@ -107,40 +106,11 @@ export default {
   },
   methods: {
     logOut() {
-      // TODO: base url-eket cserelni ha meglesz environment
-      fetch("https://app.netacademia.hu/Account/LogOffAjax", {
-        method: "POST",
-        credentials: "include"
-      }).then(r => {
-        if (r.ok) {
-          this.isLoggedIn = false;
-          this.user.name = "";
-          this.user.email = "";
-        } else {
-          console.log("logout para");
-        }
-      });
+      this.$store.dispatch(`user/${AUTH_LOGOUT_ACTION}`);
     }
   },
   mounted: function() {
-    // TODO: base url-eket cserelni ha meglesz environment
-    fetch("https://app.netacademia.hu/api/Profile/1.0.0/profile", {
-      credentials: "include"
-    })
-      .then(r => {
-        if (r.ok) {
-          this.isLoggedIn = true;
-          return r.json();
-        } else {
-          throw "Server mondja: You shall not pass!";
-        }
-      })
-      .then(r => {
-        this.user.name = r.name ? r.name : "Felhasználó";
-        if (r.email) this.user.email = r.email;
-        return r;
-      })
-      .catch(err => console.warn(err));
+    this.$store.dispatch(`user/${AUTH_REQ_ACTION}`);
   }
 };
 </script>

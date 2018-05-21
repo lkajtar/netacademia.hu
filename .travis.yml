@@ -16,7 +16,7 @@ install:
 
 script:
   - if [ "$TRAVIS_BRANCH" = "test" ]; then npm run generate:test; fi
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then npm run generate; fi
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then npm run generate:prod; fi
 
 deploy:
   - provider: pages

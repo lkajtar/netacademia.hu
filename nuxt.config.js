@@ -16,7 +16,6 @@ const scroll = function(to, from, savedPosition) {
     return { x: 0, y: 0 };
   }
 };
-
 module.exports = {
   router: {
     linkActiveClass: "active",
@@ -79,8 +78,15 @@ module.exports = {
     ["@nuxtjs/google-tag-manager", { id: "GTM-T3WLP7" }],
     '@nuxtjs/axios'
   ],
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+    backendUrl: process.env.BACKEND_URL || 'https://app.netacademia.hu'
+  },
   axios: {
-
+    https: true,
+    credentials: true,
+    baseURL: process.env.BACKEND_URL || 'https://app.netacademia.hu',
+    browserBaseURL: process.env.BACKEND_URL || 'https://app.netacademia.hu'
   },
   /*
   ** Build configuration
