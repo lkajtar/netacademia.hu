@@ -111,8 +111,8 @@
                 sikeres, megkapod a projektfeladatot, és kiválaszthatod a számodra megfelelő szóbeli vizsga időpontját.
                 A vizsgaidőpont előtt legalább egy héttel le kell adnod a projektfeladatot, aminek módjáról a
                 feladatkiadás során kapsz tájékoztatást.</p>
-              <p class="mb-1 font-weight-bold">Jelentkezési határidő: 2018. május 21. </p>
-              <p class="mb-1 font-weight-bold">Szóbeli vizsgaidőpontok: 2018. június 18-ai héten. További időpontok
+              <p class="mb-1 font-weight-bold">Jelentkezési határidő: 2018. június 4. </p>
+              <p class="mb-1 font-weight-bold">Szóbeli vizsgaidőpontok: 2018. július 9-i héten. További időpontok
                 miatt nézz vissza később az oldalra.</p>
               <p class="mb-1 font-weight-bold">A vizsgadíj: 49.900 Ft+áfa</p>
               <p class="mb-1 font-weight-bold">Előfizetőinknek kedvezménnyel: 29.900 Ft+áfa
