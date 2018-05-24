@@ -51,9 +51,9 @@ module.exports = {
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext"
+        href:
+          "https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext"
       }
-
     ],
     script: [
       { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" },
@@ -71,45 +71,53 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: "#3B8070" },
-  css: ["~/css/main.css"],
+  css: ["~/css/main.css", "~/css/decode-icons/css/decode-icons.min.css"],
   plugins: [
     { src: "~/plugins/vue-observe-visibility", ssr: false },
     { src: "~/plugins/vue-youtube-embed", ssr: false },
     { src: "~/plugins/vue-mq", ssr: false }
   ],
-  modules: [
-    ["@nuxtjs/google-tag-manager", { id: gtmId }],
-    '@nuxtjs/axios'
-  ],
+  modules: [["@nuxtjs/google-tag-manager", { id: gtmId }], "@nuxtjs/axios"],
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
-    backendUrl: process.env.BACKEND_URL || 'https://app.netacademia.hu'
+    baseUrl: process.env.BASE_URL || "http://localhost:3000",
+    backendUrl: process.env.BACKEND_URL || "https://app.netacademia.hu"
   },
   axios: {
     https: true,
     credentials: true,
-    baseURL: process.env.BACKEND_URL || 'https://app.netacademia.hu',
-    browserBaseURL: process.env.BACKEND_URL || 'https://app.netacademia.hu'
+    baseURL: process.env.BACKEND_URL || "https://app.netacademia.hu",
+    browserBaseURL: process.env.BACKEND_URL || "https://app.netacademia.hu"
   },
   /*
   ** Build configuration
   */
   build: {
-    vendor: ["intersection-observer", "vue-observe-visibility", "babel-polyfill"],
+    vendor: [
+      "intersection-observer",
+      "vue-observe-visibility",
+      "babel-polyfill"
+    ],
     analyze: true,
     babel: {
       presets: [
-        ['vue-app', {
-          useBuiltIns: true,
-          targets: { ie: 9, uglify: true }
-        }
+        [
+          "vue-app",
+          {
+            useBuiltIns: true,
+            targets: { ie: 9, uglify: true }
+          }
         ]
       ]
     },
-    /*
-    ** Run ESLint on save
-    */
     extend(config, { isDev, isClient }) {
+      const vueLoader = config.module.rules.find(
+        rule => rule.loader === "vue-loader"
+      );
+      vueLoader.options.transformToRequire = {
+        ...vueLoader.options.transformToRequire,
+        "*": "asset-image"
+      };
+
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: "pre",

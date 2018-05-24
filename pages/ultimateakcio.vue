@@ -204,8 +204,8 @@
 </template>
 
 <script>
-import BouncingDownArrow from "~/components/BouncingDownArrow";
-import { GtmPageLoad } from "~/components/mixins/GtmPageLoad";
+import BouncingDownArrow from "../components/BouncingDownArrow";
+import { GtmPageLoad } from "../components/mixins/GtmPageLoad";
 
 export default {
   name: "ulti-akcio",
