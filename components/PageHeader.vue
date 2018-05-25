@@ -1,11 +1,11 @@
 <template>
   <div id="page-header">
     <div class="ken-burns"
-         :style='{
-            "background-image": `url(${assetImage}`,
-            "background-position": "center"
-          }'>
-    </div>
+         :style="{
+           'background-image': `url(${this.assetImage})`,
+           'background-position': 'center'
+          }"
+    ></div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -32,6 +32,10 @@ export default {
     icon: {
       type: String,
       required: true
+    },
+    hasBgGradient: {
+      type: Boolean,
+      default: false
     }
   }
 };
@@ -43,13 +47,13 @@ export default {
   overflow: hidden;
   padding: 140px 0 115px;
   margin-bottom: 0px;
+  color: #fff;
+  text-align: center;
   background: #00f0d1 no-repeat center center;
   background: -webkit-linear-gradient(97deg, #00f0d1, #4766c8, #c44fcb);
   background: -ms-linear-gradient(97deg, #00f0d1, #4766c8, #c44fcb);
   background: linear-gradient(97deg, #00f0d1, #4766c8, #c44fcb);
   background-size: cover;
-  color: #fff;
-  text-align: center;
 }
 
 #page-header i {
@@ -76,13 +80,13 @@ export default {
 }
 
 /*#page-header h1:after {
-                      display: block;
-                      width: 25px;
-                      height: 2px;
-                      margin: 20px auto 0;
-                      background-color: #fff;
-                      content: "";
-                  }*/
+                                display: block;
+                                width: 25px;
+                                height: 2px;
+                                margin: 20px auto 0;
+                                background-color: #fff;
+                                content: "";
+                            }*/
 
 #page-header .overlay {
   position: absolute;
