@@ -5,27 +5,27 @@
       title="Office/MIA"
       icon="decode-icon-briefcase"
     ></PageHeader>
-    <FullSection>
+    <FullSection theme="light">
       <Container>
         <Row>
-          <div class="col-lg-6 col-md-8 ml-auto mr-auto">
+          <Column class="col-lg-6 col-md-8 ml-auto mr-auto">
             <Headline>
               <h6>NetAcademia</h6>
               <h3>Modern Informatikai Alapismeretek <br> Office előfizetés</h3>
             </Headline>
-          </div>
+          </Column>
         </Row>
       </Container>
       <Container>
         <Row class="pb-4">
-          <div class="col-lg-8 col-md-10 ml-auto mr-auto">
+          <Column class="col-lg-8 col-md-10 ml-auto mr-auto">
             <p class="text-center">
               Ma már mindenki informatikus, de ha mégsem az, akkor is az lesz. Az irodai feladatok nagy része
               informatikai tudást igényel, így nagyon lelassulhat a munkavégzés, ha ez a tudás hiányzik. A MIA csomag
               elsődleges feladata az irodai dolgozók informatika
               és más területre is kiterjedő hatékonyságnövelése.
             </p>
-          </div>
+          </Column>
         </Row>
       </Container>
       <Container class="pb-5">
@@ -70,6 +70,29 @@
                 <p>Hozd létre, és nyisd meg saját webshopod: Wordpress, Shopify és Drop shipping!</p>
               </ServiceBox>
             </Bounce>
+          </Column>
+        </Row>
+      </Container>
+    </FullSection>
+    <FullSection theme="dark">
+      <Container>
+        <Row>
+          <Column class="col-md-12">
+            <Headline>
+              <h6>Office/MIA csomag</h6>
+              <h3>1 évre szóló előfizetés 49.900 Ft</h3>
+            </Headline>
+          </Column>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Column class="col-md-12 text-center">
+            <p>
+              <a class="btn btn-default btn-outline waves text-light" href="#">
+                Megveszem<i class="decode-icon-cursor"></i>
+              </a>
+            </p>
           </Column>
         </Row>
       </Container>
