@@ -8,7 +8,7 @@ export default {
   name: "decode"
 };
 </script>
-<style scoped>
+<style>
 #main-container {
   overflow: hidden;
   background-color: #fff;
@@ -108,6 +108,7 @@ h6 small {
 
 p {
   margin-bottom: 20px;
+  color: #434343;
 }
 
 /* LINKS */
