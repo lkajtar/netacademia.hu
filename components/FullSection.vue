@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 .full-section {
   position: relative;
   z-index: 1;

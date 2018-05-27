@@ -1,16 +1,17 @@
 <template>
-  <nuxt-link v-if="isNuxtLink" :to="href" @click="Clicked" @mouseDown.middle="Clicked"
-             v-observe-visibility="VisibilityChanged">
+  <AOrNuxtLink :href="href"
+                  @click="Clicked"
+                  @mouseDown.middle="Clicked"
+                  v-observe-visibility="VisibilityChanged">
     <slot></slot>
-  </nuxt-link>
-  <a v-else :href="href" @click="Clicked" @mouseDown.middle="Clicked"
-     v-observe-visibility="VisibilityChanged">
-    <slot></slot>
-  </a>
+  </AOrNuxtLink>
 </template>
 
 <script>
+import AOrNuxtLink from "./AOrNuxtLink";
+
 export default {
+  components: { AOrNuxtLink },
   props: {
     href: {
       type: String,
@@ -34,7 +35,7 @@ export default {
     isNuxtLink: function() {
       // console.log(this.href.indexOf('://'));
       // ha nincs egy linkben :// akkor azt nuxt-link-ken kezeljuk
-      return this.href.indexOf('://') === -1;
+      return this.href.indexOf("://") === -1;
     }
   },
   methods: {
@@ -82,7 +83,8 @@ export default {
             ecommerce: {
               click: {
                 actionField: {
-                  list: this.gtmData.list || 'valamiinnenazertcsakhianyzik...ejnye'
+                  list:
+                    this.gtmData.list || "valamiinnenazertcsakhianyzik...ejnye"
                 },
                 products: [this.gtmData]
               }

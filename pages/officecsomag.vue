@@ -85,13 +85,14 @@
           </Column>
         </Row>
       </Container>
-      <Container>
+      <Container class="mt-5">
         <Row>
           <Column class="col-md-12 text-center">
             <p>
-              <a class="btn btn-default btn-outline waves text-light" href="#">
+              <Button theme="default-outline" class="text-light"
+                      href="https://app.netacademia.hu/Subscription/Create/office">
                 Megveszem<i class="decode-icon-cursor"></i>
-              </a>
+              </Button>
             </p>
           </Column>
         </Row>
@@ -110,12 +111,14 @@ import Row from "../components/Row";
 import Bounce from "../components/Bounce";
 import ServiceBox from "../components/ServiceBox";
 import Column from "../components/Column";
+import Button from "../components/Button";
 
 export default {
   name: "officecsomag",
   mixins: [GtmPageLoad("Termékoldal")],
   layout: "decode",
   components: {
+    Button,
     Column,
     ServiceBox,
     Bounce,
