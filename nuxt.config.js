@@ -71,7 +71,7 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: "#3B8070" },
-  css: ["~/css/main.css", "~/css/decode-icons/css/decode-icons.min.css"],
+  css: ["~/scss/main.scss", "~/scss/decode-icons/css/decode-icons.min.css"],
   plugins: [
     { src: "~/plugins/vue-observe-visibility", ssr: false },
     { src: "~/plugins/vue-youtube-embed", ssr: false },

@@ -19,28 +19,28 @@
   transform: translateZ(0);
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
-}
 
-.waves .waves-ripple {
-  position: absolute;
-  z-index: -1;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  margin-top: -10px;
-  margin-left: -10px;
-  background-color: rgba(255, 255, 255, 0.5);
-  opacity: 0;
-  pointer-events: none;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: all 0.7s ease-out;
-  transition: all 0.7s ease-out;
-}
+  & .waves-ripple {
+    position: absolute;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+  }
 
-.waves.waves-dark .waves-ripple {
-  background-color: rgba(0, 0, 0, 0.1);
+  &.waves-dark .waves-ripple {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 }
 
 /***********************************************************************************
@@ -65,7 +65,7 @@
 
 .btn-cus-darkred {
   border: 1px solid #ffffff;
-  background: #6B273C;
+  background: #6b273c;
 }
 
 .btn-cus-purple {
@@ -77,7 +77,7 @@
 }
 
 .btn-cus-purple:hover {
-  background: #A936C6;
+  background: #a936c6;
 }
 
 .btn-cus-orange {
