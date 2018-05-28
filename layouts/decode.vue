@@ -1,11 +1,17 @@
 <template>
   <div id="main-container">
-    <nuxt/>
+    <Navigation theme="light"></Navigation>
+    <nuxt class="mt-5" />
+    <Footer></Footer>
   </div>
 </template>
 <script>
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
+
 export default {
-  name: "decode"
+  name: "decode",
+  components: { Navigation, Footer }
 };
 </script>
 <style>
