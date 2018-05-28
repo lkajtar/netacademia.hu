@@ -137,8 +137,8 @@
 
     </TimelineContainer>
     <div class="row justify-content-center text-center py-5 mx-0 align-self-center">
-      <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
-        <p class="mb-4">Vedd meg a Webfejlesztő leszek! Angular editiont és a Webfejlesztő leszek! Vue.js editiont
+      <div class="col-12 col-lg-3 px-4 bg-card m-2 py-5 d-flex flex-column justify-content-between align-items-center">
+        <p>Vedd meg a Webfejlesztő leszek! Angular editiont és a Webfejlesztő leszek! Vue.js editiont
           együtt,
           <br>bruttó
           <span class="ar">69.800 </span>Ft-ért!
@@ -149,8 +149,8 @@
         >Megveszem!
         </gtm-link>
       </div>
-      <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
-        <p class="mb-4">Van már Webfejlesztő leszek! előfizetésed? Akkor neked a Webfejlesztő leszek! Angular edition
+      <div class="col-12 col-lg-3 px-4 bg-card m-2 py-5 d-flex flex-column justify-content-between align-items-center">
+        <p>Van már Webfejlesztő leszek! előfizetésed? Akkor neked a Webfejlesztő leszek! Angular edition
           <br>bruttó
           <span class="ar">19.900 </span>Ft!</p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartAngularAsExtension"
@@ -159,8 +159,8 @@
         >Megveszem!
         </gtm-link>
       </div>
-      <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
-        <p class=" mb-4">Webfejlesztő leszek! – Angular edition – tanfolyamcsomag ára
+      <div class="col-12 col-lg-3 px-4 bg-card m-2 py-5 d-flex flex-column justify-content-between align-items-center">
+        <p>Webfejlesztő leszek! – Angular edition – tanfolyamcsomag ára
           <br>bruttó
           <span class="ar">49.900</span> Ft!</p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartAngular"

@@ -125,8 +125,8 @@
 
     </TimelineContainer>
     <div class="row justify-content-center text-center py-5 mx-0 align-self-center vue-gtm-app">
-      <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
-        <p class="mb-4">Vedd meg a Webfejlesztő leszek! Angular editiont és a Webfejlesztő leszek! Vue.js editiont
+      <div class="col-12 col-lg-3 px-4 bg-card m-2 py-5 d-flex flex-column justify-content-between align-items-center">
+        <p>Vedd meg a Webfejlesztő leszek! Angular editiont és a Webfejlesztő leszek! Vue.js editiont
           <br>bruttó
           <span class="ar">69.800 </span>Ft-ért!
         </p>
@@ -136,25 +136,25 @@
         >Megveszem!
         </gtm-link>
       </div>
-      <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
-        <p class="mb-4">Van már Webfejlesztő leszek! előfizetésed? Akkor neked a Webfejlesztő leszek! Vue.js editiont
+      <div class="col-12 col-lg-3 px-4 bg-card m-2 py-5 d-flex flex-column justify-content-between align-items-center">
+        <p>Van már Webfejlesztő leszek! előfizetésed? Akkor neked a Webfejlesztő leszek! Vue.js editiont
           <br>bruttó
           <span class="ar">19.900 </span>Ft-ért!
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVueAsExtension"
                   href="https://app.netacademia.hu/Subscription/Create/0ceafbab-4b10-4835-9a25-f4a4876690b6"
-                  class="btn-cus btn-cus-orange mb-4"
+                  class="btn-cus btn-cus-orange"
         >Megveszem!
         </gtm-link>
       </div>
-      <div class="col-12 col-lg-3 p-4 bg-card m-2 align-self-center py-5 px-3">
+      <div class="col-12 col-lg-3 px-4 bg-card m-2 py-5 d-flex flex-column justify-content-between align-items-center">
         <p class=" mb-4">Webfejlesztő leszek! – Vue edition – tanfolyamcsomag ára
           <br>bruttó
           <span class="ar">49.900</span> Ft!
         </p>
         <gtm-link isAddToCart :gtm-data="GTMProductCollection.addToCartVue"
                   href="https://app.netacademia.hu/Subscription/Create/webfejleszto-leszek-vuejs-edition"
-                  class="btn-cus btn-cus-orange mb-4"
+                  class="btn-cus btn-cus-orange"
         >Megveszem!
         </gtm-link>
       </div>
