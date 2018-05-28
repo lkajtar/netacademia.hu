@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "FullSection",
+  name: "DFullSection",
   props: {
     theme: {
       type: String,

@@ -1,18 +1,18 @@
 <template>
   <div>
-    <PageHeader
+    <DPageHeader
       asset-image="~/assets/officecsomag/office-bg.svg"
       title="Office/MIA"
       icon="decode-icon-briefcase"
-    ></PageHeader>
-    <FullSection theme="light">
+    ></DPageHeader>
+    <DFullSection theme="light">
       <Container>
         <Row>
           <Column class="col-lg-6 col-md-8 ml-auto mr-auto">
-            <Headline>
+            <DHeadline>
               <h6>NetAcademia</h6>
               <h3>Modern Informatikai Alapismeretek <br> Office előfizetés</h3>
-            </Headline>
+            </DHeadline>
           </Column>
         </Row>
       </Container>
@@ -32,56 +32,56 @@
         <Row>
           <Column class="col-lg-4 col-md-5">
             <Bounce direction="left">
-              <ServiceBox icon="decode-icon-padlock" icon-position="right">
+              <DServiceBox icon="decode-icon-padlock" icon-position="right">
                 <h6>Biztonság</h6>
                 <p>Tudd magad biztonságban, ismerd a jogaidat: munka- és tűzvédelem!</p>
-              </ServiceBox>
+              </DServiceBox>
             </Bounce>
             <Bounce direction="left">
-              <ServiceBox icon="decode-icon-typewriter" icon-position="right">
+              <DServiceBox icon="decode-icon-typewriter" icon-position="right">
                 <h6>Microsoft Office</h6>
                 <p>Légy irodai ninja: profi dokumentumkezelés, Excel és OneNote használat hatékonyan!</p>
-              </ServiceBox>
+              </DServiceBox>
             </Bounce>
             <Bounce direction="left">
-              <ServiceBox icon="decode-icon-customer" icon-position="right">
+              <DServiceBox icon="decode-icon-customer" icon-position="right">
                 <h6>Soft Skill</h6>
                 <p>Prezentálj asszertívan, gazdálkodj az időddel, fejleszd érzelmi intelligenciádat!</p>
-              </ServiceBox>
+              </DServiceBox>
             </Bounce>
           </Column>
 
           <Column class="col-lg-4 col-md-5 ml-md-auto">
             <Bounce direction="right">
-              <ServiceBox icon="decode-icon-video" icon-position="left">
+              <DServiceBox icon="decode-icon-video" icon-position="left">
                 <h6>Kép- és videószerkesztés</h6>
                 <p>Éld ki a kreativitásodat: fotózás, grafika és videóvágás!</p>
-              </ServiceBox>
+              </DServiceBox>
             </Bounce>
             <Bounce direction="right">
-              <ServiceBox icon="decode-icon-viral-marketing" icon-position="left">
+              <DServiceBox icon="decode-icon-viral-marketing" icon-position="left">
                 <h6>Online Marketing</h6>
                 <p>Hirdess profin: Facebook bolt terület, Google Analytics elemzés és Email marketing!</p>
-              </ServiceBox>
+              </DServiceBox>
             </Bounce>
             <Bounce direction="right">
-              <ServiceBox icon="decode-icon-coins" icon-position="left">
+              <DServiceBox icon="decode-icon-coins" icon-position="left">
                 <h6>E-kereskedelem</h6>
                 <p>Hozd létre, és nyisd meg saját webshopod: Wordpress, Shopify és Drop shipping!</p>
-              </ServiceBox>
+              </DServiceBox>
             </Bounce>
           </Column>
         </Row>
       </Container>
-    </FullSection>
-    <FullSection theme="dark">
+    </DFullSection>
+    <DFullSection theme="dark">
       <Container>
         <Row>
           <Column class="col-md-12">
-            <Headline>
+            <DHeadline>
               <h6>Office/MIA csomag</h6>
               <h3>1 évre szóló előfizetés 49.900 Ft</h3>
-            </Headline>
+            </DHeadline>
           </Column>
         </Row>
       </Container>
@@ -89,24 +89,25 @@
         <Row>
           <Column class="col-md-12 text-center">
             <p>
-              <Button theme="default-outline" class="text-light"
+              <DButton theme="default-outline" class="text-light"
                       href="https://app.netacademia.hu/Subscription/Create/office">
                 Megveszem<i class="decode-icon-cursor"></i>
-              </Button>
+              </DButton>
             </p>
           </Column>
         </Row>
       </Container>
-    </FullSection>
-    <FullSection>
+    </DFullSection>
+    <DFullSection>
       <Container>
         <Row>
           <Column class="col-sm-12">
+            <!--TODO: reafktorolni es kiszervezni ezt tabs komponensbe. _tabs.scss tartozik hozza-->
             <div class="tabs vertical-tabs">
 
               <ul class="nav nav-tabs">
                 <li>
-                  <a class="waves" href="#tab-1" data-toggle="tab">
+                  <a class="waves active" href="#tab-1" data-toggle="tab">
                     <h6>MS Office</h6>
                     <span><small>Excel, Acces, Word, VBA, Outlook..</small></span>
                   </a>
@@ -234,36 +235,36 @@
           </Column>
         </Row>
       </Container>
-    </FullSection>
+    </DFullSection>
   </div>
 </template>
 
 <script>
-import PageHeader from "../components/PageHeader";
+import DPageHeader from "../components/DPageHeader";
 import { GtmPageLoad } from "../components/mixins/GtmPageLoad";
-import FullSection from "../components/FullSection";
-import Headline from "../components/Headline";
+import DFullSection from "../components/DFullSection";
+import DHeadline from "../components/DHeadline";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Bounce from "../components/Bounce";
-import ServiceBox from "../components/ServiceBox";
+import DServiceBox from "../components/DServiceBox";
 import Column from "../components/Column";
-import Button from "../components/Button";
+import DButton from "../components/DButton";
 
 export default {
   name: "officecsomag",
   mixins: [GtmPageLoad("Termékoldal")],
   layout: "decode",
   components: {
-    Button,
+    DButton,
     Column,
-    ServiceBox,
+    DServiceBox,
     Bounce,
     Row,
     Container,
-    Headline,
-    FullSection,
-    PageHeader
+    DHeadline,
+    DFullSection,
+    DPageHeader
   }
 };
 </script>

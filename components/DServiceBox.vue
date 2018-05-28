@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "ServiceBox",
+  name: "DServiceBox",
   props: {
     icon: {
       type: String,

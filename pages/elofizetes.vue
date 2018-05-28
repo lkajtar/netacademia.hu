@@ -217,7 +217,7 @@
             <div class="col-12 text-center mb-5">
               <gtm-link :gtm-data="GTMProductCollection.office"
                         class="btn btn-primary"
-                        href="https://app.netacademia.hu/officecsomag" role="button">
+                        href="/officecsomag" role="button">
                 Megnézem
               </gtm-link>
             </div>

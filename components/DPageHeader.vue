@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: "PageHeader",
+  name: "DPageHeader",
   props: {
     assetImage: {
       type: String,
