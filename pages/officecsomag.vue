@@ -28,8 +28,8 @@
           </Column>
         </Row>
       </Container>
-      <Container class="pb-5">
-        <Row class="pb-5">
+      <Container>
+        <Row>
           <Column class="col-lg-4 col-md-5">
             <Bounce direction="left">
               <ServiceBox icon="decode-icon-padlock" icon-position="right">
@@ -94,6 +94,143 @@
                 Megveszem<i class="decode-icon-cursor"></i>
               </Button>
             </p>
+          </Column>
+        </Row>
+      </Container>
+    </FullSection>
+    <FullSection>
+      <Container>
+        <Row>
+          <Column class="col-sm-12">
+            <div class="tabs vertical-tabs">
+
+              <ul class="nav nav-tabs">
+                <li>
+                  <a class="waves" href="#tab-1" data-toggle="tab">
+                    <h6>MS Office</h6>
+                    <span><small>Excel, Acces, Word, VBA, Outlook..</small></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="waves" href="#tab-3-2" data-toggle="tab">
+                    <h6>Soft Skill</h6>
+                    <span><small>Kommunikáció, Asszertivitás, Prezentáció, Időgazdálkodás..</small></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="waves" href="#tab-3-3" data-toggle="tab">
+                    <h6>Biztonságtechnika</h6>
+                    <span><small>Tűz- és munkavédelem..</small></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="waves" href="#tab-3-4" data-toggle="tab">
+                    <h6>Online Marketing</h6>
+                    <span><small>Email marketing, Facebook marketing, Adwords Hirdetések..</small></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="waves" href="#tab-4-5" data-toggle="tab">
+                    <h6>Kép- és videoszerkesztés</h6>
+                    <span><small>Corel Draw, DSLR fotózás, Final Cut Pro X..</small></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="waves" href="#tab-5-6" data-toggle="tab">
+                    <h6>E-kereskedelem</h6>
+                    <span><small>Piackutatás, Wordpress, Ügyfélkezelés, Hirdetéskezelés..</small></span>
+                  </a>
+                </li>
+              </ul>
+
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="tab-1">
+
+                  <div class="headline no-margin-bottom">
+
+                    <h6>NetAcademia</h6>
+                    <h3>MS Office</h3>
+
+                  </div>
+                  <!-- headline -->
+
+                  <br>
+                  <p>Manapság már minden iroda elvárja alkalmazottaitól az Office programok ismeretét!</p>
+                  <p>Legyen akár Word, Excel, PowerPoint, Access vagy Outlook, MS Office tanfolyamaink gyakorlati tudást adnak az irodai szoftverek hatékony használataihoz.</p>
+                  <p>Sajátítsd el azokat a trükköket, melyeket csak nagyon kevesen használnak és kamatoztasd tudásod a mindennapi életben!</p>
+
+                </div>
+                <!-- tab-pane -->
+                <div class="tab-pane fade" id="tab-3-2">
+
+                  <div class="headline no-margin-bottom">
+                    <h6>NetAcademia</h6>
+                    <h3>Soft Skill</h3>
+                  </div>
+                  <!-- headline -->
+                  <br>
+                  <p>Kommunikáció, asszertivitás, időgazdálkodás, prezentációs képességek…</p>
+                  <p>Az ún. soft skillek elsajátítására manapság egyre nagyobb szükség van, hiszen fontosságuk egyre inkább növekszik a nagyobb vállalatoknál is.</p>
+                  <p>Kínálatunkban megtalálhatók olyan képzések is, melyek nagyban megkönnyíthetik mindennapjaid mind a munka, mind pedig a magánélet területén.</p>
+
+                </div>
+                <!-- tab-pane -->
+                <div class="tab-pane fade" id="tab-3-3">
+                  <div class="headline no-margin-bottom">
+                    <h6>NetAcademia</h6>
+                    <h3>Biztonságtudatosság</h3>
+                  </div>
+                  <!-- headline -->
+                  <br>
+                  <p>Léteznek biztonsági előírások, melyek betartását minden munkahelyen megkövetelnek. Vajon mindenki tisztában van ezekkel?</p>
+                  <p>Oktatásaink során felhívjuk figyelmed a biztonságtudatosság minden fontos elemére, miközben sok érdekességeket is megtudhatsz az irodai munka- és tűzvédelemmel kapcsolatban.</p>
+                </div>
+                <!-- tab-pane -->
+
+                <div class="tab-pane fade" id="tab-3-4">
+                  <div class="headline no-margin-bottom">
+                    <h6>NetAcademia</h6>
+                    <h3>Online Marketing</h3>
+                  </div>
+                  <!-- headline -->
+                  <br>
+                  <p>Az Amazonon értékesítenél vagy a Facebook boltot használnád?</p>
+                  <p>Marketing tanfolyamainkon gyakorlatban alkalmazható, nemzetközi tudás birtokába juthatsz!</p>
+                  <p>Legyen szó email marketingről, Facebook vagy Adwords hirdetésről, nálunk mind megtanulhatod!</p>
+                </div>
+                <!-- tab-pane -->
+
+                <div class="tab-pane fade" id="tab-4-5">
+                  <div class="headline no-margin-bottom">
+                    <h6>NetAcademia</h6>
+                    <h3>Kép- és videószerkesztés</h3>
+                  </div>
+                  <!-- headline -->
+                  <br>
+                  <p>Mindig is érdekelt a képszerkesztés, fotózás? Vagy inkább a videovágásban mélyülnél el?</p>
+                  <p>Final Cut Pro X kurzusunk segítségével elkészítheted első saját reklám videódat, DSLR óráinkon pedig megismerheted a tükörreflexes fényképezőgépek használatának alapjait.</p>
+                  <p>Corel Draw tanfolyamunkon egyszerűbb feliratok készítésétől kezdve, a színes design elemek megvalósításán keresztül juthatsz el a logó-, névjegy-, szórólap tervezésig és egyszerűbb kiadványok létrehozásáig!</p>
+                </div>
+                <!-- tab-pane -->
+
+                <div class="tab-pane fade" id="tab-5-6">
+                  <div class="headline no-margin-bottom">
+                    <h6>NetAcademia</h6>
+                    <h3>E-kereskedelem</h3>
+                  </div>
+                  <!-- headline -->
+                  <br>
+                  <p>Késztísd el, és nyisd meg saját webshopod!</p>
+                  <p>8 részes tanfolyamsorozatunkban nem csak a webshop „fizikai” megalkotásával foglalkozunk, hanem minden ehhez kapcsolódó fontos témakört is boncolgatunk!</p>
+                  <p>Tudd meg, hogy érdemes-e termékeddel online piacra lépni, alkosd meg webshopod a Wordpress, Shopify és a Drop Shipping segítségével és ismerkedj meg az ügyfélkezelés, crm, hirdetések fortélyaival!</p>
+                </div>
+                <!-- tab-pane -->
+              </div>
+              <!-- tab-content -->
+
+
+            </div>
+
           </Column>
         </Row>
       </Container>

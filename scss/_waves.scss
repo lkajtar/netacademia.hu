@@ -1,0 +1,34 @@
+.waves {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  -webkit-user-select: none;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+
+  & .waves-ripple {
+    position: absolute;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+  }
+
+  &.waves-dark .waves-ripple {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}

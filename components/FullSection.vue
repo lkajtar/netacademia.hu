@@ -61,7 +61,7 @@ export default {
 
   &.light {
     overflow: hidden;
-    padding: 100px 0 120px;
+    padding: 100px 0 100px;
     margin-bottom: 0;
     background: #fff;
     color: #d0d0d0;
