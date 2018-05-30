@@ -10,7 +10,7 @@
           <div class="flex-center flex-wrap mt-2 mt-md-4">
             <nuxt-link class="gomb gomb-grey" to="/elofizetes#kepzes">Képzéseink</nuxt-link>
             <nuxt-link class="gomb gomb-grey" to="/elofizetes#elofizetes">Előfizetés</nuxt-link>
-            <a class="gomb gomb-red" href="https://app.netacademia.hu/oktatas-unnepe">Konferencia</a>
+            <a class="gomb gomb-red" href="https://app.netacademia.hu/oktatas-unnepe">Oktatásünnep</a>
           </div>
           <br/>
           <div class="hirlev">
